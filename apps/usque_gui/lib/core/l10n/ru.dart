@@ -14,17 +14,17 @@ const Map<String, String> kRuCatalog = <String, String>{
   'disable_quic': "Отключить QUIC",
   'disable_quic_managed': 'Автоматически управляется текущим подключением',
   'disable_quic_help':
-      "Блокирует трафик UDP 443, пересылаемый Usque (в основном QUIC), чтобы приложения переходили на TCP. Прямой трафик и собственное соединение Usque не затрагиваются. Применяется сразу.",
+      "Блокирует трафик UDP 443, пересылаемый MoeHtet (в основном QUIC), чтобы приложения переходили на TCP. Прямой трафик и собственное соединение MoeHtet не затрагиваются. Применяется сразу.",
   'disable_quic_unsupported':
-      'Блокировка QUIC сейчас недоступна. Перезапустите Usque; если она всё ещё недоступна, проверьте обновления в Настройках.',
+      'Блокировка QUIC сейчас недоступна. Перезапустите MoeHtet; если она всё ещё недоступна, проверьте обновления в Настройках.',
   'technical_details': 'Технические сведения',
   'diag_skip_disconnected': 'Подключитесь, чтобы выполнить эту проверку.',
   'diag_skip_disabled': 'Эта функция отключена.',
   'diag_skip_unsupported': 'Эта проверка недоступна на данном устройстве.',
   'diag_skip_traffic': 'Воспользуйтесь подключением, затем повторите проверку.',
   'diag_skip_deep': 'Выберите глубокий режим для этой проверки.',
-  'app_loading': "Загрузка Usque",
-  'app_name': 'Usque',
+  'app_loading': "Загрузка MoeHtet",
+  'app_name': 'MoeHtet',
   'diag_fail_L4_SESSION_UNAVAILABLE': 'Сеанс L4 недоступен',
   'diag_fail_L4_PROTOCOL_ERROR': 'Ошибка протокола L4',
   'diag_fail_L4_CONNECT_REJECTED': 'L4 CONNECT отклонён',
@@ -35,14 +35,14 @@ const Map<String, String> kRuCatalog = <String, String>{
   'window_maximize': 'Развернуть',
   'window_restore': 'Восстановить размер окна',
   'window_close': 'Закрыть',
-  'tray_open': 'Открыть Usque',
+  'tray_open': 'Открыть MoeHtet',
   'tray_connect_profile': 'Подключить текущий аккаунт',
   'tray_disconnect_profile': 'Отключить текущий аккаунт',
   'tray_disconnect_exit': 'Отключить и выйти',
   'notice_connection_interrupted':
-      'Подключение прервано. Usque пытается его восстановить.',
+      'Подключение прервано. MoeHtet пытается его восстановить.',
   'notice_connection_failed':
-      'Usque не удалось сохранить подключение. Откройте Usque, чтобы узнать подробности.',
+      'MoeHtet не удалось сохранить подключение. Откройте MoeHtet, чтобы узнать подробности.',
   'notice_connection_restored': 'Подключение восстановлено.',
   'notice_kill_switch_blocking':
       'Kill Switch блокирует сетевой трафик, пока подключение не восстановится или вы не отключитесь.',
@@ -86,7 +86,7 @@ const Map<String, String> kRuCatalog = <String, String>{
   'not_available': 'Недоступно',
   'location_disconnected': 'Ожидание подключения',
   'engine_unavailable':
-      'Не удалось запустить службу подключения. Полностью закройте Usque и откройте снова. Если ошибка остаётся, откройте Диагностику.',
+      'Не удалось запустить службу подключения. Полностью закройте MoeHtet и откройте снова. Если ошибка остаётся, откройте Диагностику.',
   'dismiss': 'Скрыть',
   'new_profile': 'Добавить аккаунт',
   'profile_name': 'Имя аккаунта',
@@ -108,7 +108,7 @@ const Map<String, String> kRuCatalog = <String, String>{
   'zero_trust_open_login': 'Открыть вход организации',
   'zero_trust_browser_failed': 'Не удалось открыть системный браузер.',
   'zero_trust_manual_callback':
-      'После входа вернитесь в Usque. Если результат не получен автоматически, скопируйте со страницы входа ссылку для открытия WARP и вставьте её целиком ниже.',
+      'После входа вернитесь в MoeHtet. Если результат не получен автоматически, скопируйте со страницы входа ссылку для открытия WARP и вставьте её целиком ниже.',
   'zero_trust_callback_received':
       'Результат входа получен. Продолжите настройку аккаунта.',
   'zero_trust_callback': 'Ссылка возврата после входа',
@@ -138,7 +138,7 @@ const Map<String, String> kRuCatalog = <String, String>{
   "zero_trust_endpoint_risk_locked":
       "Подтвердите риски перед изменением этих адресов.",
   "zero_trust_endpoint_unsupported":
-      "Обновите Usque для изменения адресов Zero Trust.",
+      "Обновите MoeHtet для изменения адресов Zero Trust.",
   "zero_trust_reauth_endpoints":
       "Повторный вход восстанавливает зарегистрированные адреса и удаляет ваши собственные адреса.",
   'experimental': 'Экспериментально',
@@ -156,7 +156,7 @@ const Map<String, String> kRuCatalog = <String, String>{
   'delete': 'Удалить',
   'delete_profile': 'Удалить аккаунт?',
   'delete_profile_body':
-      "Удалить этот аккаунт и его данные входа WARP с устройства? Если привязан License Key, Usque также попытается его отвязать.",
+      "Удалить этот аккаунт и его данные входа WARP с устройства? Если привязан License Key, MoeHtet также попытается его отвязать.",
   'delete_zero_trust_profile_body':
       'Аккаунт и данные входа будут удалены с этого устройства. Попросите администратора также удалить запись устройства из панели Zero Trust организации.',
   'license_not_applicable': 'Аккаунт организации · Экспериментально',
@@ -207,7 +207,7 @@ const Map<String, String> kRuCatalog = <String, String>{
   'proxy_password_set': 'Пароль задан. Введите новый, чтобы заменить его.',
   'proxy_auth_clear': 'Отключить защиту паролем',
   'general': 'Основные',
-  'start_on_boot': 'Запускать Usque при входе в систему',
+  'start_on_boot': 'Запускать MoeHtet при входе в систему',
   'close_to_tray': 'Закрывать окно в область уведомлений',
   'add_quick_settings_tile': 'Добавить плитку быстрых настроек',
   'theme': 'Тема',
@@ -243,7 +243,7 @@ const Map<String, String> kRuCatalog = <String, String>{
   'update_available': 'Доступна более новая версия:',
   'already_latest': 'Эта установка уже актуальна.',
   'open_release': 'Открыть страницу выпуска',
-  'update_startup_description': 'Проверять обновления при запуске Usque.',
+  'update_startup_description': 'Проверять обновления при запуске MoeHtet.',
   'update_checking': 'Проверка обновлений…',
   'update_downloading': 'Загрузка обновления…',
   'update_verifying': 'Проверка пакета обновления…',
@@ -283,7 +283,7 @@ const Map<String, String> kRuCatalog = <String, String>{
       'Выбирает самую быструю доступную конечную точку для этой учётной записи. Изменения адресов сохраняются только в режиме «Вручную».',
   'endpoint_custom_help': 'Использует указанные ниже адреса IPv4 и IPv6.',
   'endpoint_unsupported':
-      'Обновите Usque для автоматического выбора конечной точки.',
+      'Обновите MoeHtet для автоматического выбора конечной точки.',
   'endpoint_ipv4': 'Конечная точка IPv4',
   'endpoint_ipv6': 'Конечная точка IPv6',
   'sni': 'SNI',
@@ -311,9 +311,9 @@ const Map<String, String> kRuCatalog = <String, String>{
   'kill_switch_help_android':
       'Блокирует трафик при подключении, переподключении или сбое. Только при работающей службе VPN.',
   'start_on_boot_android':
-      'Запускать Usque после перезагрузки устройства. Для автоматического подключения также включите «Автоматически подключать текущий аккаунт при запуске».',
+      'Запускать MoeHtet после перезагрузки устройства. Для автоматического подключения также включите «Автоматически подключать текущий аккаунт при запуске».',
   'add_quick_settings_tile_help':
-      'Добавьте плитку Usque на Android 13 и новее. На более старых версиях сделайте это вручную в «Быстрых настройках».',
+      'Добавьте плитку MoeHtet на Android 13 и новее. На более старых версиях сделайте это вручную в «Быстрых настройках».',
   'always_on_vpn': 'Открыть настройки постоянного VPN',
   'always_on_vpn_help':
       'Включите «Постоянный VPN» и «Блокировать соединения без VPN» для защиты от утечек после принудительного завершения приложения.',
@@ -353,7 +353,7 @@ const Map<String, String> kRuCatalog = <String, String>{
       'Проверяйте проблемы подключения, экспортируйте журналы и управляйте локальными данными.',
   'engine_status': 'Сведения о подключении',
   'version': 'Версия',
-  'app_version': 'Usque 0.3.3',
+  'app_version': 'MoeHtet 0.3.3',
   'logs': 'Локальные журналы',
   'export_diagnostics': 'Экспортировать диагностический пакет',
   'diagnostics_saved': 'Диагностический пакет сохранён в',
@@ -363,21 +363,21 @@ const Map<String, String> kRuCatalog = <String, String>{
   'clear_all_data_help':
       'Отключает соединение и безвозвратно удаляет с устройства все аккаунты, данные входа WARP, настройки, кэш и диагностические записи.',
   'clear_all_data_confirm':
-      'Отменить это нельзя. Usque отключится, удалит все аккаунты и данные входа, затем вернётся к первоначальной настройке.',
-  'clear_all_data_complete': 'Все локальные данные Usque очищены.',
+      'Отменить это нельзя. MoeHtet отключится, удалит все аккаунты и данные входа, затем вернётся к первоначальной настройке.',
+  'clear_all_data_complete': 'Все локальные данные MoeHtet очищены.',
   'unofficial':
       'Неофициальный клиент, совместимый с сервисами Cloudflare® WARP®. Не связан с Cloudflare, Inc., не спонсируется и не одобрен этой компанией.',
   'trademark_attribution':
       'Cloudflare и WARP — товарные знаки и/или зарегистрированные товарные знаки Cloudflare, Inc. в США и других юрисдикциях.',
-  'welcome_title': 'Добро пожаловать в Usque',
+  'welcome_title': 'Добро пожаловать в MoeHtet',
   'setup_progress': 'Шаг настройки {current} из {total}',
   'get_started': 'Начать работу',
   'permissions_title': 'Системные разрешения',
   'permissions_body':
-      'Usque требуется разрешение направлять трафик приложений через VPN. В зависимости от режима также настраиваются DNS, сетевые маршруты, защита межсетевого экрана или системный прокси.',
+      'MoeHtet требуется разрешение направлять трафик приложений через VPN. В зависимости от режима также настраиваются DNS, сетевые маршруты, защита межсетевого экрана или системный прокси.',
   'terms_title': 'Условия Cloudflare',
   'terms_body':
-      'Usque — независимый клиент. Использование личного WARP или экспериментальной регистрации Zero Trust по-прежнему регулируется условиями и политикой конфиденциальности Cloudflare.',
+      'MoeHtet — независимый клиент. Использование личного WARP или экспериментальной регистрации Zero Trust по-прежнему регулируется условиями и политикой конфиденциальности Cloudflare.',
   'terms_accept': 'Я понимаю и принимаю эти условия.',
   'identity_title': 'Настроить личный аккаунт WARP',
   'register_new': 'Создать бесплатный аккаунт WARP',
@@ -405,7 +405,7 @@ const Map<String, String> kRuCatalog = <String, String>{
   'bypass_line_error': 'Строка {line}: {reason}',
   'bypass_summary': 'Регионов: {countries} · Своих целей: {targets}',
   'geo_direct_help':
-      'Трафик для этих стран и регионов обходит VPN/TUN Usque, а также локальные HTTP- и SOCKS5-прокси. DNS-провайдер текущей сети может видеть запрашиваемые домены. Приложения с шифрованным DNS распределяются только по IP-адресу.',
+      'Трафик для этих стран и регионов обходит VPN/TUN MoeHtet, а также локальные HTTP- и SOCKS5-прокси. DNS-провайдер текущей сети может видеть запрашиваемые домены. Приложения с шифрованным DNS распределяются только по IP-адресу.',
   'geo_update_all': 'Обновить геоданные',
   'geo_last_updated': 'Последнее успешное обновление: {current}',
   'geo_never_updated': 'Ещё не обновлялось',
@@ -535,10 +535,10 @@ const Map<String, String> kRuCatalog = <String, String>{
   'diag_check_protection_kill_switch': 'Состояние Kill Switch',
   'diag_check_protection_dns_path': 'Путь DNS',
   'diag_check_protection_route_ownership':
-      'Сетевые маршруты под управлением Usque',
+      'Сетевые маршруты под управлением MoeHtet',
   'diag_check_protection_recovery_journal': 'Журнал восстановления',
-  'diag_fail_ENGINE_UNAVAILABLE': 'Служба подключения Usque недоступна',
-  'diag_fail_AGENT_UNREACHABLE': 'Нет связи с системной сетевой службой Usque',
+  'diag_fail_ENGINE_UNAVAILABLE': 'Служба подключения MoeHtet недоступна',
+  'diag_fail_AGENT_UNREACHABLE': 'Нет связи с системной сетевой службой MoeHtet',
   'diag_fail_VPN_SERVICE_UNAVAILABLE': 'Служба VPN недоступна',
   'diag_fail_PROXY_PORT_IN_USE': 'Порт прокси занят',
   'diag_fail_PHYSICAL_IPV4_UNAVAILABLE': 'Физический IPv4 недоступен',
@@ -577,7 +577,7 @@ const Map<String, String> kRuCatalog = <String, String>{
   'diag_fail_ROUTE_RESTORE_INCOMPLETE': 'Восстановление маршрутов неполное',
   'diag_fail_DNS_RESTORE_INCOMPLETE': 'Восстановление DNS неполное',
   'diag_fail_SYSTEM_PROXY_STALE':
-      'Состояние системного прокси Usque не было очищено',
+      'Состояние системного прокси MoeHtet не было очищено',
   'diag_fail_PLATFORM_RECOVERY_PENDING':
       'Системные настройки сети ещё не восстановлены',
   'diag_fail_PACKET_SEND_FAILED': 'Сбой отправки пакета',
@@ -601,7 +601,7 @@ const Map<String, String> kRuCatalog = <String, String>{
   'diag_fix_review_configuration':
       'В Настройки → Дополнительные сетевые настройки исправьте отмеченные поля и примените изменения.',
   'diag_fix_restore_platform_state':
-      'Полностью закройте Usque и откройте снова. Если проблема остаётся, экспортируйте пакет из Диагностики для обращения в поддержку.',
+      'Полностью закройте MoeHtet и откройте снова. Если проблема остаётся, экспортируйте пакет из Диагностики для обращения в поддержку.',
   'diag_fix_resolve_dependency':
       'Сначала устраните ошибки проверок в списке, затем запустите диагностику снова.',
   'diag_fix_run_deep_diagnostics':
@@ -611,7 +611,7 @@ const Map<String, String> kRuCatalog = <String, String>{
   'diag_fix_inspect_platform_state':
       'В Диагностике проверьте ошибки в разделе Системная защита. Если они остаются, экспортируйте диагностический пакет для поддержки.',
   'diag_fix_generate_tunnel_traffic':
-      'Откройте веб-страницу через Usque и повторите проверку.',
+      'Откройте веб-страницу через MoeHtet и повторите проверку.',
   'diag_fix_export_diagnostics':
       'Экспортируйте диагностический пакет и отправьте его в поддержку. Конфиденциальные данные удаляются.',
   'diag_fix_retry': 'Повторите попытку чуть позже.',

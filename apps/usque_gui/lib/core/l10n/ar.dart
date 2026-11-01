@@ -14,17 +14,17 @@ const Map<String, String> kArCatalog = <String, String>{
   'disable_quic': "تعطيل QUIC",
   'disable_quic_managed': 'يديره الاتصال الحالي تلقائيًا',
   'disable_quic_help':
-      "يحظر حركة UDP 443 التي يمررها Usque، ومعظمها QUIC، لتعود التطبيقات إلى TCP. لا تتأثر حركة البيانات المباشرة ولا اتصال Usque نفسه. يسري فورًا.",
+      "يحظر حركة UDP 443 التي يمررها MoeHtet، ومعظمها QUIC، لتعود التطبيقات إلى TCP. لا تتأثر حركة البيانات المباشرة ولا اتصال MoeHtet نفسه. يسري فورًا.",
   'disable_quic_unsupported':
-      'حظر QUIC غير متاح حاليًا. أعد تشغيل Usque؛ وإذا ظل غير متاح، فتحقق من وجود تحديثات في الإعدادات.',
+      'حظر QUIC غير متاح حاليًا. أعد تشغيل MoeHtet؛ وإذا ظل غير متاح، فتحقق من وجود تحديثات في الإعدادات.',
   'technical_details': 'التفاصيل التقنية',
   'diag_skip_disconnected': 'اتصل لتشغيل هذا الفحص.',
   'diag_skip_disabled': 'هذه الميزة متوقفة.',
   'diag_skip_unsupported': 'هذا الفحص غير متاح على هذا الجهاز.',
   'diag_skip_traffic': 'استخدم الاتصال، ثم أعد تشغيل هذا الفحص.',
   'diag_skip_deep': 'اختر الوضع المتعمق لتشغيل هذا الفحص.',
-  'app_loading': "جارٍ تحميل Usque",
-  'app_name': 'Usque',
+  'app_loading': "جارٍ تحميل MoeHtet",
+  'app_name': 'MoeHtet',
   'diag_fail_L4_SESSION_UNAVAILABLE': 'جلسة L4 غير متاحة',
   'diag_fail_L4_PROTOCOL_ERROR': 'خطأ في بروتوكول L4',
   'diag_fail_L4_CONNECT_REJECTED': 'رُفض L4 CONNECT',
@@ -35,13 +35,13 @@ const Map<String, String> kArCatalog = <String, String>{
   'window_maximize': 'تكبير',
   'window_restore': 'استعادة الحجم',
   'window_close': 'إغلاق',
-  'tray_open': 'فتح Usque',
+  'tray_open': 'فتح MoeHtet',
   'tray_connect_profile': 'توصيل الحساب النشط',
   'tray_disconnect_profile': 'قطع الحساب النشط',
   'tray_disconnect_exit': 'قطع الاتصال والخروج',
-  'notice_connection_interrupted': 'انقطع الاتصال. يحاول Usque استعادته.',
+  'notice_connection_interrupted': 'انقطع الاتصال. يحاول MoeHtet استعادته.',
   'notice_connection_failed':
-      'تعذّر على Usque الحفاظ على الاتصال. افتح Usque لمعرفة التفاصيل.',
+      'تعذّر على MoeHtet الحفاظ على الاتصال. افتح MoeHtet لمعرفة التفاصيل.',
   'notice_connection_restored': 'تمت استعادة الاتصال.',
   'notice_kill_switch_blocking':
       'يحظر Kill Switch حركة مرور الشبكة حتى تتم استعادة الاتصال أو تقطع الاتصال.',
@@ -84,7 +84,7 @@ const Map<String, String> kArCatalog = <String, String>{
   'not_available': 'غير متاح',
   'location_disconnected': 'في انتظار الاتصال',
   'engine_unavailable':
-      'تعذّر بدء خدمة الاتصال. أغلق Usque تمامًا ثم افتحه مجددًا. إذا استمرت المشكلة، فافتح التشخيص.',
+      'تعذّر بدء خدمة الاتصال. أغلق MoeHtet تمامًا ثم افتحه مجددًا. إذا استمرت المشكلة، فافتح التشخيص.',
   'dismiss': 'تجاهل',
   'new_profile': 'إضافة حساب',
   'profile_name': 'اسم الحساب',
@@ -105,7 +105,7 @@ const Map<String, String> kArCatalog = <String, String>{
   'zero_trust_open_login': 'فتح تسجيل دخول المؤسسة',
   'zero_trust_browser_failed': 'تعذّر فتح متصفح النظام.',
   'zero_trust_manual_callback':
-      'عُد إلى Usque بعد تسجيل الدخول. إذا لم يكتمل الدخول تلقائيًا، فانسخ الرابط الكامل الذي يفتح WARP من صفحة تسجيل الدخول والصقه أدناه.',
+      'عُد إلى MoeHtet بعد تسجيل الدخول. إذا لم يكتمل الدخول تلقائيًا، فانسخ الرابط الكامل الذي يفتح WARP من صفحة تسجيل الدخول والصقه أدناه.',
   'zero_trust_callback_received':
       'تم استلام معلومات الدخول. تابع إعداد الحساب.',
   'zero_trust_callback': 'رابط العودة بعد تسجيل الدخول',
@@ -133,7 +133,7 @@ const Map<String, String> kArCatalog = <String, String>{
       "أفهم المخاطر وأؤكد أن لدي إذنًا باستخدام نقطة النهاية هذه.",
   "zero_trust_endpoint_risk_continue": "قبول المخاطر ومتابعة التعديل",
   "zero_trust_endpoint_risk_locked": "أكّد فهم المخاطر قبل تعديل هذه العناوين.",
-  "zero_trust_endpoint_unsupported": "حدّث Usque لتعديل نقاط نهاية Zero Trust.",
+  "zero_trust_endpoint_unsupported": "حدّث MoeHtet لتعديل نقاط نهاية Zero Trust.",
   "zero_trust_reauth_endpoints":
       "تؤدي إعادة تسجيل الدخول إلى استعادة عناوين نقاط النهاية المسجلة وإزالة العناوين المخصصة.",
   'experimental': 'تجريبي',
@@ -151,7 +151,7 @@ const Map<String, String> kArCatalog = <String, String>{
   'delete': 'حذف',
   'delete_profile': 'إزالة الحساب؟',
   'delete_profile_body':
-      "هل تريد إزالة هذا الحساب وبيانات تسجيل الدخول إلى WARP الخاصة به من هذا الجهاز؟ إذا كان License Key مربوطًا، فسيحاول Usque أيضًا إلغاء ربطه.",
+      "هل تريد إزالة هذا الحساب وبيانات تسجيل الدخول إلى WARP الخاصة به من هذا الجهاز؟ إذا كان License Key مربوطًا، فسيحاول MoeHtet أيضًا إلغاء ربطه.",
   'delete_zero_trust_profile_body':
       'سيُحذف هذا الحساب ومعلومات دخوله من هذا الجهاز. لإلغاء تسجيل الجهاز في Zero Trust لدى المؤسسة، تواصل مع المسؤول.',
   'license_not_applicable': 'حساب مؤسسة · تجريبي',
@@ -201,7 +201,7 @@ const Map<String, String> kArCatalog = <String, String>{
   'proxy_password_set': 'كلمة المرور معيَّنة. أدخل كلمة جديدة لاستبدالها.',
   'proxy_auth_clear': 'إزالة الحماية بكلمة مرور',
   'general': 'عام',
-  'start_on_boot': 'تشغيل Usque عند تسجيل الدخول',
+  'start_on_boot': 'تشغيل MoeHtet عند تسجيل الدخول',
   'close_to_tray': 'إغلاق النافذة إلى علبة النظام',
   'add_quick_settings_tile': 'إضافة بلاطة الإعدادات السريعة',
   'theme': 'السمة',
@@ -237,7 +237,7 @@ const Map<String, String> kArCatalog = <String, String>{
   'update_available': 'يتوفر إصدار أحدث:',
   'already_latest': 'هذا التثبيت محدَّث بالفعل.',
   'open_release': 'فتح صفحة الإصدار',
-  'update_startup_description': 'التحقق من التحديثات عند بدء Usque.',
+  'update_startup_description': 'التحقق من التحديثات عند بدء MoeHtet.',
   'update_checking': 'جارٍ التحقق من وجود تحديث…',
   'update_downloading': 'جارٍ تنزيل التحديث…',
   'update_verifying': 'جارٍ التحقق من حزمة التحديث…',
@@ -275,7 +275,7 @@ const Map<String, String> kArCatalog = <String, String>{
       'يختار أسرع نقطة نهاية متاحة لهذا الحساب. تُحفظ تغييرات العناوين في الوضع المخصص فقط.',
   'endpoint_custom_help': 'يستخدم عناوين IPv4 وIPv6 أدناه.',
   'endpoint_unsupported':
-      'حدّث Usque لاستخدام الاختيار التلقائي لنقطة النهاية.',
+      'حدّث MoeHtet لاستخدام الاختيار التلقائي لنقطة النهاية.',
   'endpoint_ipv4': 'نقطة نهاية IPv4',
   'endpoint_ipv6': 'نقطة نهاية IPv6',
   'sni': 'SNI',
@@ -302,9 +302,9 @@ const Map<String, String> kArCatalog = <String, String>{
   'kill_switch_help_android':
       'يحظر البيانات أثناء الاتصال أو إعادته أو عند حدوث خلل. فقط أثناء تشغيل خدمة VPN.',
   'start_on_boot_android':
-      'يشغّل Usque بعد إعادة تشغيل الجهاز. للاتصال تلقائيًا، فعّل أيضًا «الاتصال بالحساب الحالي تلقائيًا عند البدء».',
+      'يشغّل MoeHtet بعد إعادة تشغيل الجهاز. للاتصال تلقائيًا، فعّل أيضًا «الاتصال بالحساب الحالي تلقائيًا عند البدء».',
   'add_quick_settings_tile_help':
-      'أضف بلاطة Usque على Android 13 أو أحدث. في الإصدارات الأقدم، أضفها يدويًا من الإعدادات السريعة.',
+      'أضف بلاطة MoeHtet على Android 13 أو أحدث. في الإصدارات الأقدم، أضفها يدويًا من الإعدادات السريعة.',
   'always_on_vpn': 'فتح إعدادات VPN دائم التشغيل',
   'always_on_vpn_help':
       'فعّل VPN دائم التشغيل وحظر الاتصالات دون VPN للحماية من التسريب بعد إنهاء التطبيق.',
@@ -344,7 +344,7 @@ const Map<String, String> kArCatalog = <String, String>{
       'تحقق من مشكلات الاتصال وصدّر السجلات وأدِر البيانات المحلية.',
   'engine_status': 'معلومات الاتصال',
   'version': 'الإصدار',
-  'app_version': 'Usque 0.3.3',
+  'app_version': 'MoeHtet 0.3.3',
   'logs': 'السجلات المحلية',
   'export_diagnostics': 'تصدير حزمة التشخيص',
   'diagnostics_saved': 'تم حفظ حزمة التشخيص في',
@@ -355,12 +355,12 @@ const Map<String, String> kArCatalog = <String, String>{
       'يقطع الاتصال ويحذف نهائيًا جميع الحسابات ومعلومات دخول WARP والإعدادات وذاكرة التخزين المؤقت وبيانات التشخيص من هذا الجهاز.',
   'clear_all_data_confirm':
       'لا يمكن التراجع عن هذا الإجراء. سيُقطع الاتصال وتُحذف جميع الحسابات ومعلومات الدخول، وسيعود التطبيق إلى الإعداد الأولي.',
-  'clear_all_data_complete': 'تم مسح جميع بيانات Usque المحلية.',
+  'clear_all_data_complete': 'تم مسح جميع بيانات MoeHtet المحلية.',
   'unofficial':
       'عميل غير رسمي متوافق مع خدمات Cloudflare® WARP®. غير تابع لشركة Cloudflare, Inc. ولا يحظى برعايتها أو تأييدها.',
   'trademark_attribution':
       'Cloudflare وWARP علامتان تجاريتان و/أو علامتان تجاريتان مسجلتان لشركة Cloudflare, Inc. في الولايات المتحدة وغيرها من الولايات القضائية.',
-  'welcome_title': 'مرحبًا بك في Usque',
+  'welcome_title': 'مرحبًا بك في MoeHtet',
   'setup_progress': 'خطوة الإعداد {current} من {total}',
   'get_started': 'البدء',
   'permissions_title': 'أذونات النظام',
@@ -368,7 +368,7 @@ const Map<String, String> kArCatalog = <String, String>{
       'يلزم إذن النظام لتمرير حركة التطبيقات عبر VPN. وقد تتغير أيضًا إعدادات DNS أو مسارات الشبكة أو جدار الحماية أو وكيل النظام، حسب الوضع المحدد.',
   'terms_title': 'شروط Cloudflare',
   'terms_body':
-      'Usque عميل مستقل. يبقى استخدام WARP الشخصي أو تسجيل Zero Trust التجريبي خاضعًا لشروط Cloudflare وسياسة الخصوصية الخاصة بها.',
+      'MoeHtet عميل مستقل. يبقى استخدام WARP الشخصي أو تسجيل Zero Trust التجريبي خاضعًا لشروط Cloudflare وسياسة الخصوصية الخاصة بها.',
   'terms_accept': 'أفهم هذه الشروط وأقبلها.',
   'identity_title': 'إعداد حساب WARP شخصي',
   'register_new': 'إنشاء حساب WARP مجاني',
@@ -396,7 +396,7 @@ const Map<String, String> kArCatalog = <String, String>{
   'bypass_line_error': 'السطر {line}: {reason}',
   'bypass_summary': '{countries} مناطق · {targets} وجهات مخصصة',
   'geo_direct_help':
-      'تتجاوز الحركة المطابقة لهذه البلدان أو المناطق مسار VPN/TUN في Usque والوكيلين المحليين HTTP وSOCKS5. قد يرى مزوّد DNS للشبكة الحالية أسماء النطاقات المطلوبة. تُوجّه التطبيقات التي تستخدم DNS مشفّرًا حسب عنوان IP فقط.',
+      'تتجاوز الحركة المطابقة لهذه البلدان أو المناطق مسار VPN/TUN في MoeHtet والوكيلين المحليين HTTP وSOCKS5. قد يرى مزوّد DNS للشبكة الحالية أسماء النطاقات المطلوبة. تُوجّه التطبيقات التي تستخدم DNS مشفّرًا حسب عنوان IP فقط.',
   'geo_update_all': 'تحديث بيانات الجغرافيا',
   'geo_last_updated': 'آخر تحديث ناجح: {current}',
   'geo_never_updated': 'لم تُحدَّث بعد',
@@ -520,11 +520,11 @@ const Map<String, String> kArCatalog = <String, String>{
   'diag_check_tunnel_ipv6_egress': 'خروج IPv6',
   'diag_check_protection_kill_switch': 'حالة Kill Switch',
   'diag_check_protection_dns_path': 'مسار DNS',
-  'diag_check_protection_route_ownership': 'مسارات الشبكة التي يديرها Usque',
+  'diag_check_protection_route_ownership': 'مسارات الشبكة التي يديرها MoeHtet',
   'diag_check_protection_recovery_journal': 'سجل الاسترداد',
   'diag_fail_ENGINE_UNAVAILABLE': 'خدمة الاتصال غير متاحة',
   'diag_fail_AGENT_UNREACHABLE':
-      'تعذّر الوصول إلى خدمة شبكة النظام الخاصة بـ Usque',
+      'تعذّر الوصول إلى خدمة شبكة النظام الخاصة بـ MoeHtet',
   'diag_fail_VPN_SERVICE_UNAVAILABLE': 'خدمة VPN غير متاحة',
   'diag_fail_PROXY_PORT_IN_USE': 'منفذ الوكيل مستخدم',
   'diag_fail_PHYSICAL_IPV4_UNAVAILABLE': 'IPv4 الفعلي غير متاح',
@@ -560,7 +560,7 @@ const Map<String, String> kArCatalog = <String, String>{
   'diag_fail_SYSTEM_PROXY_STATE_MISMATCH': 'حالة وكيل النظام غير متطابقة',
   'diag_fail_ROUTE_RESTORE_INCOMPLETE': 'استعادة المسارات غير مكتملة',
   'diag_fail_DNS_RESTORE_INCOMPLETE': 'استعادة DNS غير مكتملة',
-  'diag_fail_SYSTEM_PROXY_STALE': 'لم تُنظَّف حالة وكيل النظام الخاصة بـ Usque',
+  'diag_fail_SYSTEM_PROXY_STALE': 'لم تُنظَّف حالة وكيل النظام الخاصة بـ MoeHtet',
   'diag_fail_PLATFORM_RECOVERY_PENDING': 'لم تُستعد إعدادات شبكة النظام بعد',
   'diag_fail_PACKET_SEND_FAILED': 'فشل إرسال الرزمة',
   'diag_fail_PACKET_SEND_TIMEOUT': 'انتهت مهلة إرسال الرزمة',
@@ -583,7 +583,7 @@ const Map<String, String> kArCatalog = <String, String>{
   'diag_fix_review_configuration':
       'من الإعدادات، افتح إعدادات الشبكة المتقدمة وصحّح الحقول المحددة ثم طبّق التغييرات.',
   'diag_fix_restore_platform_state':
-      'أغلق Usque تمامًا وافتحه مجددًا ثم أعد المحاولة. إذا استمرت المشكلة، فصدّر السجلات من التشخيص لمشاركتها مع الدعم.',
+      'أغلق MoeHtet تمامًا وافتحه مجددًا ثم أعد المحاولة. إذا استمرت المشكلة، فصدّر السجلات من التشخيص لمشاركتها مع الدعم.',
   'diag_fix_resolve_dependency':
       'عالج مشكلات الفحوص الفاشلة أولًا، ثم شغّل التشخيص مجددًا.',
   'diag_fix_run_deep_diagnostics':
@@ -593,7 +593,7 @@ const Map<String, String> kArCatalog = <String, String>{
   'diag_fix_inspect_platform_state':
       'راجع الفحوص الفاشلة في قسم حماية النظام ضمن التشخيص. إذا استمرت المشكلة، فصدّر السجلات.',
   'diag_fix_generate_tunnel_traffic':
-      'افتح صفحة ويب عبر اتصال Usque ثم أعد الفحص.',
+      'افتح صفحة ويب عبر اتصال MoeHtet ثم أعد الفحص.',
   'diag_fix_export_diagnostics':
       'صدّر حزمة تشخيص وأرسلها إلى الدعم. تُزال المعلومات الحساسة.',
   'diag_fix_retry': 'حاول مجددًا بعد قليل.',

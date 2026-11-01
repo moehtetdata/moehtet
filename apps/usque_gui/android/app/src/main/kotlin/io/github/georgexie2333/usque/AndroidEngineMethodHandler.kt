@@ -850,7 +850,7 @@ internal class AndroidEngineMethodHandler(
                         ) {
                             "A newly registered WARP account could not release its license. Its encrypted cleanup record was retained; retry clearing when the network is available."
                         } else {
-                            "Android could not clear all local Usque data."
+                            "Android could not clear all local MoeHtet data."
                         },
                         error.javaClass.simpleName,
                     )

@@ -17,7 +17,7 @@ const Map<String, String> kUiWorkflowId = <String, String>{
   'proxy_switches_hint': 'Sakelar langsung berlaku.',
   'cc_label': 'Kontrol kongesti HTTP/3',
   'cc_help': 'Berlaku pada koneksi manual berikutnya.',
-  'cc_upgrade': 'Perbarui Usque di Pengaturan untuk memakai opsi ini.',
+  'cc_upgrade': 'Perbarui MoeHtet di Pengaturan untuk memakai opsi ini.',
   'cc_h2': 'Opsi ini hanya memengaruhi koneksi HTTP/3.',
   'cc_saved': 'Disimpan',
   'cc_pending': 'Menunggu koneksi manual berikutnya.',
@@ -88,7 +88,7 @@ const Map<String, String> kNetworkQualityId = <String, String>{
   'nq_finding_dns_system':
       'Menggunakan DNS jaringan saat ini; pemeriksaan DNS terenkripsi tidak berlaku.',
   'nq_finding_unsupported':
-      'Perbarui Usque untuk menggunakan DNS terenkripsi. Kueri tidak akan beralih ke DNS tanpa enkripsi.',
+      'Perbarui MoeHtet untuk menggunakan DNS terenkripsi. Kueri tidak akan beralih ke DNS tanpa enkripsi.',
   'nq_finding_dns_custom_valid':
       'Konfigurasi DNS terenkripsi kustom valid. Cadangan teks biasa dinonaktifkan.',
   'nq_finding_stale': 'Bacaan kedaluwarsa atau jaringan fisik berubah.',
@@ -100,7 +100,7 @@ const Map<String, String> kNetworkQualityId = <String, String>{
   'nq_finding_queue_pressure':
       'Ada lalu lintas menunggu dikirim, atau data telah dibuang selama koneksi ini.',
   'nq_finding_pmtu_degraded':
-      'Usque tidak dapat memastikan ukuran paket yang sesuai untuk koneksi ini.',
+      'MoeHtet tidak dapat memastikan ukuran paket yang sesuai untuk koneksi ini.',
   'nq_finding_migration_reconnect':
       'Koneksi ini perlu disambungkan ulang saat berpindah jaringan.',
   'nq_finding_dns_changed':
@@ -174,10 +174,10 @@ const Map<String, String> kNetworkQualityId = <String, String>{
   'nq_outer_pmtu': 'Batas muatan UDP luar',
   'nq_inner_payload': 'Batas muatan CONNECT-IP',
   'nq_pmtu_help':
-      'Ini adalah ukuran paket yang dapat dibawa jalur jaringan. Usque memeriksanya otomatis untuk mengurangi paket hilang. Pemeriksaan tidak menaikkan MTU VPN di Pengaturan jaringan lanjutan.',
+      'Ini adalah ukuran paket yang dapat dibawa jalur jaringan. MoeHtet memeriksanya otomatis untuk mengurangi paket hilang. Pemeriksaan tidak menaikkan MTU VPN di Pengaturan jaringan lanjutan.',
   'nq_migration': 'Migrasi jaringan',
   'nq_migration_help':
-      'Usque mencoba mempertahankan koneksi saat berpindah jaringan, misalnya dari Wi-Fi ke data seluler. Keduanya harus memakai versi IP yang sama, IPv4 atau IPv6.',
+      'MoeHtet mencoba mempertahankan koneksi saat berpindah jaringan, misalnya dari Wi-Fi ke data seluler. Keduanya harus memakai versi IP yang sama, IPv4 atau IPv6.',
   'nq_attempts': 'Percobaan',
   'nq_successes': 'Berhasil',
   'nq_failures': 'Gagal',
@@ -229,20 +229,20 @@ const Map<String, String> kNetworkQualityId = <String, String>{
   'nq_reason_family_unavailable':
       'Jaringan baru tidak dapat memakai versi IP yang sama. Sambungkan ulang.',
   'nq_reason_socket_protect_failed':
-      'Usque tidak dapat memakai jaringan baru dengan aman. Jika koneksi belum pulih, sambungkan ulang secara manual.',
+      'MoeHtet tidak dapat memakai jaringan baru dengan aman. Jika koneksi belum pulih, sambungkan ulang secara manual.',
   'nq_reason_generation_changed_during_setup':
       'Jaringan berubah lagi selama penyiapan.',
   'nq_reason_peer_cid_unavailable':
       'Server tidak dapat mempertahankan koneksi di jaringan baru. Jika belum pulih, sambungkan ulang secara manual.',
   'nq_reason_local_cid_unavailable':
-      'Usque tidak dapat mempertahankan koneksi di jaringan baru. Jika belum pulih, sambungkan ulang secara manual.',
+      'MoeHtet tidak dapat mempertahankan koneksi di jaringan baru. Jika belum pulih, sambungkan ulang secara manual.',
   'nq_reason_path_probe_rejected':
       'Jaringan baru gagal dalam pemeriksaan koneksi. Pastikan jaringan dapat mengakses Internet.',
   'nq_reason_path_validation_timeout':
       'Jaringan baru tidak merespons tepat waktu. Periksa jaringan dan sambungkan ulang jika perlu.',
   'nq_reason_superseded': 'Jaringan berubah lagi sebelum perpindahan selesai.',
   'nq_reason_promotion_failed':
-      'Usque tidak dapat menyelesaikan perpindahan jaringan dengan aman. Jika koneksi belum pulih, sambungkan ulang secara manual.',
+      'MoeHtet tidak dapat menyelesaikan perpindahan jaringan dengan aman. Jika koneksi belum pulih, sambungkan ulang secara manual.',
   'nq_reason_connection_closed':
       'Koneksi terputus saat berpindah jaringan. Sambungkan kembali.',
   'nq_reason_unsupported': 'Migrasi tidak tersedia pada koneksi ini.',
@@ -253,7 +253,7 @@ const Map<String, String> kNetworkQualityId = <String, String>{
   'nq_dns_port': 'Port (0 memakai nilai baku)',
   'nq_dns_bootstrap': 'Alamat IP server DNS',
   'nq_dns_bootstrap_help':
-      'Masukkan 1–8 IP dari penyedia DNS, satu per baris, misalnya 1.1.1.1. Usque langsung menghubungi alamat ini tanpa mencari nama server terlebih dahulu.',
+      'Masukkan 1–8 IP dari penyedia DNS, satu per baris, misalnya 1.1.1.1. MoeHtet langsung menghubungi alamat ini tanpa mencari nama server terlebih dahulu.',
   'nq_dns_no_fallback':
       'Jika DNS terenkripsi tidak tersedia, kueri gagal alih-alih beralih ke DNS tanpa enkripsi.',
   'nq_dns_system_privacy':
@@ -261,7 +261,7 @@ const Map<String, String> kNetworkQualityId = <String, String>{
   'nq_dns_scope':
       'Untuk aturan bypass negara dan domain khusus. DNS lalu lintas VPN tidak berubah.',
   'nq_dns_no_capability':
-      'Perbarui Usque untuk memakai DNS terenkripsi pada koneksi langsung. Pengaturan disimpan. Anda dapat memilih DNS jaringan saat ini jika menerima dampak privasinya.',
+      'Perbarui MoeHtet untuk memakai DNS terenkripsi pada koneksi langsung. Pengaturan disimpan. Anda dapat memilih DNS jaringan saat ini jika menerima dampak privasinya.',
   'nq_dns_invalid_name':
       'Masukkan domain seperti dns.example.com, tanpa https://, port, atau spasi.',
   'nq_dns_invalid_path':
@@ -279,9 +279,9 @@ const Map<String, String> kNetworkQualityId = <String, String>{
 
 const Map<String, String> kWindowsRecoveryId = <String, String>{
   'WINDOWS_DEVICE_REUSE_UNSUPPORTED':
-      'Komponen koneksi Usque perlu diperbarui bersama. Periksa pembaruan di Pengaturan. Koneksi VPN baru belum dimulai.',
+      'Komponen koneksi MoeHtet perlu diperbarui bersama. Periksa pembaruan di Pengaturan. Koneksi VPN baru belum dimulai.',
   'WINDOWS_DEVICE_RECOVERY_REQUIRED':
-      'Pembersihan koneksi VPN sebelumnya belum selesai. Tutup Usque sepenuhnya dan buka kembali. Jika tetap gagal, buka Diagnostik.',
+      'Pembersihan koneksi VPN sebelumnya belum selesai. Tutup MoeHtet sepenuhnya dan buka kembali. Jika tetap gagal, buka Diagnostik.',
   'WINDOWS_RECOVERY_FAILED':
       'Status jaringan VPN sebelumnya tidak dapat dipulihkan sepenuhnya. Koneksi VPN baru belum dimulai. Coba sambungkan lagi atau tinjau diagnostik lokal.',
   'WINDOWS_RECOVERY_EXHAUSTED':
@@ -293,7 +293,7 @@ const Map<String, String> kWindowsRecoveryId = <String, String>{
   'WINDOWS_RECOVERY_CONFLICT':
       'Status jaringan berubah atau masih digunakan sesi lain. Pemulihan otomatis dihentikan untuk melindungi koneksi aktif.',
   'WINDOWS_RECOVERY_UNSUPPORTED':
-      'Instalasi ini tidak dapat memulihkan pengaturan VPN sebelumnya secara otomatis. Perbarui Usque di Pengaturan lalu coba lagi.',
+      'Instalasi ini tidak dapat memulihkan pengaturan VPN sebelumnya secara otomatis. Perbarui MoeHtet di Pengaturan lalu coba lagi.',
 };
 
 const String kWindowsAdapterCleanupId =
@@ -310,7 +310,7 @@ const Map<String, String> kL4Id = <String, String>{
   'l4_explanation':
       'L4 meneruskan TCP lewat HTTP/3 dan mendukung VPN serta proksi SOCKS5 dan HTTP. Kueri DNS VPN diubah menjadi TCP. Aplikasi yang membutuhkan UDP lain, Ping jarak jauh, fragmen IP, atau header ekstensi mungkin tidak berfungsi.',
   'l4_unsupported':
-      'Versi Usque ini tidak mendukung L4. Periksa pembaruan di Pengaturan.',
+      'Versi MoeHtet ini tidak mendukung L4. Periksa pembaruan di Pengaturan.',
   'l4_sni_identity':
       'Diatur otomatis oleh akun. Nama server mode koneksi lain tetap disimpan.',
   'l4_edge_requires_l4':
@@ -341,10 +341,10 @@ const Map<String, String> kNetworkSettingsId = <String, String>{
       'Belum dapat memastikan apakah pengaturan jaringan sudah berlaku.',
   'settings_refresh': 'Segarkan status',
   'settings_confirmation_unavailable':
-      'Pengaturan jaringan masih belum dapat dikonfirmasi. Jika menyegarkan tidak membantu, tutup Usque sepenuhnya, buka kembali, lalu periksa pengaturan.',
+      'Pengaturan jaringan masih belum dapat dikonfirmasi. Jika menyegarkan tidak membantu, tutup MoeHtet sepenuhnya, buka kembali, lalu periksa pengaturan.',
   'settings_saved': 'Disimpan',
   'settings_unsupported':
-      'Tutup Usque sepenuhnya, buka kembali, lalu simpan lagi. Jika gagal, periksa pembaruan di Pengaturan.',
+      'Tutup MoeHtet sepenuhnya, buka kembali, lalu simpan lagi. Jika gagal, periksa pembaruan di Pengaturan.',
   'settings_save_failed':
       'Pengaturan tidak dapat disimpan. Suntingan Anda tetap ada.',
   'settings_reconnect': 'Hubungkan ulang',
@@ -374,7 +374,7 @@ const Map<String, String> kChainId = <String, String>{
   "dns_inherit":
       "Kosongkan untuk memakai DNS jaringan. Kueri melalui jalur keluar ini.",
   "scope_proxy_only":
-      "Usque hanya memproksikan koneksi yang dikirim aplikasi kepadanya. Koneksi lain dapat mengungkap alamat IP publik Anda.",
+      "MoeHtet hanya memproksikan koneksi yang dikirim aplikasi kepadanya. Koneksi lain dapat mengungkap alamat IP publik Anda.",
   "scope_bypass":
       "Aturan koneksi langsung dan per aplikasi Anda tetap berlaku.",
   "scope_interrupted":
@@ -484,7 +484,7 @@ const Map<String, String> kChainId = <String, String>{
   'l4': 'Konfigurasi ini memerlukan UDP, yang tidak didukung L4.',
   'switch_mode': 'Nonaktifkan L4 dan terapkan',
   'unsupported':
-      'Versi Usque ini tidak dapat menggunakan sumber pintu keluar ini. Periksa pembaruan di Pengaturan.',
+      'Versi MoeHtet ini tidak dapat menggunakan sumber pintu keluar ini. Periksa pembaruan di Pengaturan.',
   'scope':
       'Aturan langsung eksplisit yang sudah ada tetap berlaku. Lalu lintas lain memakai pintu keluar yang dipilih.',
   'allowed': 'Tujuan yang diizinkan',

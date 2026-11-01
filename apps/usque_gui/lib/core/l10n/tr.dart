@@ -14,9 +14,9 @@ const Map<String, String> kTrCatalog = <String, String>{
   'disable_quic': "QUIC’i devre dışı bırak",
   'disable_quic_managed': 'Bu bağlantı tarafından otomatik olarak yönetilir',
   'disable_quic_help':
-      "Usque’nin ilettiği UDP 443 trafiğini (çoğunlukla QUIC) engeller; böylece uygulamalar TCP’ye geçer. Doğrudan trafik ve Usque’nin kendi bağlantısı etkilenmez. Hemen uygulanır.",
+      "MoeHtet’nin ilettiği UDP 443 trafiğini (çoğunlukla QUIC) engeller; böylece uygulamalar TCP’ye geçer. Doğrudan trafik ve MoeHtet’nin kendi bağlantısı etkilenmez. Hemen uygulanır.",
   'disable_quic_unsupported':
-      'QUIC engelleme şu anda kullanılamıyor. Usque’yi yeniden başlatın; hâlâ kullanılamıyorsa Ayarlar’dan güncellemeleri denetleyin.',
+      'QUIC engelleme şu anda kullanılamıyor. MoeHtet’yi yeniden başlatın; hâlâ kullanılamıyorsa Ayarlar’dan güncellemeleri denetleyin.',
   'technical_details': 'Teknik ayrıntılar',
   'diag_skip_disconnected': 'Bu kontrolü çalıştırmak için bağlanın.',
   'diag_skip_disabled': 'Bu özellik kapalı.',
@@ -24,8 +24,8 @@ const Map<String, String> kTrCatalog = <String, String>{
   'diag_skip_traffic':
       'Bağlantıyı kullanın, ardından bu kontrolü yeniden çalıştırın.',
   'diag_skip_deep': 'Bu kontrolü çalıştırmak için derin modu seçin.',
-  'app_loading': "Usque yükleniyor",
-  'app_name': 'Usque',
+  'app_loading': "MoeHtet yükleniyor",
+  'app_name': 'MoeHtet',
   'diag_fail_L4_SESSION_UNAVAILABLE': 'L4 oturumu kullanılamıyor',
   'diag_fail_L4_PROTOCOL_ERROR': 'L4 protokol hatası',
   'diag_fail_L4_CONNECT_REJECTED': 'L4 CONNECT reddedildi',
@@ -36,14 +36,14 @@ const Map<String, String> kTrCatalog = <String, String>{
   'window_maximize': 'Ekranı kapla',
   'window_restore': 'Pencere boyutunu geri yükle',
   'window_close': 'Kapat',
-  'tray_open': 'Usque’yu aç',
+  'tray_open': 'MoeHtet’yu aç',
   'tray_connect_profile': 'Etkin hesabı bağla',
   'tray_disconnect_profile': 'Etkin hesabın bağlantısını kes',
   'tray_disconnect_exit': 'Bağlantıyı kes ve çık',
   'notice_connection_interrupted':
-      'Bağlantı kesildi. Usque bağlantıyı geri yüklemeye çalışıyor.',
+      'Bağlantı kesildi. MoeHtet bağlantıyı geri yüklemeye çalışıyor.',
   'notice_connection_failed':
-      'Usque bağlantıyı sürdüremedi. Ayrıntılar için Usque’yu açın.',
+      'MoeHtet bağlantıyı sürdüremedi. Ayrıntılar için MoeHtet’yu açın.',
   'notice_connection_restored': 'Bağlantı geri yüklendi.',
   'notice_kill_switch_blocking':
       'Bağlantı geri yüklenene veya bağlantıyı kesene kadar Kill Switch ağ trafiğini engelliyor.',
@@ -88,7 +88,7 @@ const Map<String, String> kTrCatalog = <String, String>{
   'not_available': 'Kullanılamıyor',
   'location_disconnected': 'Bağlantı bekleniyor',
   'engine_unavailable':
-      'Bağlantı hizmeti başlatılamadı. Usque’yi tamamen kapatıp yeniden açın. Sorun sürerse Tanılama’yı açın.',
+      'Bağlantı hizmeti başlatılamadı. MoeHtet’yi tamamen kapatıp yeniden açın. Sorun sürerse Tanılama’yı açın.',
   'dismiss': 'Kapat',
   'new_profile': 'Hesap ekle',
   'profile_name': 'Hesap adı',
@@ -109,7 +109,7 @@ const Map<String, String> kTrCatalog = <String, String>{
   'zero_trust_open_login': 'Kuruluş oturumunu aç',
   'zero_trust_browser_failed': 'Sistem tarayıcısı açılamadı.',
   'zero_trust_manual_callback':
-      'Oturum açtıktan sonra Usque’ye dönün. Oturum açma işlemi otomatik tamamlanmazsa giriş sayfasındaki WARP’ı açan bağlantının tamamını kopyalayıp aşağıya yapıştırın.',
+      'Oturum açtıktan sonra MoeHtet’ye dönün. Oturum açma işlemi otomatik tamamlanmazsa giriş sayfasındaki WARP’ı açan bağlantının tamamını kopyalayıp aşağıya yapıştırın.',
   'zero_trust_callback_received':
       'Oturum açma bilgisi alındı. Hesap ayarına devam edin.',
   'zero_trust_callback': 'Oturum açma dönüş bağlantısı',
@@ -139,7 +139,7 @@ const Map<String, String> kTrCatalog = <String, String>{
   "zero_trust_endpoint_risk_locked":
       "Bu adresleri düzenlemeden önce riskleri onaylayın.",
   "zero_trust_endpoint_unsupported":
-      "Zero Trust uç noktalarını düzenlemek için Usque'yi güncelleyin.",
+      "Zero Trust uç noktalarını düzenlemek için MoeHtet'yi güncelleyin.",
   "zero_trust_reauth_endpoints":
       "Tekrar giriş yapmak kayıtlı uç nokta adreslerini geri yükler ve özel adreslerinizi kaldırır.",
   'experimental': 'Deneysel',
@@ -157,7 +157,7 @@ const Map<String, String> kTrCatalog = <String, String>{
   'delete': 'Sil',
   'delete_profile': 'Hesap kaldırılsın mı?',
   'delete_profile_body':
-      "Bu hesap ve WARP oturum açma bilgileri bu cihazdan kaldırılsın mı? License Key bağlıysa Usque bu bağlantıyı da kaldırmayı dener.",
+      "Bu hesap ve WARP oturum açma bilgileri bu cihazdan kaldırılsın mı? License Key bağlıysa MoeHtet bu bağlantıyı da kaldırmayı dener.",
   'delete_zero_trust_profile_body':
       'Bu hesap ve oturum açma bilgileri bu cihazdan silinir. Cihazın kuruluşun Zero Trust kaydını kaldırmak için yöneticinize başvurun.',
   'license_not_applicable': 'Kuruluş hesabı · Deneysel',
@@ -210,7 +210,7 @@ const Map<String, String> kTrCatalog = <String, String>{
       'Parola ayarlandı. Değiştirmek için yeni bir parola girin.',
   'proxy_auth_clear': 'Parola korumasını kaldır',
   'general': 'Genel',
-  'start_on_boot': 'Oturum açtığınızda Usque’yi başlat',
+  'start_on_boot': 'Oturum açtığınızda MoeHtet’yi başlat',
   'close_to_tray': 'Pencereyi sistem tepsisine kapat',
   'add_quick_settings_tile': 'Hızlı Ayarlar kutucuğu ekle',
   'theme': 'Tema',
@@ -246,7 +246,7 @@ const Map<String, String> kTrCatalog = <String, String>{
   'update_available': 'Daha yeni bir sürüm var:',
   'already_latest': 'Bu kurulum zaten güncel.',
   'open_release': 'Sürüm sayfasını aç',
-  'update_startup_description': 'Usque başlatıldığında güncellemeleri denetle.',
+  'update_startup_description': 'MoeHtet başlatıldığında güncellemeleri denetle.',
   'update_checking': 'Güncelleme denetleniyor…',
   'update_downloading': 'Güncelleme indiriliyor…',
   'update_verifying': 'Güncelleme paketi doğrulanıyor…',
@@ -285,7 +285,7 @@ const Map<String, String> kTrCatalog = <String, String>{
       'Bu hesap için kullanılabilir en hızlı uç noktayı seçer. Adres değişiklikleri yalnızca Özel modda kaydedilir.',
   'endpoint_custom_help': 'Aşağıdaki IPv4 ve IPv6 adreslerini kullanır.',
   'endpoint_unsupported':
-      'Otomatik uç nokta seçimi için Usque uygulamasını güncelleyin.',
+      'Otomatik uç nokta seçimi için MoeHtet uygulamasını güncelleyin.',
   'endpoint_ipv4': 'Uç nokta IPv4',
   'endpoint_ipv6': 'Uç nokta IPv6',
   'sni': 'SNI',
@@ -313,9 +313,9 @@ const Map<String, String> kTrCatalog = <String, String>{
   'kill_switch_help_android':
       'Bağlanırken, yeniden bağlanırken veya hata durumunda trafiği engeller. Yalnızca VPN hizmeti çalışırken.',
   'start_on_boot_android':
-      'Cihaz yeniden başladıktan sonra Usque’yi başlatır. Otomatik bağlanmak için “Başlangıçta geçerli hesaba otomatik bağlan” seçeneğini de açın.',
+      'Cihaz yeniden başladıktan sonra MoeHtet’yi başlatır. Otomatik bağlanmak için “Başlangıçta geçerli hesaba otomatik bağlan” seçeneğini de açın.',
   'add_quick_settings_tile_help':
-      'Android 13 veya sonraki sürümlerde Usque kutucuğunu ekleyin. Daha eski sürümlerde Hızlı Ayarlar’dan elle ekleyin.',
+      'Android 13 veya sonraki sürümlerde MoeHtet kutucuğunu ekleyin. Daha eski sürümlerde Hızlı Ayarlar’dan elle ekleyin.',
   'always_on_vpn': 'Her zaman açık VPN ayarlarını aç',
   'always_on_vpn_help':
       'Uygulama sonlandırıldıktan sonra sızıntı koruması için Her zaman açık VPN ve VPN olmadan bağlantıları engelle seçeneklerini etkinleştirin.',
@@ -355,7 +355,7 @@ const Map<String, String> kTrCatalog = <String, String>{
       'Bağlantı sorunlarını kontrol edin, günlükleri dışa aktarın ve yerel verileri yönetin.',
   'engine_status': 'Bağlantı bilgileri',
   'version': 'Sürüm',
-  'app_version': 'Usque 0.3.3',
+  'app_version': 'MoeHtet 0.3.3',
   'logs': 'Yerel günlükler',
   'export_diagnostics': 'Tanılama paketini dışa aktar',
   'diagnostics_saved': 'Tanılama paketi şuraya kaydedildi',
@@ -366,12 +366,12 @@ const Map<String, String> kTrCatalog = <String, String>{
       'Bağlantıyı keser ve bu cihazdaki tüm hesapları, WARP oturum açma bilgilerini, ayarları, önbelleği ve tanılama verilerini kalıcı olarak siler.',
   'clear_all_data_confirm':
       'Bu işlem geri alınamaz. Bağlantı kesilir, tüm hesaplar ve oturum açma bilgileri silinir, ilk kurulum ekranı açılır.',
-  'clear_all_data_complete': 'Tüm yerel Usque verileri temizlendi.',
+  'clear_all_data_complete': 'Tüm yerel MoeHtet verileri temizlendi.',
   'unofficial':
       'Cloudflare® WARP® hizmetleriyle uyumlu, resmi olmayan bir istemci. Cloudflare, Inc. ile bağlantılı değildir; şirket tarafından desteklenmez veya onaylanmaz.',
   'trademark_attribution':
       'Cloudflare ve WARP, Cloudflare, Inc. şirketinin Amerika Birleşik Devletleri ve diğer yargı bölgelerindeki ticari markaları ve/veya tescilli ticari markalarıdır.',
-  'welcome_title': 'Usque’ye hoş geldiniz',
+  'welcome_title': 'MoeHtet’ye hoş geldiniz',
   'setup_progress': 'Kurulum adımı {current} / {total}',
   'get_started': 'Başlayın',
   'permissions_title': 'Sistem izinleri',
@@ -379,7 +379,7 @@ const Map<String, String> kTrCatalog = <String, String>{
       'Uygulama trafiğini VPN üzerinden yönlendirmek için sistem izni gerekir. Seçilen moda bağlı olarak DNS, ağ yolları, güvenlik duvarı veya sistem proxy ayarları da değiştirilebilir.',
   'terms_title': 'Cloudflare koşulları',
   'terms_body':
-      'Usque bağımsız bir istemcidir. Kişisel WARP veya deneysel Zero Trust kaydı kullanımı yine de Cloudflare’ın koşullarına ve gizlilik politikasına tabidir.',
+      'MoeHtet bağımsız bir istemcidir. Kişisel WARP veya deneysel Zero Trust kaydı kullanımı yine de Cloudflare’ın koşullarına ve gizlilik politikasına tabidir.',
   'terms_accept': 'Bu koşulları anlıyorum ve kabul ediyorum.',
   'identity_title': 'Kişisel WARP hesabını ayarla',
   'register_new': 'Ücretsiz WARP hesabı oluştur',
@@ -407,7 +407,7 @@ const Map<String, String> kTrCatalog = <String, String>{
   'bypass_line_error': 'Satır {line}: {reason}',
   'bypass_summary': '{countries} bölge · {targets} özel hedef',
   'geo_direct_help':
-      'Bu ülke veya bölgelerle eşleşen trafik Usque VPN/TUN ile yerel HTTP ve SOCKS5 vekil sunucularını kullanmaz. Mevcut ağın DNS sağlayıcısı sorgulanan alan adlarını görebilir. Şifreli DNS kullanan uygulamalar için yalnızca IP adresine göre yönlendirme yapılır.',
+      'Bu ülke veya bölgelerle eşleşen trafik MoeHtet VPN/TUN ile yerel HTTP ve SOCKS5 vekil sunucularını kullanmaz. Mevcut ağın DNS sağlayıcısı sorgulanan alan adlarını görebilir. Şifreli DNS kullanan uygulamalar için yalnızca IP adresine göre yönlendirme yapılır.',
   'geo_update_all': 'Coğrafi verileri güncelle',
   'geo_last_updated': 'Son başarılı güncelleme: {current}',
   'geo_never_updated': 'Henüz güncellenmedi',
@@ -538,10 +538,10 @@ const Map<String, String> kTrCatalog = <String, String>{
   'diag_check_tunnel_ipv6_egress': 'IPv6 çıkışı',
   'diag_check_protection_kill_switch': 'Kill Switch durumu',
   'diag_check_protection_dns_path': 'DNS yolu',
-  'diag_check_protection_route_ownership': 'Usque’nin yönettiği ağ yolları',
+  'diag_check_protection_route_ownership': 'MoeHtet’nin yönettiği ağ yolları',
   'diag_check_protection_recovery_journal': 'Kurtarma günlüğü',
   'diag_fail_ENGINE_UNAVAILABLE': 'Bağlantı hizmeti kullanılamıyor',
-  'diag_fail_AGENT_UNREACHABLE': 'Usque’nin sistem ağ hizmetine ulaşılamıyor',
+  'diag_fail_AGENT_UNREACHABLE': 'MoeHtet’nin sistem ağ hizmetine ulaşılamıyor',
   'diag_fail_VPN_SERVICE_UNAVAILABLE': 'VPN hizmeti kullanılamıyor',
   'diag_fail_PROXY_PORT_IN_USE': 'Proxy bağlantı noktası kullanımda',
   'diag_fail_PHYSICAL_IPV4_UNAVAILABLE': 'Fiziksel IPv4 kullanılamıyor',
@@ -578,7 +578,7 @@ const Map<String, String> kTrCatalog = <String, String>{
       'Sistem proxy’sinin durumu eşleşmiyor',
   'diag_fail_ROUTE_RESTORE_INCOMPLETE': 'Rota geri yükleme tamamlanmadı',
   'diag_fail_DNS_RESTORE_INCOMPLETE': 'DNS geri yükleme eksik',
-  'diag_fail_SYSTEM_PROXY_STALE': 'Usque sistem proxy durumu temizlenmedi',
+  'diag_fail_SYSTEM_PROXY_STALE': 'MoeHtet sistem proxy durumu temizlenmedi',
   'diag_fail_PLATFORM_RECOVERY_PENDING':
       'Sistem ağ ayarları henüz geri yüklenmedi',
   'diag_fail_PACKET_SEND_FAILED': 'Paket gönderme başarısız',
@@ -602,7 +602,7 @@ const Map<String, String> kTrCatalog = <String, String>{
   'diag_fix_review_configuration':
       'Ayarlar → Gelişmiş ağ ayarları bölümünde işaretlenen alanları düzeltip değişiklikleri uygulayın.',
   'diag_fix_restore_platform_state':
-      'Usque’yi tamamen kapatıp yeniden açın ve tekrar deneyin. Sorun sürerse Tanılama’dan günlükleri dışa aktarıp destek ekibiyle paylaşın.',
+      'MoeHtet’yi tamamen kapatıp yeniden açın ve tekrar deneyin. Sorun sürerse Tanılama’dan günlükleri dışa aktarıp destek ekibiyle paylaşın.',
   'diag_fix_resolve_dependency':
       'Önce başarısız denetimlerdeki sorunları giderin, ardından tanılamayı yeniden çalıştırın.',
   'diag_fix_run_deep_diagnostics':
@@ -612,7 +612,7 @@ const Map<String, String> kTrCatalog = <String, String>{
   'diag_fix_inspect_platform_state':
       'Tanılama → Sistem koruması bölümündeki başarısız denetimleri inceleyin. Sorun sürerse günlükleri dışa aktarın.',
   'diag_fix_generate_tunnel_traffic':
-      'Usque bağlantısı üzerinden bir web sayfası açıp denetimi yeniden çalıştırın.',
+      'MoeHtet bağlantısı üzerinden bir web sayfası açıp denetimi yeniden çalıştırın.',
   'diag_fix_export_diagnostics':
       'Tanılama paketini dışa aktarıp desteğe gönderin. Hassas bilgiler kaldırılır.',
   'diag_fix_retry': 'Kısa süre sonra yeniden deneyin.',

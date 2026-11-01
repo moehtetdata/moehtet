@@ -300,7 +300,7 @@ class _OnboardingScreenState extends State<OnboardingScreen>
                                   const UsqueLogo(size: 42),
                                   const SizedBox(width: 12),
                                   Text(
-                                    'Usque',
+                                    'MoeHtet',
                                     style: Theme.of(
                                       context,
                                     ).textTheme.titleLarge,
@@ -603,7 +603,7 @@ class _BrandPane extends StatelessWidget {
                         const UsqueLogo(size: 72),
                         const Spacer(),
                         Text(
-                          'Usque',
+                          'MoeHtet',
                           style: theme.textTheme.displayMedium?.copyWith(
                             color: theme.colorScheme.onSurface,
                           ),

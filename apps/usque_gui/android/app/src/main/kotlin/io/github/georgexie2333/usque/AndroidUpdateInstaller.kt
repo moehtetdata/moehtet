@@ -108,7 +108,7 @@ internal class AndroidUpdateInstaller(
         if (signerDigests(current) != signerDigests(archive)) {
             throw UpdateException(
                 "UPDATE_PACKAGE_SIGNER_MISMATCH",
-                "The update APK is not signed by the installed Usque identity.",
+                "The update APK is not signed by the installed MoeHtet identity.",
             )
         }
         ensureActive(cancelled)
@@ -295,7 +295,7 @@ internal class AndroidUpdateInstaller(
         return variantForAbi(abi)
             ?: throw UpdateException(
                 "UPDATE_PACKAGE_ABI_UNSUPPORTED",
-                "This Android device ABI does not have a supported Usque update package.",
+                "This Android device ABI does not have a supported MoeHtet update package.",
             )
     }
 
@@ -309,7 +309,7 @@ internal class AndroidUpdateInstaller(
         if (apk.parentFile != root || apk.name != expectedName) {
             throw UpdateException(
                 "UPDATE_PACKAGE_INVALID",
-                "The update APK is outside Usque's private update cache.",
+                "The update APK is outside MoeHtet's private update cache.",
             )
         }
         return apk

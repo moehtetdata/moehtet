@@ -14,17 +14,17 @@ const Map<String, String> kEnCatalog = <String, String>{
   'disable_quic': "Disable QUIC",
   'disable_quic_managed': 'Automatically managed by this connection',
   'disable_quic_help':
-      "Block UDP port 443 traffic forwarded by Usque, mostly QUIC, so apps fall back to TCP. Direct traffic and Usque’s own connection are unaffected. Takes effect immediately.",
+      "Block UDP port 443 traffic forwarded by MoeHtet, mostly QUIC, so apps fall back to TCP. Direct traffic and MoeHtet’s own connection are unaffected. Takes effect immediately.",
   'disable_quic_unsupported':
-      'QUIC blocking is unavailable right now. Restart Usque; if it is still unavailable, check for updates in Settings.',
+      'QUIC blocking is unavailable right now. Restart MoeHtet; if it is still unavailable, check for updates in Settings.',
   'technical_details': 'Technical details',
   'diag_skip_disconnected': 'Connect to run this check.',
   'diag_skip_disabled': 'This feature is turned off.',
   'diag_skip_unsupported': 'This check is unavailable on this device.',
   'diag_skip_traffic': 'Use the connection, then run this check again.',
   'diag_skip_deep': 'Select Deep to run this check.',
-  'app_loading': "Loading Usque",
-  'app_name': 'Usque',
+  'app_loading': "Loading MoeHtet",
+  'app_name': 'MoeHtet',
   'diag_fail_L4_SESSION_UNAVAILABLE': 'L4 session unavailable',
   'diag_fail_L4_PROTOCOL_ERROR': 'L4 protocol error',
   'diag_fail_L4_CONNECT_REJECTED': 'L4 CONNECT rejected',
@@ -35,14 +35,14 @@ const Map<String, String> kEnCatalog = <String, String>{
   'window_maximize': 'Maximize',
   'window_restore': 'Restore window',
   'window_close': 'Close',
-  'tray_open': 'Open Usque',
+  'tray_open': 'Open MoeHtet',
   'tray_connect_profile': 'Connect Active Profile',
   'tray_disconnect_profile': 'Disconnect Active Profile',
   'tray_disconnect_exit': 'Disconnect and Exit',
   'notice_connection_interrupted':
-      'The connection was interrupted. Usque is trying to restore it.',
+      'The connection was interrupted. MoeHtet is trying to restore it.',
   'notice_connection_failed':
-      'Usque could not keep the connection. Open Usque for details.',
+      'MoeHtet could not keep the connection. Open MoeHtet for details.',
   'notice_connection_restored': 'The connection has been restored.',
   'notice_kill_switch_blocking':
       'Kill Switch is blocking network traffic until the connection is restored or you disconnect.',
@@ -85,7 +85,7 @@ const Map<String, String> kEnCatalog = <String, String>{
   'not_available': 'Not available',
   'location_disconnected': 'Waiting to connect',
   'engine_unavailable':
-      'Usque could not start its connection service. Fully exit and reopen Usque, then try again. If it still fails, open Diagnostics.',
+      'MoeHtet could not start its connection service. Fully exit and reopen MoeHtet, then try again. If it still fails, open Diagnostics.',
   'dismiss': 'Dismiss',
   'new_profile': 'Add account',
   'profile_name': 'Account name',
@@ -106,7 +106,7 @@ const Map<String, String> kEnCatalog = <String, String>{
   'zero_trust_open_login': 'Open organization login',
   'zero_trust_browser_failed': 'The system browser could not be opened.',
   'zero_trust_manual_callback':
-      'After signing in, return to Usque. If sign-in is not received automatically, copy the link that the login page uses to open WARP and paste it below.',
+      'After signing in, return to MoeHtet. If sign-in is not received automatically, copy the link that the login page uses to open WARP and paste it below.',
   'zero_trust_callback_received':
       'Sign-in received. Continue to finish account setup.',
   'zero_trust_callback': 'Login return link',
@@ -135,7 +135,7 @@ const Map<String, String> kEnCatalog = <String, String>{
   "zero_trust_endpoint_risk_locked":
       "Confirm the risks before editing these addresses.",
   "zero_trust_endpoint_unsupported":
-      "Update Usque to edit Zero Trust endpoints.",
+      "Update MoeHtet to edit Zero Trust endpoints.",
   "zero_trust_reauth_endpoints":
       "Signing in again restores the registered endpoint addresses and removes your custom addresses.",
   'experimental': 'Experimental',
@@ -153,7 +153,7 @@ const Map<String, String> kEnCatalog = <String, String>{
   'delete': 'Delete',
   'delete_profile': 'Remove account?',
   'delete_profile_body':
-      "Remove this account and its WARP sign-in information from this device? If a License Key is bound, Usque also tries to unbind it.",
+      "Remove this account and its WARP sign-in information from this device? If a License Key is bound, MoeHtet also tries to unbind it.",
   'delete_zero_trust_profile_body':
       'This removes the account and its login information from this device. Ask your administrator to also remove this device from the organization’s Zero Trust dashboard.',
   'license_not_applicable': 'Organization account · Experimental',
@@ -203,7 +203,7 @@ const Map<String, String> kEnCatalog = <String, String>{
   'proxy_password_set': 'Password is set. Enter a new one to replace it.',
   'proxy_auth_clear': 'Remove password protection',
   'general': 'General',
-  'start_on_boot': 'Start Usque when you sign in',
+  'start_on_boot': 'Start MoeHtet when you sign in',
   'close_to_tray': 'Close the window to the system tray',
   'add_quick_settings_tile': 'Add Quick Settings Tile',
   'theme': 'Theme',
@@ -239,7 +239,7 @@ const Map<String, String> kEnCatalog = <String, String>{
   'update_available': 'A newer release is available:',
   'already_latest': 'This installation is already up to date.',
   'open_release': 'Open release page',
-  'update_startup_description': 'Check for updates when Usque starts.',
+  'update_startup_description': 'Check for updates when MoeHtet starts.',
   'update_checking': 'Checking for an update…',
   'update_downloading': 'Downloading the update…',
   'update_verifying': 'Verifying the update package…',
@@ -278,7 +278,7 @@ const Map<String, String> kEnCatalog = <String, String>{
   'endpoint_automatic_help':
       'Choose the fastest available endpoint for this account. Custom address edits are saved only in Custom.',
   'endpoint_custom_help': 'Use the IPv4 and IPv6 addresses below.',
-  'endpoint_unsupported': 'Update Usque to use automatic endpoint selection.',
+  'endpoint_unsupported': 'Update MoeHtet to use automatic endpoint selection.',
   'endpoint_ipv4': 'Endpoint IPv4',
   'endpoint_ipv6': 'Endpoint IPv6',
   'sni': 'SNI',
@@ -306,9 +306,9 @@ const Map<String, String> kEnCatalog = <String, String>{
   'kill_switch_help_android':
       'Block traffic while connecting, reconnecting or on failure. Only while the VPN service runs.',
   'start_on_boot_android':
-      'Start Usque after the device restarts. To connect automatically, also turn on “Connect the current account automatically on start”.',
+      'Start MoeHtet after the device restarts. To connect automatically, also turn on “Connect the current account automatically on start”.',
   'add_quick_settings_tile_help':
-      'Add the Usque tile on Android 13 or later. On older versions, add it manually from Quick Settings.',
+      'Add the MoeHtet tile on Android 13 or later. On older versions, add it manually from Quick Settings.',
   'always_on_vpn': 'Open Always-on VPN settings',
   'always_on_vpn_help':
       'Enable Always-on VPN and Block connections without VPN for leak protection after the app is killed.',
@@ -348,7 +348,7 @@ const Map<String, String> kEnCatalog = <String, String>{
       'Check connection problems, export logs and manage local data.',
   'engine_status': 'Connection information',
   'version': 'Version',
-  'app_version': 'Usque 0.3.3',
+  'app_version': 'MoeHtet 0.3.3',
   'logs': 'Local logs',
   'export_diagnostics': 'Export diagnostic bundle',
   'diagnostics_saved': 'Diagnostic bundle saved to',
@@ -358,21 +358,21 @@ const Map<String, String> kEnCatalog = <String, String>{
   'clear_all_data_help':
       'Disconnect and permanently delete all accounts, WARP login information, settings, caches and diagnostic records from this device.',
   'clear_all_data_confirm':
-      'This cannot be undone. Usque will disconnect, delete all saved accounts and login information, then return to setup.',
-  'clear_all_data_complete': 'All local Usque data was cleared.',
+      'This cannot be undone. MoeHtet will disconnect, delete all saved accounts and login information, then return to setup.',
+  'clear_all_data_complete': 'All local MoeHtet data was cleared.',
   'unofficial':
       'Unofficial client compatible with Cloudflare® WARP® services. Not affiliated with, sponsored by, or endorsed by Cloudflare, Inc.',
   'trademark_attribution':
       'Cloudflare and WARP are trademarks and/or registered trademarks of Cloudflare, Inc. in the United States and other jurisdictions.',
-  'welcome_title': 'Welcome to Usque',
+  'welcome_title': 'Welcome to MoeHtet',
   'setup_progress': 'Setup step {current} of {total}',
   'get_started': 'Get started',
   'permissions_title': 'System permissions',
   'permissions_body':
-      'Usque needs permission to route app traffic through the VPN. Depending on the connection mode, it also sets DNS, network routes, firewall protection or the system proxy.',
+      'MoeHtet needs permission to route app traffic through the VPN. Depending on the connection mode, it also sets DNS, network routes, firewall protection or the system proxy.',
   'terms_title': 'Cloudflare terms',
   'terms_body':
-      'Usque is an independent client. Using personal WARP or experimental Zero Trust enrollment is still subject to Cloudflare’s terms and privacy policy.',
+      'MoeHtet is an independent client. Using personal WARP or experimental Zero Trust enrollment is still subject to Cloudflare’s terms and privacy policy.',
   'terms_accept': 'I understand and accept these conditions.',
   'identity_title': 'Set up a personal WARP account',
   'register_new': 'Create a free WARP account',
@@ -400,7 +400,7 @@ const Map<String, String> kEnCatalog = <String, String>{
   'bypass_line_error': 'Line {line}: {reason}',
   'bypass_summary': '{countries} regions · {targets} custom targets',
   'geo_direct_help':
-      'Traffic matching these countries or regions bypasses Usque VPN/TUN and the local HTTP and SOCKS5 proxies. DNS providers on your current network may see the requested domains. Apps using encrypted DNS are matched by IP address only.',
+      'Traffic matching these countries or regions bypasses MoeHtet VPN/TUN and the local HTTP and SOCKS5 proxies. DNS providers on your current network may see the requested domains. Apps using encrypted DNS are matched by IP address only.',
   'geo_update_all': 'Update geographic data',
   'geo_last_updated': 'Last successful update: {current}',
   'geo_never_updated': 'Not updated yet',
@@ -529,11 +529,11 @@ const Map<String, String> kEnCatalog = <String, String>{
   'diag_check_tunnel_ipv6_egress': 'IPv6 egress',
   'diag_check_protection_kill_switch': 'Kill Switch state',
   'diag_check_protection_dns_path': 'DNS path',
-  'diag_check_protection_route_ownership': 'Network routes managed by Usque',
+  'diag_check_protection_route_ownership': 'Network routes managed by MoeHtet',
   'diag_check_protection_recovery_journal': 'Recovery journal',
-  'diag_fail_ENGINE_UNAVAILABLE': 'Usque connection service unavailable',
+  'diag_fail_ENGINE_UNAVAILABLE': 'MoeHtet connection service unavailable',
   'diag_fail_AGENT_UNREACHABLE':
-      'Cannot reach the Usque system network service',
+      'Cannot reach the MoeHtet system network service',
   'diag_fail_VPN_SERVICE_UNAVAILABLE': 'VPN service unavailable',
   'diag_fail_PROXY_PORT_IN_USE': 'Proxy port in use',
   'diag_fail_PHYSICAL_IPV4_UNAVAILABLE': 'Physical IPv4 unavailable',
@@ -569,7 +569,7 @@ const Map<String, String> kEnCatalog = <String, String>{
   'diag_fail_SYSTEM_PROXY_STATE_MISMATCH': 'System proxy state mismatch',
   'diag_fail_ROUTE_RESTORE_INCOMPLETE': 'Route restore incomplete',
   'diag_fail_DNS_RESTORE_INCOMPLETE': 'DNS restore incomplete',
-  'diag_fail_SYSTEM_PROXY_STALE': 'Usque system-proxy state was not cleaned up',
+  'diag_fail_SYSTEM_PROXY_STALE': 'MoeHtet system-proxy state was not cleaned up',
   'diag_fail_PLATFORM_RECOVERY_PENDING':
       'System network settings not yet restored',
   'diag_fail_PACKET_SEND_FAILED': 'Packet send failed',
@@ -585,7 +585,7 @@ const Map<String, String> kEnCatalog = <String, String>{
   'diag_fix_try_http2':
       'In Settings → Advanced network settings, select HTTP/2 and apply the change, then try connecting again.',
   'diag_fix_check_physical_network':
-      'Check that Wi-Fi or mobile data works without Usque, then retry the connection.',
+      'Check that Wi-Fi or mobile data works without MoeHtet, then retry the connection.',
   'diag_fix_refresh_or_replace_identity':
       'Open Accounts and choose Set up WARP account for this account. Sign in again or create a new WARP account, then reconnect.',
   'diag_fix_replace_identity':
@@ -593,7 +593,7 @@ const Map<String, String> kEnCatalog = <String, String>{
   'diag_fix_review_configuration':
       'Open Settings → Advanced network settings, correct the highlighted values and apply changes.',
   'diag_fix_restore_platform_state':
-      'Fully exit and reopen Usque, then retry. If it still fails, open Diagnostics and export a diagnostic package for support.',
+      'Fully exit and reopen MoeHtet, then retry. If it still fails, open Diagnostics and export a diagnostic package for support.',
   'diag_fix_resolve_dependency':
       'Address the failed checks in this list first, then run diagnostics again.',
   'diag_fix_run_deep_diagnostics':
@@ -603,7 +603,7 @@ const Map<String, String> kEnCatalog = <String, String>{
   'diag_fix_inspect_platform_state':
       'Open Diagnostics and review the System protection checks. If they still fail, export a diagnostic package for support.',
   'diag_fix_generate_tunnel_traffic':
-      'Open a web page through Usque, then run this check again.',
+      'Open a web page through MoeHtet, then run this check again.',
   'diag_fix_export_diagnostics':
       'Export a diagnostic bundle and send it to support. Sensitive information is removed.',
   'diag_fix_retry': 'Try again shortly.',

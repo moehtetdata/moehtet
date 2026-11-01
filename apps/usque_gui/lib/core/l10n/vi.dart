@@ -14,17 +14,17 @@ const Map<String, String> kViCatalog = <String, String>{
   'disable_quic': "Tắt QUIC",
   'disable_quic_managed': 'Được kết nối hiện tại quản lý tự động',
   'disable_quic_help':
-      "Chặn lưu lượng UDP cổng 443 do Usque chuyển tiếp, chủ yếu là QUIC, để ứng dụng chuyển sang TCP. Lưu lượng trực tiếp và kết nối riêng của Usque không bị ảnh hưởng. Có hiệu lực ngay.",
+      "Chặn lưu lượng UDP cổng 443 do MoeHtet chuyển tiếp, chủ yếu là QUIC, để ứng dụng chuyển sang TCP. Lưu lượng trực tiếp và kết nối riêng của MoeHtet không bị ảnh hưởng. Có hiệu lực ngay.",
   'disable_quic_unsupported':
-      'Hiện không thể chặn QUIC. Hãy khởi động lại Usque; nếu vẫn không được, hãy kiểm tra bản cập nhật trong Cài đặt.',
+      'Hiện không thể chặn QUIC. Hãy khởi động lại MoeHtet; nếu vẫn không được, hãy kiểm tra bản cập nhật trong Cài đặt.',
   'technical_details': 'Chi tiết kỹ thuật',
   'diag_skip_disconnected': 'Kết nối để chạy kiểm tra này.',
   'diag_skip_disabled': 'Tính năng này đã tắt.',
   'diag_skip_unsupported': 'Không thể chạy kiểm tra này trên thiết bị này.',
   'diag_skip_traffic': 'Sử dụng kết nối rồi chạy lại kiểm tra này.',
   'diag_skip_deep': 'Chọn chế độ chuyên sâu để chạy kiểm tra này.',
-  'app_loading': "Đang tải Usque",
-  'app_name': 'Usque',
+  'app_loading': "Đang tải MoeHtet",
+  'app_name': 'MoeHtet',
   'diag_fail_L4_SESSION_UNAVAILABLE': 'Phiên L4 không khả dụng',
   'diag_fail_L4_PROTOCOL_ERROR': 'Lỗi giao thức L4',
   'diag_fail_L4_CONNECT_REJECTED': 'L4 CONNECT bị từ chối',
@@ -35,14 +35,14 @@ const Map<String, String> kViCatalog = <String, String>{
   'window_maximize': 'Phóng to',
   'window_restore': 'Khôi phục kích thước cửa sổ',
   'window_close': 'Đóng',
-  'tray_open': 'Mở Usque',
+  'tray_open': 'Mở MoeHtet',
   'tray_connect_profile': 'Kết nối tài khoản đang dùng',
   'tray_disconnect_profile': 'Ngắt tài khoản đang dùng',
   'tray_disconnect_exit': 'Ngắt kết nối và thoát',
   'notice_connection_interrupted':
-      'Kết nối bị gián đoạn. Usque đang cố khôi phục kết nối.',
+      'Kết nối bị gián đoạn. MoeHtet đang cố khôi phục kết nối.',
   'notice_connection_failed':
-      'Usque không thể duy trì kết nối. Mở Usque để xem chi tiết.',
+      'MoeHtet không thể duy trì kết nối. Mở MoeHtet để xem chi tiết.',
   'notice_connection_restored': 'Đã khôi phục kết nối.',
   'notice_kill_switch_blocking':
       'Kill Switch đang chặn lưu lượng mạng cho đến khi kết nối được khôi phục hoặc bạn ngắt kết nối.',
@@ -85,7 +85,7 @@ const Map<String, String> kViCatalog = <String, String>{
   'not_available': 'Không có sẵn',
   'location_disconnected': 'Đang chờ kết nối',
   'engine_unavailable':
-      'Không thể khởi động dịch vụ kết nối. Thoát hoàn toàn Usque rồi mở lại. Nếu vẫn gặp lỗi, hãy mở Chẩn đoán.',
+      'Không thể khởi động dịch vụ kết nối. Thoát hoàn toàn MoeHtet rồi mở lại. Nếu vẫn gặp lỗi, hãy mở Chẩn đoán.',
   'dismiss': 'Bỏ qua',
   'new_profile': 'Thêm tài khoản',
   'profile_name': 'Tên tài khoản',
@@ -106,7 +106,7 @@ const Map<String, String> kViCatalog = <String, String>{
   'zero_trust_open_login': 'Mở đăng nhập tổ chức',
   'zero_trust_browser_failed': 'Không thể mở trình duyệt hệ thống.',
   'zero_trust_manual_callback':
-      'Quay lại Usque sau khi đăng nhập. Nếu đăng nhập không tự hoàn tất, hãy sao chép toàn bộ liên kết mở WARP trên trang đăng nhập rồi dán vào bên dưới.',
+      'Quay lại MoeHtet sau khi đăng nhập. Nếu đăng nhập không tự hoàn tất, hãy sao chép toàn bộ liên kết mở WARP trên trang đăng nhập rồi dán vào bên dưới.',
   'zero_trust_callback_received':
       'Đã nhận thông tin đăng nhập. Tiếp tục thiết lập tài khoản.',
   'zero_trust_callback': 'Liên kết quay lại sau khi đăng nhập',
@@ -137,7 +137,7 @@ const Map<String, String> kViCatalog = <String, String>{
   "zero_trust_endpoint_risk_locked":
       "Xác nhận rủi ro trước khi sửa các địa chỉ này.",
   "zero_trust_endpoint_unsupported":
-      "Cập nhật Usque để sửa điểm cuối Zero Trust.",
+      "Cập nhật MoeHtet để sửa điểm cuối Zero Trust.",
   "zero_trust_reauth_endpoints":
       "Đăng nhập lại khôi phục địa chỉ đã đăng ký và xóa địa chỉ tùy chỉnh.",
   'experimental': 'Thử nghiệm',
@@ -155,7 +155,7 @@ const Map<String, String> kViCatalog = <String, String>{
   'delete': 'Xóa',
   'delete_profile': 'Xóa tài khoản?',
   'delete_profile_body':
-      "Xóa tài khoản này và thông tin đăng nhập WARP của nó khỏi thiết bị này? Nếu đã liên kết License Key, Usque cũng sẽ thử hủy liên kết.",
+      "Xóa tài khoản này và thông tin đăng nhập WARP của nó khỏi thiết bị này? Nếu đã liên kết License Key, MoeHtet cũng sẽ thử hủy liên kết.",
   'delete_zero_trust_profile_body':
       'Tài khoản và thông tin đăng nhập này sẽ bị xóa khỏi thiết bị. Để hủy đăng ký thiết bị trong Zero Trust của tổ chức, hãy liên hệ quản trị viên.',
   'license_not_applicable': 'Tài khoản tổ chức · Thử nghiệm',
@@ -205,7 +205,7 @@ const Map<String, String> kViCatalog = <String, String>{
   'proxy_password_set': 'Đã đặt mật khẩu. Nhập mật khẩu mới để thay thế.',
   'proxy_auth_clear': 'Bỏ bảo vệ bằng mật khẩu',
   'general': 'Chung',
-  'start_on_boot': 'Khởi chạy Usque khi bạn đăng nhập',
+  'start_on_boot': 'Khởi chạy MoeHtet khi bạn đăng nhập',
   'close_to_tray': 'Đóng cửa sổ về khay hệ thống',
   'add_quick_settings_tile': 'Thêm ô Cài đặt nhanh',
   'theme': 'Chủ đề',
@@ -241,7 +241,7 @@ const Map<String, String> kViCatalog = <String, String>{
   'update_available': 'Đã có bản phát hành mới hơn:',
   'already_latest': 'Bản cài đặt này đã là phiên bản mới nhất.',
   'open_release': 'Mở trang phát hành',
-  'update_startup_description': 'Kiểm tra bản cập nhật khi khởi động Usque.',
+  'update_startup_description': 'Kiểm tra bản cập nhật khi khởi động MoeHtet.',
   'update_checking': 'Đang kiểm tra bản cập nhật…',
   'update_downloading': 'Đang tải bản cập nhật…',
   'update_verifying': 'Đang xác minh gói cập nhật…',
@@ -279,7 +279,7 @@ const Map<String, String> kViCatalog = <String, String>{
       'Chọn điểm cuối khả dụng nhanh nhất cho tài khoản này. Thay đổi địa chỉ chỉ được lưu trong chế độ Tùy chỉnh.',
   'endpoint_custom_help': 'Sử dụng các địa chỉ IPv4 và IPv6 bên dưới.',
   'endpoint_unsupported':
-      'Cập nhật Usque để dùng tính năng tự động chọn điểm cuối.',
+      'Cập nhật MoeHtet để dùng tính năng tự động chọn điểm cuối.',
   'endpoint_ipv4': 'Điểm cuối IPv4',
   'endpoint_ipv6': 'Điểm cuối IPv6',
   'sni': 'SNI',
@@ -306,9 +306,9 @@ const Map<String, String> kViCatalog = <String, String>{
   'kill_switch_help_android':
       'Chặn lưu lượng khi kết nối, kết nối lại hoặc gặp lỗi. Chỉ khi dịch vụ VPN đang chạy.',
   'start_on_boot_android':
-      'Khởi chạy Usque sau khi thiết bị khởi động lại. Để tự kết nối, hãy bật thêm “Tự kết nối tài khoản hiện tại khi khởi động”.',
+      'Khởi chạy MoeHtet sau khi thiết bị khởi động lại. Để tự kết nối, hãy bật thêm “Tự kết nối tài khoản hiện tại khi khởi động”.',
   'add_quick_settings_tile_help':
-      'Thêm ô Usque trên Android 13 trở lên. Trên phiên bản cũ hơn, hãy thêm thủ công từ Cài đặt nhanh.',
+      'Thêm ô MoeHtet trên Android 13 trở lên. Trên phiên bản cũ hơn, hãy thêm thủ công từ Cài đặt nhanh.',
   'always_on_vpn': 'Mở cài đặt VPN luôn bật',
   'always_on_vpn_help':
       'Bật VPN luôn bật và Chặn kết nối khi không có VPN để chống rò rỉ sau khi ứng dụng bị buộc dừng.',
@@ -348,7 +348,7 @@ const Map<String, String> kViCatalog = <String, String>{
       'Kiểm tra sự cố kết nối, xuất nhật ký và quản lý dữ liệu cục bộ.',
   'engine_status': 'Thông tin kết nối',
   'version': 'Phiên bản',
-  'app_version': 'Usque 0.3.3',
+  'app_version': 'MoeHtet 0.3.3',
   'logs': 'Nhật ký cục bộ',
   'export_diagnostics': 'Xuất gói chẩn đoán',
   'diagnostics_saved': 'Đã lưu gói chẩn đoán vào',
@@ -359,12 +359,12 @@ const Map<String, String> kViCatalog = <String, String>{
       'Ngắt kết nối và xóa vĩnh viễn mọi tài khoản, thông tin đăng nhập WARP, cài đặt, bộ nhớ đệm và dữ liệu chẩn đoán trên thiết bị này.',
   'clear_all_data_confirm':
       'Không thể hoàn tác thao tác này. Kết nối sẽ bị ngắt, mọi tài khoản và thông tin đăng nhập sẽ bị xóa, ứng dụng sẽ quay về bước thiết lập ban đầu.',
-  'clear_all_data_complete': 'Đã xóa toàn bộ dữ liệu Usque cục bộ.',
+  'clear_all_data_complete': 'Đã xóa toàn bộ dữ liệu MoeHtet cục bộ.',
   'unofficial':
       'Ứng dụng không chính thức tương thích với dịch vụ Cloudflare® WARP®. Không liên kết, được tài trợ hay được xác nhận bởi Cloudflare, Inc.',
   'trademark_attribution':
       'Cloudflare và WARP là nhãn hiệu và/hoặc nhãn hiệu đã đăng ký của Cloudflare, Inc. tại Hoa Kỳ và các khu vực tài phán khác.',
-  'welcome_title': 'Chào mừng đến với Usque',
+  'welcome_title': 'Chào mừng đến với MoeHtet',
   'setup_progress': 'Bước thiết lập {current} trên {total}',
   'get_started': 'Bắt đầu',
   'permissions_title': 'Quyền hệ thống',
@@ -372,7 +372,7 @@ const Map<String, String> kViCatalog = <String, String>{
       'Cần có quyền hệ thống để truyền dữ liệu của ứng dụng qua VPN. Tùy chế độ đã chọn, DNS, tuyến mạng, tường lửa hoặc proxy hệ thống cũng có thể được thay đổi.',
   'terms_title': 'Điều khoản Cloudflare',
   'terms_body':
-      'Usque là ứng dụng độc lập. Việc dùng WARP cá nhân hoặc đăng ký Zero Trust thử nghiệm vẫn tuân theo điều khoản và chính sách quyền riêng tư của Cloudflare.',
+      'MoeHtet là ứng dụng độc lập. Việc dùng WARP cá nhân hoặc đăng ký Zero Trust thử nghiệm vẫn tuân theo điều khoản và chính sách quyền riêng tư của Cloudflare.',
   'terms_accept': 'Tôi hiểu và chấp nhận các điều kiện này.',
   'identity_title': 'Thiết lập tài khoản WARP cá nhân',
   'register_new': 'Tạo tài khoản WARP miễn phí',
@@ -400,7 +400,7 @@ const Map<String, String> kViCatalog = <String, String>{
   'bypass_line_error': 'Dòng {line}: {reason}',
   'bypass_summary': '{countries} khu vực · {targets} đích tùy chỉnh',
   'geo_direct_help':
-      'Lưu lượng khớp các quốc gia hoặc khu vực này bỏ qua VPN/TUN của Usque và proxy cục bộ HTTP cùng SOCKS5. Nhà cung cấp DNS của mạng hiện tại có thể thấy các tên miền được truy vấn. Ứng dụng dùng DNS mã hóa chỉ được định tuyến theo địa chỉ IP.',
+      'Lưu lượng khớp các quốc gia hoặc khu vực này bỏ qua VPN/TUN của MoeHtet và proxy cục bộ HTTP cùng SOCKS5. Nhà cung cấp DNS của mạng hiện tại có thể thấy các tên miền được truy vấn. Ứng dụng dùng DNS mã hóa chỉ được định tuyến theo địa chỉ IP.',
   'geo_update_all': 'Cập nhật dữ liệu địa lý',
   'geo_last_updated': 'Lần cập nhật thành công gần nhất: {current}',
   'geo_never_updated': 'Chưa cập nhật',
@@ -529,11 +529,11 @@ const Map<String, String> kViCatalog = <String, String>{
   'diag_check_tunnel_ipv6_egress': 'Lối ra IPv6',
   'diag_check_protection_kill_switch': 'Trạng thái Kill Switch',
   'diag_check_protection_dns_path': 'Đường DNS',
-  'diag_check_protection_route_ownership': 'Tuyến mạng do Usque quản lý',
+  'diag_check_protection_route_ownership': 'Tuyến mạng do MoeHtet quản lý',
   'diag_check_protection_recovery_journal': 'Nhật ký khôi phục',
   'diag_fail_ENGINE_UNAVAILABLE': 'Dịch vụ kết nối không khả dụng',
   'diag_fail_AGENT_UNREACHABLE':
-      'Không thể liên lạc với dịch vụ mạng hệ thống của Usque',
+      'Không thể liên lạc với dịch vụ mạng hệ thống của MoeHtet',
   'diag_fail_VPN_SERVICE_UNAVAILABLE': 'Dịch vụ VPN không khả dụng',
   'diag_fail_PROXY_PORT_IN_USE': 'Cổng proxy đang dùng',
   'diag_fail_PHYSICAL_IPV4_UNAVAILABLE': 'IPv4 vật lý không khả dụng',
@@ -571,7 +571,7 @@ const Map<String, String> kViCatalog = <String, String>{
   'diag_fail_ROUTE_RESTORE_INCOMPLETE': 'Khôi phục tuyến chưa đủ',
   'diag_fail_DNS_RESTORE_INCOMPLETE': 'Khôi phục DNS chưa đủ',
   'diag_fail_SYSTEM_PROXY_STALE':
-      'Trạng thái proxy hệ thống của Usque chưa được dọn',
+      'Trạng thái proxy hệ thống của MoeHtet chưa được dọn',
   'diag_fail_PLATFORM_RECOVERY_PENDING': 'Chưa khôi phục cài đặt mạng hệ thống',
   'diag_fail_PACKET_SEND_FAILED': 'Gửi gói thất bại',
   'diag_fail_PACKET_SEND_TIMEOUT': 'Hết thời gian gửi gói',
@@ -594,7 +594,7 @@ const Map<String, String> kViCatalog = <String, String>{
   'diag_fix_review_configuration':
       'Mở Cài đặt → Cài đặt mạng nâng cao, sửa các trường được đánh dấu rồi áp dụng thay đổi.',
   'diag_fix_restore_platform_state':
-      'Thoát hoàn toàn Usque, mở lại rồi thử lại. Nếu vẫn gặp lỗi, hãy xuất nhật ký trong Chẩn đoán để gửi cho bộ phận hỗ trợ.',
+      'Thoát hoàn toàn MoeHtet, mở lại rồi thử lại. Nếu vẫn gặp lỗi, hãy xuất nhật ký trong Chẩn đoán để gửi cho bộ phận hỗ trợ.',
   'diag_fix_resolve_dependency':
       'Xử lý các mục kiểm tra thất bại trước, rồi chạy lại chẩn đoán.',
   'diag_fix_run_deep_diagnostics':
@@ -604,7 +604,7 @@ const Map<String, String> kViCatalog = <String, String>{
   'diag_fix_inspect_platform_state':
       'Xem các mục kiểm tra thất bại trong Chẩn đoán → Bảo vệ hệ thống. Nếu vẫn gặp lỗi, hãy xuất nhật ký.',
   'diag_fix_generate_tunnel_traffic':
-      'Mở một trang web qua kết nối Usque rồi chạy lại kiểm tra.',
+      'Mở một trang web qua kết nối MoeHtet rồi chạy lại kiểm tra.',
   'diag_fix_export_diagnostics':
       'Xuất gói chẩn đoán và gửi cho bộ phận hỗ trợ. Thông tin nhạy cảm sẽ được loại bỏ.',
   'diag_fix_retry': 'Thử lại sau một lúc.',

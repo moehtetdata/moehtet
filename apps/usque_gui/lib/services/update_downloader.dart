@@ -327,7 +327,7 @@ class UpdateDownloader {
                   '$expectedExtension';
       if (!exactRepositoryAsset) {
         throw const UpdateDownloadException(
-          'The update package was not an exact Usque GitHub release asset.',
+          'The update package was not an exact MoeHtet GitHub release asset.',
         );
       }
     }

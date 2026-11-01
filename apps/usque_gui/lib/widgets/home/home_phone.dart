@@ -28,7 +28,7 @@ class HomePhoneHeader extends StatelessWidget {
     return Row(
       children: [
         Semantics(
-          label: 'Usque',
+          label: 'MoeHtet',
           header: true,
           excludeSemantics: true,
           child: Row(
@@ -36,7 +36,7 @@ class HomePhoneHeader extends StatelessWidget {
             children: [
               const UsqueLogo(size: 40),
               const SizedBox(width: UsqueSpace.s),
-              Text('Usque', style: theme.textTheme.titleLarge),
+              Text('MoeHtet', style: theme.textTheme.titleLarge),
             ],
           ),
         ),

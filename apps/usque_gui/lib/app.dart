@@ -144,7 +144,7 @@ class _UsqueBootstrapState extends State<UsqueBootstrap>
           LocalePreference.vietnamese => const Locale('vi'),
         };
         return MaterialApp(
-          title: 'Usque',
+          title: 'MoeHtet',
           debugShowCheckedModeBanner: false,
           theme: UsqueTheme.light(),
           darkTheme: UsqueTheme.dark(),

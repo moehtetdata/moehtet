@@ -44,7 +44,7 @@ const kChainEn = <String, String>{
       "Connect through WARP. HTTP carries TCP; SOCKS5 can also carry UDP with H3/H2.",
   "dns_inherit": "Leave blank to inherit network DNS. Queries use this exit.",
   "scope_proxy_only":
-      "Usque currently proxies only connections that apps send to it. Other connections may reveal your public IP address.",
+      "MoeHtet currently proxies only connections that apps send to it. Other connections may reveal your public IP address.",
   "scope_bypass": "Your direct-connection and per-app rules still apply.",
   "scope_interrupted":
       "The connection has stopped. Your device may return to its ordinary network connection.",
@@ -73,7 +73,7 @@ const kChainEn = <String, String>{
       'CLIENT_CERT conflicts with the inline certificate or authentication mode.',
   'serialized_size_limit': 'The configuration is too large to store.',
   'multi_endpoint_unavailable':
-      'This configuration lists several servers. Update Usque to use it.',
+      'This configuration lists several servers. Update MoeHtet to use it.',
   'candidates': 'Servers to try',
   'random_order': 'Each connection tries these servers in a new random order.',
   'file_order': 'Each connection tries these servers in the order listed.',
@@ -151,7 +151,7 @@ const kChainEn = <String, String>{
   'l4': 'This configuration needs UDP, which L4 does not support.',
   'switch_mode': 'Turn off L4 and apply',
   'unsupported':
-      'This version of Usque cannot use this exit source. Check for updates in Settings.',
+      'This version of MoeHtet cannot use this exit source. Check for updates in Settings.',
   'scope':
       'Your direct-connection rules still apply. All other traffic leaves through the selected exit.',
   'allowed': 'Allowed destinations',
@@ -222,7 +222,7 @@ const kChainZhCn = <String, String>{
   "add_proxy": "添加代理",
   "proxy_hint": "通过 WARP 连接。HTTP 支持 TCP；SOCKS5 在 H3/H2 下还可支持 UDP。",
   "dns_inherit": "留空继承网络 DNS，查询经此出口发送。",
-  "scope_proxy_only": "当前仅代理应用交给 Usque 的连接，其他联网可能显示本机公网 IP。",
+  "scope_proxy_only": "当前仅代理应用交给 MoeHtet 的连接，其他联网可能显示本机公网 IP。",
   "scope_bypass": "已设置的直连和分应用规则继续生效。",
   "scope_interrupted": "连接已中断，设备可能恢复普通网络。",
   "scope_android_settings": "如需在服务停止后继续阻断，请在系统设置中开启“始终开启 VPN”和“无 VPN 时拦截连接”。",
@@ -244,7 +244,7 @@ const kChainZhCn = <String, String>{
   'too_many_endpoints': '最多支持 16 个 remote 端点。',
   'conflicting_authentication': 'CLIENT_CERT 与内嵌证书或认证方式冲突。',
   'serialized_size_limit': '配置过大，无法保存。',
-  'multi_endpoint_unavailable': '此配置包含多个服务器，需要更新 Usque 后才能使用。',
+  'multi_endpoint_unavailable': '此配置包含多个服务器，需要更新 MoeHtet 后才能使用。',
   'candidates': '待尝试的服务器',
   'random_order': '每次连接时按新的随机顺序尝试这些服务器。',
   'file_order': '每次连接时按列出的顺序尝试这些服务器。',
@@ -316,7 +316,7 @@ const kChainZhCn = <String, String>{
   'no_selection': '尚未选择配置',
   'l4': '此配置需要 UDP，L4 模式不支持。',
   'switch_mode': '关闭 L4 并应用',
-  'unsupported': '此版本的 Usque 无法使用此出口来源，请在“设置”中检查更新。',
+  'unsupported': '此版本的 MoeHtet 无法使用此出口来源，请在“设置”中检查更新。',
   'scope': '已设置的直连规则不受影响，其余流量都经由所选出口。',
   'allowed': '允许访问的目标',
   'dns': 'DNS',

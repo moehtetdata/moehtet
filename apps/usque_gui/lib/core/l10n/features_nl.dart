@@ -16,7 +16,7 @@ const Map<String, String> kUiWorkflowNl = <String, String>{
   'proxy_switches_hint': 'Schakelaars werken meteen.',
   'cc_label': 'HTTP/3-congestiecontrole',
   'cc_help': 'Wordt bij de volgende handmatige verbinding toegepast.',
-  'cc_upgrade': 'Werk Usque bij via Instellingen om deze optie te gebruiken.',
+  'cc_upgrade': 'Werk MoeHtet bij via Instellingen om deze optie te gebruiken.',
   'cc_h2': 'Deze optie geldt alleen voor HTTP/3-verbindingen.',
   'cc_saved': 'Opgeslagen',
   'cc_pending': 'Wacht op de volgende handmatige verbinding.',
@@ -95,7 +95,7 @@ const Map<String, String> kNetworkQualityNl = <String, String>{
   'nq_finding_dns_system':
       'DNS van het huidige netwerk wordt gebruikt; controles voor versleutelde DNS zijn niet van toepassing.',
   'nq_finding_unsupported':
-      'Werk Usque bij voor versleutelde DNS. Aanvragen schakelen niet over op onversleutelde DNS.',
+      'Werk MoeHtet bij voor versleutelde DNS. Aanvragen schakelen niet over op onversleutelde DNS.',
   'nq_finding_dns_custom_valid':
       'De aangepaste configuratie voor versleutelde DNS is geldig. Terugval '
       'naar platte tekst is uitgeschakeld.',
@@ -108,7 +108,7 @@ const Map<String, String> kNetworkQualityNl = <String, String>{
   'nq_finding_queue_pressure':
       'Verkeer wacht op verzending of er zijn gegevens weggegooid tijdens deze verbinding.',
   'nq_finding_pmtu_degraded':
-      'Usque kon geen geschikte pakketgrootte voor deze verbinding bevestigen.',
+      'MoeHtet kon geen geschikte pakketgrootte voor deze verbinding bevestigen.',
   'nq_finding_migration_reconnect':
       'Bij een netwerkwissel moet deze verbinding opnieuw worden opgezet.',
   'nq_finding_dns_changed':
@@ -185,10 +185,10 @@ const Map<String, String> kNetworkQualityNl = <String, String>{
   'nq_outer_pmtu': 'Buitenste UDP-payloadlimiet',
   'nq_inner_payload': 'CONNECT-IP-payloadlimiet',
   'nq_pmtu_help':
-      'Dit is de pakketgrootte die het netwerkpad aankan. Usque controleert die automatisch om pakketverlies te beperken. Dit verhoogt niet de VPN-MTU in Geavanceerde netwerkinstellingen.',
+      'Dit is de pakketgrootte die het netwerkpad aankan. MoeHtet controleert die automatisch om pakketverlies te beperken. Dit verhoogt niet de VPN-MTU in Geavanceerde netwerkinstellingen.',
   'nq_migration': 'Netwerkmigratie',
   'nq_migration_help':
-      'Usque probeert de verbinding te behouden als u van netwerk wisselt, bijvoorbeeld van wifi naar mobiele data. Beide netwerken moeten dezelfde IP-versie gebruiken: IPv4 of IPv6.',
+      'MoeHtet probeert de verbinding te behouden als u van netwerk wisselt, bijvoorbeeld van wifi naar mobiele data. Beide netwerken moeten dezelfde IP-versie gebruiken: IPv4 of IPv6.',
   'nq_attempts': 'Pogingen',
   'nq_successes': 'Geslaagd',
   'nq_failures': 'Mislukt',
@@ -240,13 +240,13 @@ const Map<String, String> kNetworkQualityNl = <String, String>{
   'nq_reason_family_unavailable':
       'Het nieuwe netwerk kan niet dezelfde IP-versie gebruiken. Opnieuw verbinden is nodig.',
   'nq_reason_socket_protect_failed':
-      'Usque kon het nieuwe netwerk niet veilig gebruiken. Verbind handmatig opnieuw als de verbinding niet herstelt.',
+      'MoeHtet kon het nieuwe netwerk niet veilig gebruiken. Verbind handmatig opnieuw als de verbinding niet herstelt.',
   'nq_reason_generation_changed_during_setup':
       'Het netwerk is tijdens de voorbereiding opnieuw gewijzigd.',
   'nq_reason_peer_cid_unavailable':
       'De server kon de verbinding op het nieuwe netwerk niet behouden. Verbind zo nodig handmatig opnieuw.',
   'nq_reason_local_cid_unavailable':
-      'Usque kon de verbinding op het nieuwe netwerk niet behouden. Verbind zo nodig handmatig opnieuw.',
+      'MoeHtet kon de verbinding op het nieuwe netwerk niet behouden. Verbind zo nodig handmatig opnieuw.',
   'nq_reason_path_probe_rejected':
       'Het nieuwe netwerk slaagde niet voor de verbindingscontrole. Controleer de internettoegang.',
   'nq_reason_path_validation_timeout':
@@ -254,7 +254,7 @@ const Map<String, String> kNetworkQualityNl = <String, String>{
   'nq_reason_superseded':
       'Het netwerk veranderde opnieuw voordat de wissel klaar was.',
   'nq_reason_promotion_failed':
-      'Usque kon de netwerkwissel niet veilig voltooien. Verbind handmatig opnieuw als de verbinding niet herstelt.',
+      'MoeHtet kon de netwerkwissel niet veilig voltooien. Verbind handmatig opnieuw als de verbinding niet herstelt.',
   'nq_reason_connection_closed':
       'De verbinding is gesloten tijdens de netwerkwissel. Verbind opnieuw.',
   'nq_reason_unsupported': 'Migratie is op deze verbinding niet beschikbaar.',
@@ -265,7 +265,7 @@ const Map<String, String> kNetworkQualityNl = <String, String>{
   'nq_dns_port': 'Poort (0 gebruikt de standaardwaarde)',
   'nq_dns_bootstrap': 'IP-adressen van DNS-server',
   'nq_dns_bootstrap_help':
-      'Voer 1–8 IP-adressen van je DNS-aanbieder in, één per regel, zoals 1.1.1.1. Usque verbindt rechtstreeks met deze adressen zonder eerst de servernaam op te zoeken.',
+      'Voer 1–8 IP-adressen van je DNS-aanbieder in, één per regel, zoals 1.1.1.1. MoeHtet verbindt rechtstreeks met deze adressen zonder eerst de servernaam op te zoeken.',
   'nq_dns_no_fallback':
       'Als versleutelde DNS niet beschikbaar is, mislukken aanvragen in plaats van over te schakelen naar onversleutelde DNS.',
   'nq_dns_system_privacy':
@@ -273,7 +273,7 @@ const Map<String, String> kNetworkQualityNl = <String, String>{
   'nq_dns_scope':
       'Voor omzeilingsregels per land en eigen domeinen. DNS voor VPN-verkeer blijft ongewijzigd.',
   'nq_dns_no_capability':
-      'Werk Usque bij voor versleutelde DNS bij direct verkeer. Je instellingen blijven bewaard. Je kunt DNS van het huidige netwerk kiezen als je de privacygevolgen accepteert.',
+      'Werk MoeHtet bij voor versleutelde DNS bij direct verkeer. Je instellingen blijven bewaard. Je kunt DNS van het huidige netwerk kiezen als je de privacygevolgen accepteert.',
   'nq_dns_invalid_name':
       'Voer een domein zoals dns.example.com in, zonder https://, poort of spaties.',
   'nq_dns_invalid_path':
@@ -292,9 +292,9 @@ const Map<String, String> kNetworkQualityNl = <String, String>{
 
 const Map<String, String> kWindowsRecoveryNl = <String, String>{
   'WINDOWS_DEVICE_REUSE_UNSUPPORTED':
-      'De verbindingsonderdelen van Usque moeten samen worden bijgewerkt. Controleer op updates bij Instellingen. Er is geen nieuwe VPN-verbinding gestart.',
+      'De verbindingsonderdelen van MoeHtet moeten samen worden bijgewerkt. Controleer op updates bij Instellingen. Er is geen nieuwe VPN-verbinding gestart.',
   'WINDOWS_DEVICE_RECOVERY_REQUIRED':
-      'De vorige VPN-verbinding is nog niet opgeruimd. Sluit Usque volledig en open het opnieuw. Open Diagnostiek als het probleem blijft.',
+      'De vorige VPN-verbinding is nog niet opgeruimd. Sluit MoeHtet volledig en open het opnieuw. Open Diagnostiek als het probleem blijft.',
   'WINDOWS_RECOVERY_FAILED':
       'De vorige VPN-netwerkstatus kon niet volledig worden hersteld. Er is '
       'geen nieuwe VPN-verbinding gestart. Probeer de verbinding opnieuw of '
@@ -314,7 +314,7 @@ const Map<String, String> kWindowsRecoveryNl = <String, String>{
       'sessie. Het automatische herstel is gestopt om de actieve verbinding te '
       'beschermen.',
   'WINDOWS_RECOVERY_UNSUPPORTED':
-      'Deze installatie kan de vorige VPN-instellingen niet automatisch herstellen. Werk Usque bij via Instellingen en probeer opnieuw.',
+      'Deze installatie kan de vorige VPN-instellingen niet automatisch herstellen. Werk MoeHtet bij via Instellingen en probeer opnieuw.',
 };
 
 const String kWindowsAdapterCleanupNl =
@@ -332,7 +332,7 @@ const Map<String, String> kL4Nl = <String, String>{
   'l4_explanation':
       'L4 vervoert TCP via HTTP/3 en werkt met VPN, SOCKS5- en HTTP-proxy’s. DNS-aanvragen van de VPN worden omgezet naar TCP. Apps die ander UDP-verkeer, externe Ping, IP-fragmenten of uitbreidingsheaders nodig hebben, werken mogelijk niet.',
   'l4_unsupported':
-      'L4 is niet beschikbaar in deze Usque-versie. Controleer op updates bij Instellingen.',
+      'L4 is niet beschikbaar in deze MoeHtet-versie. Controleer op updates bij Instellingen.',
   'l4_sni_identity':
       'Automatisch ingesteld door je account. De servernaam voor andere verbindingsmodi blijft bewaard.',
   'l4_edge_requires_l4':
@@ -364,10 +364,10 @@ const Map<String, String> kNetworkSettingsNl = <String, String>{
       'Kan niet bevestigen of de netwerkinstellingen van kracht zijn.',
   'settings_refresh': 'Status vernieuwen',
   'settings_confirmation_unavailable':
-      'De netwerkinstellingen kunnen nog steeds niet worden bevestigd. Als vernieuwen niet helpt, sluit Usque volledig, open het opnieuw en controleer de instellingen.',
+      'De netwerkinstellingen kunnen nog steeds niet worden bevestigd. Als vernieuwen niet helpt, sluit MoeHtet volledig, open het opnieuw en controleer de instellingen.',
   'settings_saved': 'Opgeslagen',
   'settings_unsupported':
-      'Sluit Usque volledig, open het opnieuw en sla nogmaals op. Controleer bij problemen op updates in Instellingen.',
+      'Sluit MoeHtet volledig, open het opnieuw en sla nogmaals op. Controleer bij problemen op updates in Instellingen.',
   'settings_save_failed':
       'Instellingen konden niet worden opgeslagen. Uw wijzigingen blijven behouden.',
   'settings_reconnect': 'Opnieuw verbinden',
@@ -397,7 +397,7 @@ const Map<String, String> kChainNl = <String, String>{
   "dns_inherit":
       "Laat leeg om netwerk-DNS te gebruiken. Vragen gaan via deze uitgang.",
   "scope_proxy_only":
-      "Usque stuurt alleen verbindingen door die apps ernaartoe sturen. Andere verbindingen kunnen uw openbare IP-adres onthullen.",
+      "MoeHtet stuurt alleen verbindingen door die apps ernaartoe sturen. Andere verbindingen kunnen uw openbare IP-adres onthullen.",
   "scope_bypass":
       "Uw regels voor directe verbindingen en afzonderlijke apps blijven gelden.",
   "scope_interrupted":
@@ -507,7 +507,7 @@ const Map<String, String> kChainNl = <String, String>{
   'l4': 'Deze configuratie vereist UDP, wat L4 niet ondersteunt.',
   'switch_mode': 'L4 uitschakelen en toepassen',
   'unsupported':
-      'Deze versie van Usque kan deze uitgangsbron niet gebruiken. Controleer bij Instellingen op updates.',
+      'Deze versie van MoeHtet kan deze uitgangsbron niet gebruiken. Controleer bij Instellingen op updates.',
   'scope':
       'Bestaande expliciete directe regels blijven gelden. Overig verkeer gebruikt de gekozen uitgang.',
   'allowed': 'Toegestane bestemmingen',

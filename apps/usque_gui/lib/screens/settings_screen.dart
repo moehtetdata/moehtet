@@ -288,7 +288,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                       icon: LucideIcons.info,
                       title: MaterialLocalizations.of(
                         context,
-                      ).aboutListTileTitle('Usque'),
+                      ).aboutListTileTitle('MoeHtet'),
                       onTap: () =>
                           _open(context, AboutScreen(controller: controller)),
                     ),

@@ -315,7 +315,7 @@ class MainActivity : FlutterFragmentActivity() {
                 val statusBar = getSystemService(StatusBarManager::class.java)
                 statusBar.requestAddTileService(
                     android.content.ComponentName(this@MainActivity, UsqueTileService::class.java),
-                    "Usque",
+                    "MoeHtet",
                     Icon.createWithResource(this@MainActivity, R.drawable.ic_stat_usque),
                     mainExecutor,
                 ) {
@@ -706,7 +706,7 @@ class MainActivity : FlutterFragmentActivity() {
                 request,
                 result,
                 "UPDATE_INSTALL_PERMISSION_DENIED",
-                "Permission to install updates from Usque was not granted.",
+                "Permission to install updates from MoeHtet was not granted.",
                 null,
             )
             return

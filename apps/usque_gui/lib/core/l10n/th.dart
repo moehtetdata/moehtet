@@ -14,17 +14,17 @@ const Map<String, String> kThCatalog = <String, String>{
   'disable_quic': "ปิดใช้งาน QUIC",
   'disable_quic_managed': 'จัดการโดยอัตโนมัติตามการเชื่อมต่อปัจจุบัน',
   'disable_quic_help':
-      "บล็อกทราฟฟิก UDP พอร์ต 443 ที่ Usque ส่งต่อ ซึ่งส่วนใหญ่เป็น QUIC เพื่อให้แอปกลับไปใช้ TCP ไม่กระทบทราฟฟิกโดยตรงและการเชื่อมต่อของ Usque เอง มีผลทันที",
+      "บล็อกทราฟฟิก UDP พอร์ต 443 ที่ MoeHtet ส่งต่อ ซึ่งส่วนใหญ่เป็น QUIC เพื่อให้แอปกลับไปใช้ TCP ไม่กระทบทราฟฟิกโดยตรงและการเชื่อมต่อของ MoeHtet เอง มีผลทันที",
   'disable_quic_unsupported':
-      'ขณะนี้บล็อก QUIC ไม่ได้ ให้เริ่ม Usque ใหม่ หากยังใช้ไม่ได้ ให้ตรวจหาอัปเดตในการตั้งค่า',
+      'ขณะนี้บล็อก QUIC ไม่ได้ ให้เริ่ม MoeHtet ใหม่ หากยังใช้ไม่ได้ ให้ตรวจหาอัปเดตในการตั้งค่า',
   'technical_details': 'รายละเอียดทางเทคนิค',
   'diag_skip_disconnected': 'เชื่อมต่อก่อนเริ่มการตรวจสอบนี้',
   'diag_skip_disabled': 'ฟีเจอร์นี้ปิดอยู่',
   'diag_skip_unsupported': 'อุปกรณ์นี้ไม่รองรับการตรวจสอบนี้',
   'diag_skip_traffic': 'ใช้งานการเชื่อมต่อแล้วเริ่มการตรวจสอบนี้อีกครั้ง',
   'diag_skip_deep': 'เลือกโหมดเชิงลึกเพื่อเริ่มการตรวจสอบนี้',
-  'app_loading': "กำลังโหลด Usque",
-  'app_name': 'Usque',
+  'app_loading': "กำลังโหลด MoeHtet",
+  'app_name': 'MoeHtet',
   'diag_fail_L4_SESSION_UNAVAILABLE': 'เซสชัน L4 ไม่พร้อมใช้งาน',
   'diag_fail_L4_PROTOCOL_ERROR': 'ข้อผิดพลาดโปรโตคอล L4',
   'diag_fail_L4_CONNECT_REJECTED': 'L4 CONNECT ถูกปฏิเสธ',
@@ -35,14 +35,14 @@ const Map<String, String> kThCatalog = <String, String>{
   'window_maximize': 'ขยายใหญ่สุด',
   'window_restore': 'คืนขนาดหน้าต่าง',
   'window_close': 'ปิด',
-  'tray_open': 'เปิด Usque',
+  'tray_open': 'เปิด MoeHtet',
   'tray_connect_profile': 'เชื่อมต่อบัญชีที่ใช้งาน',
   'tray_disconnect_profile': 'ตัดการเชื่อมต่อบัญชีที่ใช้งาน',
   'tray_disconnect_exit': 'ตัดการเชื่อมต่อแล้วออก',
   'notice_connection_interrupted':
-      'การเชื่อมต่อถูกขัดจังหวะ Usque กำลังพยายามกู้คืน',
+      'การเชื่อมต่อถูกขัดจังหวะ MoeHtet กำลังพยายามกู้คืน',
   'notice_connection_failed':
-      'Usque ไม่สามารถรักษาการเชื่อมต่อไว้ได้ เปิด Usque เพื่อดูรายละเอียด',
+      'MoeHtet ไม่สามารถรักษาการเชื่อมต่อไว้ได้ เปิด MoeHtet เพื่อดูรายละเอียด',
   'notice_connection_restored': 'กู้คืนการเชื่อมต่อแล้ว',
   'notice_kill_switch_blocking':
       'Kill Switch กำลังบล็อกการรับส่งข้อมูลเครือข่ายจนกว่าการเชื่อมต่อจะกลับมาหรือคุณตัดการเชื่อมต่อ',
@@ -86,7 +86,7 @@ const Map<String, String> kThCatalog = <String, String>{
   'not_available': 'ไม่พร้อมใช้งาน',
   'location_disconnected': 'รอการเชื่อมต่อ',
   'engine_unavailable':
-      'เริ่มบริการเชื่อมต่อไม่ได้ ปิด Usque ให้สนิทแล้วเปิดใหม่ หากยังมีปัญหา ให้เปิดการวินิจฉัย',
+      'เริ่มบริการเชื่อมต่อไม่ได้ ปิด MoeHtet ให้สนิทแล้วเปิดใหม่ หากยังมีปัญหา ให้เปิดการวินิจฉัย',
   'dismiss': 'ปิด',
   'new_profile': 'เพิ่มบัญชี',
   'profile_name': 'ชื่อบัญชี',
@@ -107,7 +107,7 @@ const Map<String, String> kThCatalog = <String, String>{
   'zero_trust_open_login': 'เปิดหน้าลงชื่อเข้าใช้องค์กร',
   'zero_trust_browser_failed': 'ไม่สามารถเปิดเบราว์เซอร์ของระบบได้',
   'zero_trust_manual_callback':
-      'หลังเข้าสู่ระบบ ให้กลับมาที่ Usque หากเข้าสู่ระบบไม่เสร็จโดยอัตโนมัติ ให้คัดลอกลิงก์ที่ใช้เปิด WARP จากหน้าเข้าสู่ระบบมาทั้งหมด แล้ววางด้านล่าง',
+      'หลังเข้าสู่ระบบ ให้กลับมาที่ MoeHtet หากเข้าสู่ระบบไม่เสร็จโดยอัตโนมัติ ให้คัดลอกลิงก์ที่ใช้เปิด WARP จากหน้าเข้าสู่ระบบมาทั้งหมด แล้ววางด้านล่าง',
   'zero_trust_callback_received':
       'ได้รับข้อมูลการเข้าสู่ระบบแล้ว ดำเนินการตั้งค่าบัญชีต่อ',
   'zero_trust_callback': 'ลิงก์กลับหลังเข้าสู่ระบบ',
@@ -136,7 +136,7 @@ const Map<String, String> kThCatalog = <String, String>{
   "zero_trust_endpoint_risk_continue": "ยอมรับความเสี่ยงและแก้ไขต่อ",
   "zero_trust_endpoint_risk_locked": "ยืนยันความเสี่ยงก่อนแก้ไขที่อยู่เหล่านี้",
   "zero_trust_endpoint_unsupported":
-      "อัปเดต Usque เพื่อแก้ไขปลายทาง Zero Trust",
+      "อัปเดต MoeHtet เพื่อแก้ไขปลายทาง Zero Trust",
   "zero_trust_reauth_endpoints":
       "การเข้าสู่ระบบอีกครั้งจะคืนค่าที่อยู่ปลายทางที่ลงทะเบียนไว้และลบที่อยู่ที่กำหนดเอง",
   'experimental': 'ทดลองใช้',
@@ -154,7 +154,7 @@ const Map<String, String> kThCatalog = <String, String>{
   'delete': 'ลบ',
   'delete_profile': 'ลบบัญชีหรือไม่?',
   'delete_profile_body':
-      "ลบบัญชีนี้และข้อมูลเข้าสู่ระบบ WARP ของบัญชีออกจากอุปกรณ์นี้หรือไม่ หากผูก License Key ไว้ Usque จะพยายามยกเลิกการผูกด้วย",
+      "ลบบัญชีนี้และข้อมูลเข้าสู่ระบบ WARP ของบัญชีออกจากอุปกรณ์นี้หรือไม่ หากผูก License Key ไว้ MoeHtet จะพยายามยกเลิกการผูกด้วย",
   'delete_zero_trust_profile_body':
       'บัญชีและข้อมูลเข้าสู่ระบบนี้จะถูกลบจากอุปกรณ์ หากต้องการยกเลิกการลงทะเบียนอุปกรณ์ใน Zero Trust ขององค์กร ให้ติดต่อผู้ดูแลระบบ',
   'license_not_applicable': 'บัญชีองค์กร · ทดลอง',
@@ -204,7 +204,7 @@ const Map<String, String> kThCatalog = <String, String>{
   'proxy_password_set': 'ตั้งรหัสผ่านแล้ว กรอกรหัสใหม่เพื่อแทนที่',
   'proxy_auth_clear': 'ยกเลิกการป้องกันด้วยรหัสผ่าน',
   'general': 'ทั่วไป',
-  'start_on_boot': 'เริ่ม Usque เมื่อลงชื่อเข้าใช้',
+  'start_on_boot': 'เริ่ม MoeHtet เมื่อลงชื่อเข้าใช้',
   'close_to_tray': 'ปิดหน้าต่างไปที่ถาดระบบ',
   'add_quick_settings_tile': 'เพิ่มไทล์การตั้งค่าด่วน',
   'theme': 'ธีม',
@@ -240,7 +240,7 @@ const Map<String, String> kThCatalog = <String, String>{
   'update_available': 'มีรุ่นใหม่กว่า:',
   'already_latest': 'การติดตั้งนี้เป็นรุ่นล่าสุดแล้ว',
   'open_release': 'เปิดหน้ารุ่น',
-  'update_startup_description': 'ตรวจสอบการอัปเดตเมื่อเริ่ม Usque',
+  'update_startup_description': 'ตรวจสอบการอัปเดตเมื่อเริ่ม MoeHtet',
   'update_checking': 'กำลังตรวจสอบการอัปเดต…',
   'update_downloading': 'กำลังดาวน์โหลดอัปเดต…',
   'update_verifying': 'กำลังตรวจสอบแพ็กเกจอัปเดต…',
@@ -278,7 +278,7 @@ const Map<String, String> kThCatalog = <String, String>{
   'endpoint_automatic_help':
       'เลือกปลายทางที่พร้อมใช้งานและเร็วที่สุดสำหรับบัญชีนี้ การแก้ไขที่อยู่จะบันทึกเฉพาะในโหมดกำหนดเอง',
   'endpoint_custom_help': 'ใช้ที่อยู่ IPv4 และ IPv6 ด้านล่าง',
-  'endpoint_unsupported': 'อัปเดต Usque เพื่อใช้การเลือกปลายทางอัตโนมัติ',
+  'endpoint_unsupported': 'อัปเดต MoeHtet เพื่อใช้การเลือกปลายทางอัตโนมัติ',
   'endpoint_ipv4': 'ปลายทาง IPv4',
   'endpoint_ipv6': 'ปลายทาง IPv6',
   'sni': 'SNI',
@@ -306,9 +306,9 @@ const Map<String, String> kThCatalog = <String, String>{
   'kill_switch_help_android':
       'บล็อกข้อมูลขณะเชื่อมต่อ เชื่อมต่อใหม่ หรือเกิดข้อผิดพลาด เฉพาะขณะบริการ VPN ทำงาน',
   'start_on_boot_android':
-      'เริ่ม Usque หลังอุปกรณ์เริ่มระบบใหม่ หากต้องการเชื่อมต่ออัตโนมัติ ให้เปิด “เชื่อมต่อบัญชีปัจจุบันโดยอัตโนมัติเมื่อเริ่มต้น” ด้วย',
+      'เริ่ม MoeHtet หลังอุปกรณ์เริ่มระบบใหม่ หากต้องการเชื่อมต่ออัตโนมัติ ให้เปิด “เชื่อมต่อบัญชีปัจจุบันโดยอัตโนมัติเมื่อเริ่มต้น” ด้วย',
   'add_quick_settings_tile_help':
-      'เพิ่มไทล์ Usque บน Android 13 ขึ้นไป สำหรับรุ่นเก่า ให้เพิ่มเองจากการตั้งค่าด่วน',
+      'เพิ่มไทล์ MoeHtet บน Android 13 ขึ้นไป สำหรับรุ่นเก่า ให้เพิ่มเองจากการตั้งค่าด่วน',
   'always_on_vpn': 'เปิดการตั้งค่า VPN แบบเปิดตลอดเวลา',
   'always_on_vpn_help':
       'เปิด VPN แบบเปิดตลอดเวลา และบล็อกการเชื่อมต่อเมื่อไม่มี VPN เพื่อป้องกันการรั่วหลังแอปถูกปิด',
@@ -348,7 +348,7 @@ const Map<String, String> kThCatalog = <String, String>{
       'ตรวจสอบปัญหาการเชื่อมต่อ ส่งออกบันทึก และจัดการข้อมูลในเครื่อง',
   'engine_status': 'ข้อมูลการเชื่อมต่อ',
   'version': 'เวอร์ชัน',
-  'app_version': 'Usque 0.3.3',
+  'app_version': 'MoeHtet 0.3.3',
   'logs': 'บันทึกในเครื่อง',
   'export_diagnostics': 'ส่งออกชุดการวินิจฉัย',
   'diagnostics_saved': 'บันทึกชุดการวินิจฉัยไปที่',
@@ -359,12 +359,12 @@ const Map<String, String> kThCatalog = <String, String>{
       'ตัดการเชื่อมต่อและลบทุกบัญชี ข้อมูลเข้าสู่ระบบ WARP การตั้งค่า แคช และข้อมูลการวินิจฉัยออกจากอุปกรณ์นี้อย่างถาวร',
   'clear_all_data_confirm':
       'ย้อนกลับการดำเนินการนี้ไม่ได้ การเชื่อมต่อจะถูกตัด ทุกบัญชีและข้อมูลเข้าสู่ระบบจะถูกลบ และแอปจะกลับไปที่การตั้งค่าเริ่มต้น',
-  'clear_all_data_complete': 'ล้างข้อมูล Usque ในเครื่องทั้งหมดแล้ว',
+  'clear_all_data_complete': 'ล้างข้อมูล MoeHtet ในเครื่องทั้งหมดแล้ว',
   'unofficial':
       'ไคลเอนต์ที่ไม่เป็นทางการและเข้ากันได้กับบริการ Cloudflare® WARP® ไม่มีส่วนเกี่ยวข้อง ไม่ได้รับการสนับสนุนหรือการรับรองจาก Cloudflare, Inc.',
   'trademark_attribution':
       'Cloudflare และ WARP เป็นเครื่องหมายการค้าและ/หรือเครื่องหมายการค้าจดทะเบียนของ Cloudflare, Inc. ในสหรัฐอเมริกาและเขตอำนาจศาลอื่น ๆ',
-  'welcome_title': 'ยินดีต้อนรับสู่ Usque',
+  'welcome_title': 'ยินดีต้อนรับสู่ MoeHtet',
   'setup_progress': 'ขั้นตอนการตั้งค่า {current} จาก {total}',
   'get_started': 'เริ่มต้นใช้งาน',
   'permissions_title': 'สิทธิ์ของระบบ',
@@ -372,7 +372,7 @@ const Map<String, String> kThCatalog = <String, String>{
       'ต้องได้รับสิทธิ์จากระบบเพื่อส่งข้อมูลของแอปผ่าน VPN อาจมีการเปลี่ยน DNS เส้นทางเครือข่าย ไฟร์วอลล์ หรือพร็อกซีระบบด้วย ขึ้นอยู่กับโหมดที่เลือก',
   'terms_title': 'ข้อกำหนดของ Cloudflare',
   'terms_body':
-      'Usque เป็นไคลเอนต์อิสระ การใช้ WARP ส่วนบุคคลหรือการลงทะเบียน Zero Trust แบบทดลองยังอยู่ภายใต้ข้อกำหนดและนโยบายความเป็นส่วนตัวของ Cloudflare',
+      'MoeHtet เป็นไคลเอนต์อิสระ การใช้ WARP ส่วนบุคคลหรือการลงทะเบียน Zero Trust แบบทดลองยังอยู่ภายใต้ข้อกำหนดและนโยบายความเป็นส่วนตัวของ Cloudflare',
   'terms_accept': 'เข้าใจและยอมรับเงื่อนไขเหล่านี้',
   'identity_title': 'ตั้งค่าบัญชี WARP ส่วนตัว',
   'register_new': 'สร้างบัญชี WARP ฟรี',
@@ -400,7 +400,7 @@ const Map<String, String> kThCatalog = <String, String>{
   'bypass_line_error': 'บรรทัด {line}: {reason}',
   'bypass_summary': '{countries} ภูมิภาค · {targets} ปลายทางที่กำหนดเอง',
   'geo_direct_help':
-      'ทราฟฟิกที่ตรงกับประเทศหรือภูมิภาคเหล่านี้จะไม่ผ่าน VPN/TUN ของ Usque และพร็อกซี HTTP กับ SOCKS5 ในเครื่อง ผู้ให้บริการ DNS ของเครือข่ายปัจจุบันอาจเห็นชื่อโดเมนที่สอบถาม แอปที่ใช้ DNS แบบเข้ารหัสจะกำหนดเส้นทางตามที่อยู่ IP เท่านั้น',
+      'ทราฟฟิกที่ตรงกับประเทศหรือภูมิภาคเหล่านี้จะไม่ผ่าน VPN/TUN ของ MoeHtet และพร็อกซี HTTP กับ SOCKS5 ในเครื่อง ผู้ให้บริการ DNS ของเครือข่ายปัจจุบันอาจเห็นชื่อโดเมนที่สอบถาม แอปที่ใช้ DNS แบบเข้ารหัสจะกำหนดเส้นทางตามที่อยู่ IP เท่านั้น',
   'geo_update_all': 'อัปเดตข้อมูลภูมิศาสตร์',
   'geo_last_updated': 'อัปเดตสำเร็จล่าสุด: {current}',
   'geo_never_updated': 'ยังไม่ได้อัปเดต',
@@ -524,10 +524,10 @@ const Map<String, String> kThCatalog = <String, String>{
   'diag_check_tunnel_ipv6_egress': 'ทางออก IPv6',
   'diag_check_protection_kill_switch': 'สถานะ Kill Switch',
   'diag_check_protection_dns_path': 'เส้นทาง DNS',
-  'diag_check_protection_route_ownership': 'เส้นทางเครือข่ายที่ Usque จัดการ',
+  'diag_check_protection_route_ownership': 'เส้นทางเครือข่ายที่ MoeHtet จัดการ',
   'diag_check_protection_recovery_journal': 'สมุดบันทึกการกู้คืน',
   'diag_fail_ENGINE_UNAVAILABLE': 'บริการเชื่อมต่อไม่พร้อมใช้งาน',
-  'diag_fail_AGENT_UNREACHABLE': 'ติดต่อบริการเครือข่ายระบบของ Usque ไม่ได้',
+  'diag_fail_AGENT_UNREACHABLE': 'ติดต่อบริการเครือข่ายระบบของ MoeHtet ไม่ได้',
   'diag_fail_VPN_SERVICE_UNAVAILABLE': 'บริการ VPN ไม่พร้อมใช้งาน',
   'diag_fail_PROXY_PORT_IN_USE': 'พอร์ตพร็อกซีถูกใช้แล้ว',
   'diag_fail_PHYSICAL_IPV4_UNAVAILABLE': 'IPv4 กายภาพไม่พร้อมใช้งาน',
@@ -563,7 +563,7 @@ const Map<String, String> kThCatalog = <String, String>{
   'diag_fail_SYSTEM_PROXY_STATE_MISMATCH': 'สถานะพร็อกซีระบบไม่ตรงกัน',
   'diag_fail_ROUTE_RESTORE_INCOMPLETE': 'การคืนค่าเส้นทางไม่ครบ',
   'diag_fail_DNS_RESTORE_INCOMPLETE': 'การคืนค่า DNS ไม่ครบ',
-  'diag_fail_SYSTEM_PROXY_STALE': 'ยังไม่ได้ล้างสถานะพร็อกซีระบบของ Usque',
+  'diag_fail_SYSTEM_PROXY_STALE': 'ยังไม่ได้ล้างสถานะพร็อกซีระบบของ MoeHtet',
   'diag_fail_PLATFORM_RECOVERY_PENDING':
       'ยังไม่ได้คืนค่าการตั้งค่าเครือข่ายของระบบ',
   'diag_fail_PACKET_SEND_FAILED': 'การส่งแพ็กเก็ตล้มเหลว',
@@ -587,7 +587,7 @@ const Map<String, String> kThCatalog = <String, String>{
   'diag_fix_review_configuration':
       'เปิดการตั้งค่า → การตั้งค่าเครือข่ายขั้นสูง แก้ไขช่องที่มีเครื่องหมายแจ้งเตือน แล้วใช้การเปลี่ยนแปลง',
   'diag_fix_restore_platform_state':
-      'ปิด Usque ให้สนิท เปิดใหม่ แล้วลองอีกครั้ง หากยังมีปัญหา ให้ส่งออกบันทึกจากการวินิจฉัยเพื่อส่งให้ฝ่ายสนับสนุน',
+      'ปิด MoeHtet ให้สนิท เปิดใหม่ แล้วลองอีกครั้ง หากยังมีปัญหา ให้ส่งออกบันทึกจากการวินิจฉัยเพื่อส่งให้ฝ่ายสนับสนุน',
   'diag_fix_resolve_dependency':
       'แก้ไขปัญหาจากรายการที่ตรวจไม่ผ่านก่อน แล้วเรียกใช้การวินิจฉัยอีกครั้ง',
   'diag_fix_run_deep_diagnostics':
@@ -597,7 +597,7 @@ const Map<String, String> kThCatalog = <String, String>{
   'diag_fix_inspect_platform_state':
       'ดูรายการที่ตรวจไม่ผ่านในการวินิจฉัย → การป้องกันระบบ หากยังมีปัญหา ให้ส่งออกบันทึก',
   'diag_fix_generate_tunnel_traffic':
-      'เปิดหน้าเว็บผ่านการเชื่อมต่อ Usque แล้วตรวจสอบอีกครั้ง',
+      'เปิดหน้าเว็บผ่านการเชื่อมต่อ MoeHtet แล้วตรวจสอบอีกครั้ง',
   'diag_fix_export_diagnostics':
       'ส่งออกชุดวินิจฉัยแล้วส่งให้ฝ่ายสนับสนุน ระบบจะลบข้อมูลละเอียดอ่อนออก',
   'diag_fix_retry': 'ลองใหม่ในอีกสักครู่',

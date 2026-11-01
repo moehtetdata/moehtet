@@ -1841,7 +1841,7 @@ class AppController extends ChangeNotifier {
         if (disconnected.phase != ConnectionPhase.disconnected) {
           throw const EngineException(
             'UPDATE_DISCONNECT_FAILED',
-            'Usque could not disconnect safely before installing the update.',
+            'MoeHtet could not disconnect safely before installing the update.',
           );
         }
         snapshot = disconnected;

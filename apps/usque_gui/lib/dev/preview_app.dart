@@ -79,7 +79,7 @@ class _PreviewAppState extends State<PreviewApp> {
   @override
   Widget build(BuildContext context) => !_ready
       ? MaterialApp(
-          title: 'Usque',
+          title: 'MoeHtet',
           debugShowCheckedModeBanner: false,
           theme: UsqueTheme.light(),
           home: const Scaffold(

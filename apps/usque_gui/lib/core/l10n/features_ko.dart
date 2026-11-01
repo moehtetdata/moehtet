@@ -15,7 +15,7 @@ const Map<String, String> kUiWorkflowKo = <String, String>{
   'proxy_switches_hint': '스위치 변경은 즉시 적용됩니다.',
   'cc_label': 'HTTP/3 혼잡 제어',
   'cc_help': '다음 수동 연결 시 적용됩니다.',
-  'cc_upgrade': '이 옵션을 사용하려면 설정에서 Usque를 업데이트하세요.',
+  'cc_upgrade': '이 옵션을 사용하려면 설정에서 MoeHtet를 업데이트하세요.',
   'cc_h2': '이 옵션은 HTTP/3 연결에만 적용됩니다.',
   'cc_saved': '저장됨',
   'cc_pending': '다음 수동 연결 시 적용 대기 중.',
@@ -79,7 +79,7 @@ const Map<String, String> kNetworkQualityKo = <String, String>{
   'nq_finding_invalid_configuration': '사용자 지정 DNS 구성이 유효하지 않습니다.',
   'nq_finding_dns_system': '현재 네트워크의 DNS를 사용하므로 암호화 DNS 검사는 적용되지 않습니다.',
   'nq_finding_unsupported':
-      '암호화 DNS를 사용하려면 Usque를 업데이트하세요. 암호화되지 않은 DNS로 전환하지 않습니다.',
+      '암호화 DNS를 사용하려면 MoeHtet를 업데이트하세요. 암호화되지 않은 DNS로 전환하지 않습니다.',
   'nq_finding_dns_custom_valid': '사용자 지정 암호화 DNS 구성이 유효합니다. 평문 폴백은 사용되지 않습니다.',
   'nq_finding_stale': '측정값이 오래되었거나 물리 네트워크가 변경되었습니다.',
   'nq_finding_rtt_high': '측정된 왕복 시간이 높습니다.',
@@ -151,10 +151,10 @@ const Map<String, String> kNetworkQualityKo = <String, String>{
   'nq_outer_pmtu': '외부 UDP 페이로드 한도',
   'nq_inner_payload': 'CONNECT-IP 페이로드 한도',
   'nq_pmtu_help':
-      '현재 네트워크 경로가 전달할 수 있는 패킷 크기입니다. Usque가 패킷 손실을 줄이기 위해 자동으로 확인합니다. 이 검사는 고급 네트워크 설정의 VPN MTU를 높이지 않습니다.',
+      '현재 네트워크 경로가 전달할 수 있는 패킷 크기입니다. MoeHtet가 패킷 손실을 줄이기 위해 자동으로 확인합니다. 이 검사는 고급 네트워크 설정의 VPN MTU를 높이지 않습니다.',
   'nq_migration': '네트워크 마이그레이션',
   'nq_migration_help':
-      'Wi-Fi와 모바일 데이터 등 네트워크를 바꿀 때 Usque가 연결 유지를 시도합니다. 두 네트워크는 같은 IP 버전(IPv4 또는 IPv6)을 사용해야 합니다.',
+      'Wi-Fi와 모바일 데이터 등 네트워크를 바꿀 때 MoeHtet가 연결 유지를 시도합니다. 두 네트워크는 같은 IP 버전(IPv4 또는 IPv6)을 사용해야 합니다.',
   'nq_attempts': '시도',
   'nq_successes': '성공',
   'nq_failures': '실패',
@@ -209,7 +209,7 @@ const Map<String, String> kNetworkQualityKo = <String, String>{
   'nq_reason_peer_cid_unavailable':
       '서버가 새 네트워크에서 연결을 유지하지 못했습니다. 복구되지 않으면 수동으로 다시 연결하세요.',
   'nq_reason_local_cid_unavailable':
-      'Usque가 새 네트워크에서 연결을 유지하지 못했습니다. 복구되지 않으면 수동으로 다시 연결하세요.',
+      'MoeHtet가 새 네트워크에서 연결을 유지하지 못했습니다. 복구되지 않으면 수동으로 다시 연결하세요.',
   'nq_reason_path_probe_rejected':
       '새 네트워크가 연결 검사를 통과하지 못했습니다. 인터넷에 접속할 수 있는지 확인하세요.',
   'nq_reason_path_validation_timeout':
@@ -226,12 +226,12 @@ const Map<String, String> kNetworkQualityKo = <String, String>{
   'nq_dns_port': '포트(0이면 기본값)',
   'nq_dns_bootstrap': 'DNS 서버 IP 주소',
   'nq_dns_bootstrap_help':
-      'DNS 제공업체의 IP 주소를 한 줄에 하나씩 1~8개 입력하세요. 예: 1.1.1.1. Usque는 서버 이름을 먼저 조회하지 않고 이 주소로 직접 연결합니다.',
+      'DNS 제공업체의 IP 주소를 한 줄에 하나씩 1~8개 입력하세요. 예: 1.1.1.1. MoeHtet는 서버 이름을 먼저 조회하지 않고 이 주소로 직접 연결합니다.',
   'nq_dns_no_fallback': '암호화된 DNS를 사용할 수 없으면 암호화되지 않은 DNS로 전환하지 않고 쿼리가 실패합니다.',
   'nq_dns_system_privacy': '현재 네트워크의 DNS 제공업체에 직접 연결 트래픽이 요청한 도메인이 보일 수 있습니다.',
   'nq_dns_scope': '국가 및 사용자 지정 도메인 우회 규칙에 사용됩니다. VPN 트래픽의 DNS는 바뀌지 않습니다.',
   'nq_dns_no_capability':
-      '암호화된 직접 연결 DNS를 사용하려면 Usque를 업데이트하세요. 설정은 유지됩니다. 개인정보 영향을 감수한다면 현재 네트워크 DNS를 선택할 수도 있습니다.',
+      '암호화된 직접 연결 DNS를 사용하려면 MoeHtet를 업데이트하세요. 설정은 유지됩니다. 개인정보 영향을 감수한다면 현재 네트워크 DNS를 선택할 수도 있습니다.',
   'nq_dns_invalid_name':
       'dns.example.com 같은 서버 도메인을 입력하세요. https://, 포트나 공백은 포함하지 마세요.',
   'nq_dns_invalid_path':
@@ -248,9 +248,9 @@ const Map<String, String> kNetworkQualityKo = <String, String>{
 
 const Map<String, String> kWindowsRecoveryKo = <String, String>{
   'WINDOWS_DEVICE_REUSE_UNSUPPORTED':
-      'Usque의 연결 구성요소를 함께 업데이트해야 합니다. 설정에서 업데이트를 확인하세요. 새 VPN 연결은 시작하지 않았습니다.',
+      'MoeHtet의 연결 구성요소를 함께 업데이트해야 합니다. 설정에서 업데이트를 확인하세요. 새 VPN 연결은 시작하지 않았습니다.',
   'WINDOWS_DEVICE_RECOVERY_REQUIRED':
-      '이전 VPN 연결 정리가 완료되지 않았습니다. Usque를 완전히 종료하고 다시 열어 시도하세요. 계속 실패하면 진단을 여세요.',
+      '이전 VPN 연결 정리가 완료되지 않았습니다. MoeHtet를 완전히 종료하고 다시 열어 시도하세요. 계속 실패하면 진단을 여세요.',
   'WINDOWS_RECOVERY_FAILED':
       '이전 VPN 네트워크 상태를 완전히 복원하지 못했습니다. 새 VPN 연결은 '
       '시작되지 않았습니다. 연결을 다시 시도하거나 로컬 진단을 확인하세요.',
@@ -265,7 +265,7 @@ const Map<String, String> kWindowsRecoveryKo = <String, String>{
   'WINDOWS_RECOVERY_CONFLICT':
       '네트워크 상태가 변경되었거나 다른 세션이 아직 사용 중입니다. 활성 연결을 보호하기 위해 자동 복구를 중단했습니다.',
   'WINDOWS_RECOVERY_UNSUPPORTED':
-      '현재 설치된 Usque는 이전 VPN 설정을 자동 복원할 수 없습니다. 설정에서 업데이트한 뒤 다시 시도하세요.',
+      '현재 설치된 MoeHtet는 이전 VPN 설정을 자동 복원할 수 없습니다. 설정에서 업데이트한 뒤 다시 시도하세요.',
 };
 
 const String kWindowsAdapterCleanupKo =
@@ -281,7 +281,7 @@ const Map<String, String> kL4Ko = <String, String>{
       'TCP만 지원합니다. UDP가 필요한 앱은 작동하지 않을 수 있습니다. 자동 모드에는 L4가 포함되지 않습니다.',
   'l4_explanation':
       'L4는 HTTP/3로 TCP 트래픽을 전달하며 VPN, SOCKS5 및 HTTP 프록시에서 사용할 수 있습니다. VPN의 DNS 질의는 TCP로 변환됩니다. 다른 UDP 트래픽, 원격 Ping, IP 조각 또는 확장 헤더가 필요한 앱은 작동하지 않을 수 있습니다.',
-  'l4_unsupported': '이 Usque 버전은 L4를 사용할 수 없습니다. 설정에서 업데이트를 확인하세요.',
+  'l4_unsupported': '이 MoeHtet 버전은 L4를 사용할 수 없습니다. 설정에서 업데이트를 확인하세요.',
   'l4_sni_identity': '계정에서 자동으로 설정하므로 수정할 필요가 없습니다. 다른 연결 모드의 서버 이름은 유지됩니다.',
   'l4_edge_requires_l4': '이 연결은 프록시 서버에서 이름을 확인할 수 없습니다. 다른 DNS 방식을 선택하세요.',
   'proxy_dns_edge_resolved': '프록시 서버에서 이름 확인',
@@ -308,10 +308,10 @@ const Map<String, String> kNetworkSettingsKo = <String, String>{
   'settings_unknown': '네트워크 설정이 적용되었는지 확인할 수 없습니다.',
   'settings_refresh': '상태 새로고침',
   'settings_confirmation_unavailable':
-      '네트워크 설정을 여전히 확인할 수 없습니다. 새로고침해도 해결되지 않으면 Usque를 완전히 종료했다가 다시 열고 설정을 확인하세요.',
+      '네트워크 설정을 여전히 확인할 수 없습니다. 새로고침해도 해결되지 않으면 MoeHtet를 완전히 종료했다가 다시 열고 설정을 확인하세요.',
   'settings_saved': '저장됨',
   'settings_unsupported':
-      'Usque를 완전히 종료했다가 다시 열어 저장하세요. 계속 실패하면 설정에서 업데이트를 확인하세요.',
+      'MoeHtet를 완전히 종료했다가 다시 열어 저장하세요. 계속 실패하면 설정에서 업데이트를 확인하세요.',
   'settings_save_failed': '설정을 저장하지 못했습니다. 편집 내용은 유지됩니다.',
   'settings_reconnect': '다시 연결',
 };
@@ -333,7 +333,7 @@ const Map<String, String> kChainKo = <String, String>{
   "add_proxy": "프록시 추가",
   "proxy_hint": "WARP를 통해 연결합니다. HTTP는 TCP를, SOCKS5는 H3/H2에서 UDP도 지원합니다.",
   "dns_inherit": "비워 두면 네트워크 DNS를 사용하며 쿼리는 이 출구를 통과합니다.",
-  "scope_proxy_only": "Usque는 앱이 전달한 연결만 프록시합니다. 다른 연결은 기기의 공인 IP를 노출할 수 있습니다.",
+  "scope_proxy_only": "MoeHtet는 앱이 전달한 연결만 프록시합니다. 다른 연결은 기기의 공인 IP를 노출할 수 있습니다.",
   "scope_bypass": "설정한 직접 연결 및 앱별 규칙은 계속 적용됩니다.",
   "scope_interrupted": "연결이 끊어졌습니다. 기기가 일반 네트워크 연결로 돌아갈 수 있습니다.",
   "scope_android_settings":
@@ -433,7 +433,7 @@ const Map<String, String> kChainKo = <String, String>{
   'no_selection': '구성을 선택하지 않음',
   'l4': '이 구성에는 UDP가 필요하지만 L4는 UDP를 지원하지 않습니다.',
   'switch_mode': 'L4 끄고 적용',
-  'unsupported': '이 버전의 Usque에서는 이 출구 소스를 사용할 수 없습니다. 설정에서 업데이트를 확인하세요.',
+  'unsupported': '이 버전의 MoeHtet에서는 이 출구 소스를 사용할 수 없습니다. 설정에서 업데이트를 확인하세요.',
   'scope': '기존의 명시적 직접 연결 규칙은 그대로 적용됩니다. 그 밖의 트래픽은 선택한 출구를 사용합니다.',
   'allowed': '허용된 대상',
   'dns': 'DNS',

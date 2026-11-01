@@ -14,9 +14,9 @@ const Map<String, String> kNlCatalog = <String, String>{
   'disable_quic': "QUIC uitschakelen",
   'disable_quic_managed': 'Automatisch beheerd door deze verbinding',
   'disable_quic_help':
-      "Blokkeert door Usque doorgestuurd verkeer op UDP-poort 443, vooral QUIC, zodat apps terugvallen op TCP. Direct verkeer en de eigen verbinding van Usque blijven ongemoeid. Werkt meteen.",
+      "Blokkeert door MoeHtet doorgestuurd verkeer op UDP-poort 443, vooral QUIC, zodat apps terugvallen op TCP. Direct verkeer en de eigen verbinding van MoeHtet blijven ongemoeid. Werkt meteen.",
   'disable_quic_unsupported':
-      'QUIC blokkeren is nu niet beschikbaar. Start Usque opnieuw; blijft het onbeschikbaar, controleer dan op updates bij Instellingen.',
+      'QUIC blokkeren is nu niet beschikbaar. Start MoeHtet opnieuw; blijft het onbeschikbaar, controleer dan op updates bij Instellingen.',
   'technical_details': 'Technische details',
   'diag_skip_disconnected': 'Maak verbinding om deze controle uit te voeren.',
   'diag_skip_disabled': 'Deze functie is uitgeschakeld.',
@@ -24,8 +24,8 @@ const Map<String, String> kNlCatalog = <String, String>{
   'diag_skip_traffic':
       'Gebruik de verbinding en voer deze controle opnieuw uit.',
   'diag_skip_deep': 'Kies de uitgebreide modus om deze controle uit te voeren.',
-  'app_loading': "Usque laden",
-  'app_name': 'Usque',
+  'app_loading': "MoeHtet laden",
+  'app_name': 'MoeHtet',
   'diag_fail_L4_SESSION_UNAVAILABLE': 'L4-sessie niet beschikbaar',
   'diag_fail_L4_PROTOCOL_ERROR': 'L4-protocolfout',
   'diag_fail_L4_CONNECT_REJECTED': 'L4 CONNECT geweigerd',
@@ -36,14 +36,14 @@ const Map<String, String> kNlCatalog = <String, String>{
   'window_maximize': 'Maximaliseren',
   'window_restore': 'Venstergrootte herstellen',
   'window_close': 'Sluiten',
-  'tray_open': 'Usque openen',
+  'tray_open': 'MoeHtet openen',
   'tray_connect_profile': 'Actief account verbinden',
   'tray_disconnect_profile': 'Actief account verbreken',
   'tray_disconnect_exit': 'Verbreken en afsluiten',
   'notice_connection_interrupted':
-      'De verbinding is onderbroken. Usque probeert deze te herstellen.',
+      'De verbinding is onderbroken. MoeHtet probeert deze te herstellen.',
   'notice_connection_failed':
-      'Usque kon de verbinding niet behouden. Open Usque voor details.',
+      'MoeHtet kon de verbinding niet behouden. Open MoeHtet voor details.',
   'notice_connection_restored': 'De verbinding is hersteld.',
   'notice_kill_switch_blocking':
       'Kill Switch blokkeert netwerkverkeer totdat de verbinding is hersteld of je de verbinding verbreekt.',
@@ -86,7 +86,7 @@ const Map<String, String> kNlCatalog = <String, String>{
   'not_available': 'Niet beschikbaar',
   'location_disconnected': 'Wachten op verbinding',
   'engine_unavailable':
-      'De verbindingsdienst kon niet starten. Sluit Usque volledig en open het opnieuw. Open Diagnostiek als het probleem blijft.',
+      'De verbindingsdienst kon niet starten. Sluit MoeHtet volledig en open het opnieuw. Open Diagnostiek als het probleem blijft.',
   'dismiss': 'Sluiten',
   'new_profile': 'Account toevoegen',
   'profile_name': 'Accountnaam',
@@ -108,7 +108,7 @@ const Map<String, String> kNlCatalog = <String, String>{
   'zero_trust_open_login': 'Organisatieaanmelding openen',
   'zero_trust_browser_failed': 'De systeembrowser kon niet worden geopend.',
   'zero_trust_manual_callback':
-      'Ga na het aanmelden terug naar Usque. Wordt het resultaat niet automatisch ontvangen, kopieer dan de link op de aanmeldpagina die WARP opent en plak hem hieronder volledig.',
+      'Ga na het aanmelden terug naar MoeHtet. Wordt het resultaat niet automatisch ontvangen, kopieer dan de link op de aanmeldpagina die WARP opent en plak hem hieronder volledig.',
   'zero_trust_callback_received':
       'Aanmelding ontvangen. Ga verder om het account in te stellen.',
   'zero_trust_callback': 'Terugkeerlink na aanmelden',
@@ -140,7 +140,7 @@ const Map<String, String> kNlCatalog = <String, String>{
   "zero_trust_endpoint_risk_locked":
       "Bevestig de risico's voordat je deze adressen bewerkt.",
   "zero_trust_endpoint_unsupported":
-      "Werk Usque bij om Zero Trust-eindpunten te bewerken.",
+      "Werk MoeHtet bij om Zero Trust-eindpunten te bewerken.",
   "zero_trust_reauth_endpoints":
       "Opnieuw aanmelden herstelt de geregistreerde eindpuntadressen en verwijdert je aangepaste adressen.",
   'experimental': 'Experimenteel',
@@ -158,7 +158,7 @@ const Map<String, String> kNlCatalog = <String, String>{
   'delete': 'Verwijderen',
   'delete_profile': 'Account verwijderen?',
   'delete_profile_body':
-      "Dit account en de WARP-aanmeldgegevens van dit apparaat verwijderen? Als er een License Key is gekoppeld, probeert Usque die ook te ontkoppelen.",
+      "Dit account en de WARP-aanmeldgegevens van dit apparaat verwijderen? Als er een License Key is gekoppeld, probeert MoeHtet die ook te ontkoppelen.",
   'delete_zero_trust_profile_body':
       'Verwijdert het account en de aanmeldgegevens van dit apparaat. Vraag de beheerder ook het apparaat uit het Zero Trust-dashboard van de organisatie te verwijderen.',
   'license_not_applicable': 'Organisatieaccount · Experimenteel',
@@ -210,7 +210,7 @@ const Map<String, String> kNlCatalog = <String, String>{
       'Wachtwoord is ingesteld. Voer een nieuw wachtwoord in om het te vervangen.',
   'proxy_auth_clear': 'Wachtwoordbeveiliging verwijderen',
   'general': 'Algemeen',
-  'start_on_boot': 'Usque starten wanneer u zich aanmeldt',
+  'start_on_boot': 'MoeHtet starten wanneer u zich aanmeldt',
   'close_to_tray': 'Het venster naar het systeemvak sluiten',
   'add_quick_settings_tile': 'Tegel Snelle instellingen toevoegen',
   'theme': 'Thema',
@@ -246,7 +246,7 @@ const Map<String, String> kNlCatalog = <String, String>{
   'update_available': 'Er is een nieuwere versie beschikbaar:',
   'already_latest': 'Deze installatie is al up-to-date.',
   'open_release': 'Releasepagina openen',
-  'update_startup_description': 'Controleer op updates wanneer Usque start.',
+  'update_startup_description': 'Controleer op updates wanneer MoeHtet start.',
   'update_checking': 'Controleren op een update…',
   'update_downloading': 'Update downloaden…',
   'update_verifying': 'Updatepakket verifiëren…',
@@ -285,7 +285,7 @@ const Map<String, String> kNlCatalog = <String, String>{
   'endpoint_automatic_help':
       'Kies het snelste beschikbare endpoint voor dit account. Adreswijzigingen worden alleen in de modus Aangepast opgeslagen.',
   'endpoint_custom_help': 'Gebruik de onderstaande IPv4- en IPv6-adressen.',
-  'endpoint_unsupported': 'Werk Usque bij voor automatische endpointselectie.',
+  'endpoint_unsupported': 'Werk MoeHtet bij voor automatische endpointselectie.',
   'endpoint_ipv4': 'Eindpunt IPv4',
   'endpoint_ipv6': 'Eindpunt IPv6',
   'sni': 'SNI',
@@ -313,9 +313,9 @@ const Map<String, String> kNlCatalog = <String, String>{
   'kill_switch_help_android':
       'Blokkeert verkeer bij verbinden, opnieuw verbinden of storingen. Alleen zolang de VPN-dienst draait.',
   'start_on_boot_android':
-      'Start Usque nadat het apparaat opnieuw is opgestart. Zet ook “Het huidige account bij het starten automatisch verbinden” aan om automatisch te verbinden.',
+      'Start MoeHtet nadat het apparaat opnieuw is opgestart. Zet ook “Het huidige account bij het starten automatisch verbinden” aan om automatisch te verbinden.',
   'add_quick_settings_tile_help':
-      'Voeg de Usque-tegel toe op Android 13 of later. Op oudere versies voegt u deze handmatig toe via Snelle instellingen.',
+      'Voeg de MoeHtet-tegel toe op Android 13 of later. Op oudere versies voegt u deze handmatig toe via Snelle instellingen.',
   'always_on_vpn': 'Instellingen voor Altijd-aan-VPN openen',
   'always_on_vpn_help':
       'Schakel Altijd-aan-VPN en Verbindingen zonder VPN blokkeren in voor lekbescherming nadat de app is beëindigd.',
@@ -355,7 +355,7 @@ const Map<String, String> kNlCatalog = <String, String>{
       'Controleer verbindingsproblemen, exporteer logboeken en beheer lokale gegevens.',
   'engine_status': 'Verbindingsinformatie',
   'version': 'Versie',
-  'app_version': 'Usque 0.3.3',
+  'app_version': 'MoeHtet 0.3.3',
   'logs': 'Lokale logboeken',
   'export_diagnostics': 'Diagnostisch pakket exporteren',
   'diagnostics_saved': 'Diagnostisch pakket opgeslagen in',
@@ -365,21 +365,21 @@ const Map<String, String> kNlCatalog = <String, String>{
   'clear_all_data_help':
       'Verbreekt de verbinding en verwijdert alle accounts, WARP-aanmeldgegevens, instellingen, caches en diagnostische gegevens definitief van dit apparaat.',
   'clear_all_data_confirm':
-      'Dit kan niet ongedaan worden gemaakt. Usque verbreekt de verbinding, verwijdert alle accounts en aanmeldgegevens en keert terug naar de eerste installatie.',
-  'clear_all_data_complete': 'Alle lokale Usque-gegevens zijn gewist.',
+      'Dit kan niet ongedaan worden gemaakt. MoeHtet verbreekt de verbinding, verwijdert alle accounts en aanmeldgegevens en keert terug naar de eerste installatie.',
+  'clear_all_data_complete': 'Alle lokale MoeHtet-gegevens zijn gewist.',
   'unofficial':
       'Onofficiële client die compatibel is met de diensten van Cloudflare® WARP®. Niet gelieerd aan, gesponsord door of goedgekeurd door Cloudflare, Inc.',
   'trademark_attribution':
       'Cloudflare en WARP zijn handelsmerken en/of geregistreerde handelsmerken van Cloudflare, Inc. in de Verenigde Staten en andere rechtsgebieden.',
-  'welcome_title': 'Welkom bij Usque',
+  'welcome_title': 'Welkom bij MoeHtet',
   'setup_progress': 'Instelstap {current} van {total}',
   'get_started': 'Aan de slag',
   'permissions_title': 'Systeemmachtigingen',
   'permissions_body':
-      'Usque heeft toestemming nodig om appverkeer door de VPN te sturen. Afhankelijk van de modus stelt het ook DNS, netwerkroutes, firewallbeveiliging of de systeemproxy in.',
+      'MoeHtet heeft toestemming nodig om appverkeer door de VPN te sturen. Afhankelijk van de modus stelt het ook DNS, netwerkroutes, firewallbeveiliging of de systeemproxy in.',
   'terms_title': 'Cloudflare-voorwaarden',
   'terms_body':
-      'Usque is een onafhankelijke client. Voor het gebruik van persoonlijke WARP of de experimentele Zero Trust-registratie gelden nog steeds de voorwaarden en het privacybeleid van Cloudflare.',
+      'MoeHtet is een onafhankelijke client. Voor het gebruik van persoonlijke WARP of de experimentele Zero Trust-registratie gelden nog steeds de voorwaarden en het privacybeleid van Cloudflare.',
   'terms_accept': 'Ik begrijp deze voorwaarden en ga ermee akkoord.',
   'identity_title': 'Persoonlijk WARP-account instellen',
   'register_new': 'Gratis WARP-account maken',
@@ -407,7 +407,7 @@ const Map<String, String> kNlCatalog = <String, String>{
   'bypass_line_error': 'Regel {line}: {reason}',
   'bypass_summary': '{countries} regio’s · {targets} eigen doelen',
   'geo_direct_help':
-      'Verkeer voor deze landen of regio’s omzeilt Usque VPN/TUN en de lokale HTTP- en SOCKS5-proxy’s. De DNS-aanbieder van je huidige netwerk kan de opgevraagde domeinen zien. Apps met versleutelde DNS worden alleen op IP-adres ingedeeld.',
+      'Verkeer voor deze landen of regio’s omzeilt MoeHtet VPN/TUN en de lokale HTTP- en SOCKS5-proxy’s. De DNS-aanbieder van je huidige netwerk kan de opgevraagde domeinen zien. Apps met versleutelde DNS worden alleen op IP-adres ingedeeld.',
   'geo_update_all': 'Geografische gegevens bijwerken',
   'geo_last_updated': 'Laatste geslaagde update: {current}',
   'geo_never_updated': 'Nog niet bijgewerkt',
@@ -537,12 +537,12 @@ const Map<String, String> kNlCatalog = <String, String>{
   'diag_check_tunnel_ipv6_egress': 'IPv6-uitgang',
   'diag_check_protection_kill_switch': 'Kill Switch-status',
   'diag_check_protection_dns_path': 'DNS-pad',
-  'diag_check_protection_route_ownership': 'Netwerkroutes beheerd door Usque',
+  'diag_check_protection_route_ownership': 'Netwerkroutes beheerd door MoeHtet',
   'diag_check_protection_recovery_journal': 'Hersteljournaal',
   'diag_fail_ENGINE_UNAVAILABLE':
-      'Verbindingsdienst van Usque niet beschikbaar',
+      'Verbindingsdienst van MoeHtet niet beschikbaar',
   'diag_fail_AGENT_UNREACHABLE':
-      'De systeemnetwerkdienst van Usque is niet bereikbaar',
+      'De systeemnetwerkdienst van MoeHtet is niet bereikbaar',
   'diag_fail_VPN_SERVICE_UNAVAILABLE': 'VPN-service niet beschikbaar',
   'diag_fail_PROXY_PORT_IN_USE': 'Proxypoort in gebruik',
   'diag_fail_PHYSICAL_IPV4_UNAVAILABLE': 'Fysiek IPv4 niet beschikbaar',
@@ -581,7 +581,7 @@ const Map<String, String> kNlCatalog = <String, String>{
   'diag_fail_ROUTE_RESTORE_INCOMPLETE': 'Routeherstel onvolledig',
   'diag_fail_DNS_RESTORE_INCOMPLETE': 'DNS-herstel onvolledig',
   'diag_fail_SYSTEM_PROXY_STALE':
-      'Status van de Usque-systeemproxy niet opgeschoond',
+      'Status van de MoeHtet-systeemproxy niet opgeschoond',
   'diag_fail_PLATFORM_RECOVERY_PENDING':
       'Netwerkinstellingen van het systeem nog niet hersteld',
   'diag_fail_PACKET_SEND_FAILED': 'Pakketverzending mislukt',
@@ -606,7 +606,7 @@ const Map<String, String> kNlCatalog = <String, String>{
   'diag_fix_review_configuration':
       'Corrigeer bij Instellingen → Geavanceerde netwerkinstellingen de gemarkeerde velden en pas de wijzigingen toe.',
   'diag_fix_restore_platform_state':
-      'Sluit Usque volledig en open het opnieuw. Exporteer bij aanhoudende problemen via Diagnostiek een diagnosepakket voor hulp.',
+      'Sluit MoeHtet volledig en open het opnieuw. Exporteer bij aanhoudende problemen via Diagnostiek een diagnosepakket voor hulp.',
   'diag_fix_resolve_dependency':
       'Los eerst de mislukte controles in de lijst op en voer de diagnose opnieuw uit.',
   'diag_fix_run_deep_diagnostics':
@@ -616,7 +616,7 @@ const Map<String, String> kNlCatalog = <String, String>{
   'diag_fix_inspect_platform_state':
       'Bekijk bij Diagnostiek de fouten in Systeembescherming. Exporteer een diagnosepakket voor hulp als ze blijven bestaan.',
   'diag_fix_generate_tunnel_traffic':
-      'Open via Usque een webpagina en voer deze controle opnieuw uit.',
+      'Open via MoeHtet een webpagina en voer deze controle opnieuw uit.',
   'diag_fix_export_diagnostics':
       'Exporteer een diagnostisch pakket en stuur het naar ondersteuning. Gevoelige gegevens worden verwijderd.',
   'diag_fix_retry': 'Probeer het binnenkort opnieuw.',

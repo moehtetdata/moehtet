@@ -15,7 +15,7 @@ const Map<String, String> kUiWorkflowJa = <String, String>{
   'proxy_switches_hint': 'スイッチの変更はすぐに反映されます。',
   'cc_label': 'HTTP/3 輻輳制御',
   'cc_help': '次回の手動接続時に適用されます。',
-  'cc_upgrade': 'この項目を使うには「設定」で Usque を更新してください。',
+  'cc_upgrade': 'この項目を使うには「設定」で MoeHtet を更新してください。',
   'cc_h2': 'この設定は HTTP/3 接続にのみ適用されます。',
   'cc_saved': '保存済み',
   'cc_pending': '次回の手動接続で適用されます。',
@@ -79,7 +79,7 @@ const Map<String, String> kNetworkQualityJa = <String, String>{
   'nq_finding_invalid_configuration': 'カスタム DNS の設定が無効です。',
   'nq_finding_dns_system': '現在のネットワークの DNS を使っています。暗号化 DNS の検査は対象外です。',
   'nq_finding_unsupported':
-      '暗号化 DNS を使うには Usque を更新してください。暗号化されていない DNS には切り替えません。',
+      '暗号化 DNS を使うには MoeHtet を更新してください。暗号化されていない DNS には切り替えません。',
   'nq_finding_dns_custom_valid': 'カスタム暗号化 DNS の設定は有効です。平文へのフォールバックは無効です。',
   'nq_finding_stale': '読み取り値が古い、または物理ネットワークが変化しました。',
   'nq_finding_rtt_high': '測定した往復遅延が高めです。',
@@ -150,10 +150,10 @@ const Map<String, String> kNetworkQualityJa = <String, String>{
   'nq_outer_pmtu': '外側 UDP ペイロード上限',
   'nq_inner_payload': 'CONNECT-IP ペイロード上限',
   'nq_pmtu_help':
-      '現在のネットワーク経路が運べるパケットサイズです。Usque はパケットロスを減らすため自動で確認します。この確認で「高度なネットワーク設定」の VPN MTU が大きくなることはありません。',
+      '現在のネットワーク経路が運べるパケットサイズです。MoeHtet はパケットロスを減らすため自動で確認します。この確認で「高度なネットワーク設定」の VPN MTU が大きくなることはありません。',
   'nq_migration': 'ネットワーク移行',
   'nq_migration_help':
-      'Wi-Fi とモバイル回線などの切り替え時に、Usque は接続の維持を試みます。両方が同じ IP バージョン（IPv4 または IPv6）を使う必要があります。',
+      'Wi-Fi とモバイル回線などの切り替え時に、MoeHtet は接続の維持を試みます。両方が同じ IP バージョン（IPv4 または IPv6）を使う必要があります。',
   'nq_attempts': '試行',
   'nq_successes': '成功',
   'nq_failures': '失敗',
@@ -208,7 +208,7 @@ const Map<String, String> kNetworkQualityJa = <String, String>{
   'nq_reason_peer_cid_unavailable':
       'サーバーが新しいネットワークで接続を維持できませんでした。戻らない場合は手動で再接続してください。',
   'nq_reason_local_cid_unavailable':
-      'Usque が新しいネットワークで接続を維持できませんでした。戻らない場合は手動で再接続してください。',
+      'MoeHtet が新しいネットワークで接続を維持できませんでした。戻らない場合は手動で再接続してください。',
   'nq_reason_path_probe_rejected':
       '新しいネットワークが接続検査に通りませんでした。インターネットに接続できるか確認してください。',
   'nq_reason_path_validation_timeout':
@@ -230,7 +230,7 @@ const Map<String, String> kNetworkQualityJa = <String, String>{
   'nq_dns_system_privacy': '直接接続の問い合わせ先ドメインは、現在のネットワークの DNS 提供元に見える場合があります。',
   'nq_dns_scope': '国・地域およびカスタムドメインのバイパス規則に一致する通信に使います。VPN通信のDNSは変わりません。',
   'nq_dns_no_capability':
-      '暗号化した直接接続用 DNS を使うには Usque を更新してください。設定は保持されます。プライバシーへの影響を理解したうえで「現在のネットワークの DNS」を選ぶこともできます。',
+      '暗号化した直接接続用 DNS を使うには MoeHtet を更新してください。設定は保持されます。プライバシーへの影響を理解したうえで「現在のネットワークの DNS」を選ぶこともできます。',
   'nq_dns_invalid_name':
       'dns.example.com のようなドメイン名を入力してください。https://、ポート、空白は含めません。',
   'nq_dns_invalid_path':
@@ -247,9 +247,9 @@ const Map<String, String> kNetworkQualityJa = <String, String>{
 
 const Map<String, String> kWindowsRecoveryJa = <String, String>{
   'WINDOWS_DEVICE_REUSE_UNSUPPORTED':
-      'Usque の接続コンポーネントをまとめて更新する必要があります。「設定」で更新を確認してください。新しい VPN 接続は開始していません。',
+      'MoeHtet の接続コンポーネントをまとめて更新する必要があります。「設定」で更新を確認してください。新しい VPN 接続は開始していません。',
   'WINDOWS_DEVICE_RECOVERY_REQUIRED':
-      '前回の VPN 接続の後処理が完了していません。Usque を完全に終了して開き直し、再試行してください。解決しない場合は「診断」を開いてください。',
+      '前回の VPN 接続の後処理が完了していません。MoeHtet を完全に終了して開き直し、再試行してください。解決しない場合は「診断」を開いてください。',
   'WINDOWS_RECOVERY_FAILED':
       '前回の VPN ネットワーク状態を完全には復元できませんでした。新しい VPN '
       '接続は開始されていません。再接続を試すか、ローカル診断を確認してください。',
@@ -264,7 +264,7 @@ const Map<String, String> kWindowsRecoveryJa = <String, String>{
   'WINDOWS_RECOVERY_CONFLICT':
       'ネットワーク状態が変化したか、別のセッションが使用中です。アクティブな接続を保護するため、自動復旧を停止しました。',
   'WINDOWS_RECOVERY_UNSUPPORTED':
-      'この Usque では以前の VPN 設定を自動復元できません。「設定」で Usque を更新してから再試行してください。',
+      'この MoeHtet では以前の VPN 設定を自動復元できません。「設定」で MoeHtet を更新してから再試行してください。',
 };
 
 const String kWindowsAdapterCleanupJa =
@@ -279,7 +279,7 @@ const Map<String, String> kL4Ja = <String, String>{
   'l4_transport_hint': 'TCP のみ対応。UDP が必要なアプリは動作しない場合があります。自動モードでは L4 を選びません。',
   'l4_explanation':
       'L4 は HTTP/3 で TCP 通信を転送し、VPN、SOCKS5、HTTP プロキシで使えます。VPN の DNS 問い合わせは TCP に変換します。他の UDP 通信、リモート Ping、IP 分割、拡張ヘッダーが必要なアプリは動かない場合があります。',
-  'l4_unsupported': 'このバージョンの Usque では L4 を使えません。「設定」で更新を確認してください。',
+  'l4_unsupported': 'このバージョンの MoeHtet では L4 を使えません。「設定」で更新を確認してください。',
   'l4_sni_identity': 'アカウントが自動設定します。変更は不要です。他の接続モードのサーバー名は保持されます。',
   'l4_edge_requires_l4': 'この接続ではプロキシサーバーで名前を解決できません。別の DNS 方式を選択してください。',
   'proxy_dns_edge_resolved': 'プロキシサーバーで名前を解決',
@@ -306,10 +306,10 @@ const Map<String, String> kNetworkSettingsJa = <String, String>{
   'settings_unknown': 'ネットワーク設定が反映されたか確認できません。',
   'settings_refresh': '状態を更新',
   'settings_confirmation_unavailable':
-      'ネットワーク設定をまだ確認できません。状態を更新しても解決しない場合は、Usque を完全に終了して開き直し、設定を確認してください。',
+      'ネットワーク設定をまだ確認できません。状態を更新しても解決しない場合は、MoeHtet を完全に終了して開き直し、設定を確認してください。',
   'settings_saved': '保存済み',
   'settings_unsupported':
-      'Usque を完全に終了して開き直し、再度保存してください。解決しない場合は「設定」で更新を確認してください。',
+      'MoeHtet を完全に終了して開き直し、再度保存してください。解決しない場合は「設定」で更新を確認してください。',
   'settings_save_failed': '設定を保存できませんでした。編集内容は保持されています。',
   'settings_reconnect': '再接続',
 };
@@ -332,7 +332,7 @@ const Map<String, String> kChainJa = <String, String>{
   "proxy_hint": "WARP 経由で接続します。HTTP は TCP、SOCKS5 は H3/H2 で UDP にも対応します。",
   "dns_inherit": "空欄の場合はネットワーク DNS を継承し、この出口経由で問い合わせます。",
   "scope_proxy_only":
-      "Usque はアプリから渡された接続のみをプロキシします。それ以外の接続では端末のパブリック IP が公開される場合があります。",
+      "MoeHtet はアプリから渡された接続のみをプロキシします。それ以外の接続では端末のパブリック IP が公開される場合があります。",
   "scope_bypass": "設定済みの直接接続ルールとアプリ別ルールは引き続き適用されます。",
   "scope_interrupted": "接続が中断されました。端末が通常のネットワーク接続に戻る場合があります。",
   "scope_android_settings":
@@ -431,7 +431,7 @@ const Map<String, String> kChainJa = <String, String>{
   'no_selection': '設定が選択されていません',
   'l4': 'この設定には UDP が必要ですが、L4 は UDP に対応していません。',
   'switch_mode': 'L4 をオフにして適用',
-  'unsupported': 'このバージョンの Usque では、この出口の種類を利用できません。「設定」で更新を確認してください。',
+  'unsupported': 'このバージョンの MoeHtet では、この出口の種類を利用できません。「設定」で更新を確認してください。',
   'scope': '既存の明示的な直接接続ルールはそのまま適用されます。それ以外の通信は選んだ出口を使います。',
   'allowed': '許可する宛先',
   'dns': 'DNS',

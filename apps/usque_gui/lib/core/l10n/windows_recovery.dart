@@ -28,37 +28,37 @@ const String kWindowsAdapterCleanupZhCn =
 
 const Map<String, String> kWindowsRecoveryEn = <String, String>{
   'WINDOWS_DEVICE_REUSE_UNSUPPORTED':
-      'Your Usque components need to be updated together. Open Settings and check for updates. No new VPN connection was started.',
+      'Your MoeHtet components need to be updated together. Open Settings and check for updates. No new VPN connection was started.',
   'WINDOWS_DEVICE_RECOVERY_REQUIRED':
-      'The previous VPN connection has not finished cleaning up. Fully exit and reopen Usque, then retry. If it still fails, open Diagnostics.',
+      'The previous VPN connection has not finished cleaning up. Fully exit and reopen MoeHtet, then retry. If it still fails, open Diagnostics.',
   'WINDOWS_RECOVERY_FAILED':
       'The previous VPN network state could not be fully restored. No new VPN connection was started. Retry the connection or inspect local diagnostics.',
   'WINDOWS_RECOVERY_EXHAUSTED':
       'Windows could not restore the previous VPN network state after three automatic attempts. Retry when ready, or inspect local diagnostics.',
   'WINDOWS_RECOVERY_BLOCKED':
-      'Usque stopped automatic repair because it could not confirm the previous VPN settings were safe to restore. Open Settings and check for updates, then open Diagnostics and export a diagnostic package if the problem persists.',
+      'MoeHtet stopped automatic repair because it could not confirm the previous VPN settings were safe to restore. Open Settings and check for updates, then open Diagnostics and export a diagnostic package if the problem persists.',
   'WINDOWS_RECOVERY_TIMEOUT':
       'Windows network recovery is taking longer than expected. No new VPN connection was started. Wait for recovery to finish before retrying.',
   'WINDOWS_RECOVERY_CONFLICT':
       'The network state changed or is still in use by another session. Automatic recovery was stopped to protect the active connection.',
   'WINDOWS_RECOVERY_UNSUPPORTED':
-      'This installation cannot automatically restore the previous VPN settings. Open Settings and update Usque before retrying.',
+      'This installation cannot automatically restore the previous VPN settings. Open Settings and update MoeHtet before retrying.',
 };
 
 const Map<String, String> kWindowsRecoveryZhCn = <String, String>{
   'WINDOWS_DEVICE_REUSE_UNSUPPORTED':
-      'Usque 的连接组件需要一并更新。请打开“设置”检查更新。尚未建立新的 VPN 连接。',
+      'MoeHtet 的连接组件需要一并更新。请打开“设置”检查更新。尚未建立新的 VPN 连接。',
   'WINDOWS_DEVICE_RECOVERY_REQUIRED':
-      '上次 VPN 连接尚未清理完成。请彻底退出并重新打开 Usque 后重试；若仍失败，请打开“诊断”。',
+      '上次 VPN 连接尚未清理完成。请彻底退出并重新打开 MoeHtet 后重试；若仍失败，请打开“诊断”。',
   'WINDOWS_RECOVERY_FAILED': '未能完整恢复上次 VPN 的网络状态，尚未建立新 VPN 连接。请重试连接，或查看本地诊断。',
   'WINDOWS_RECOVERY_EXHAUSTED':
       'Windows 在三次自动尝试后仍未能恢复上次 VPN 网络状态。请稍后重试，或查看本地诊断。',
   'WINDOWS_RECOVERY_BLOCKED':
-      'Usque 无法确认是否能安全恢复上次 VPN 的设置，已停止自动修复。请打开“设置”检查更新；若问题持续，请打开“诊断”并导出诊断包。',
+      'MoeHtet 无法确认是否能安全恢复上次 VPN 的设置，已停止自动修复。请打开“设置”检查更新；若问题持续，请打开“诊断”并导出诊断包。',
   'WINDOWS_RECOVERY_TIMEOUT': 'Windows 网络状态恢复耗时较长，尚未建立新 VPN 连接。请等待恢复完成后再重试。',
   'WINDOWS_RECOVERY_CONFLICT': '网络状态已变化，或仍被其他会话使用。为保护现有连接，已停止自动恢复。',
   'WINDOWS_RECOVERY_UNSUPPORTED':
-      '当前安装的 Usque 无法自动恢复上次 VPN 的设置。请打开“设置”更新 Usque 后重试。',
+      '当前安装的 MoeHtet 无法自动恢复上次 VPN 的设置。请打开“设置”更新 MoeHtet 后重试。',
 };
 
 const Map<String, Map<String, String>> kWindowsRecoveryCatalogs =

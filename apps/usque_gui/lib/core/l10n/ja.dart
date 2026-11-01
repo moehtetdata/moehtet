@@ -14,17 +14,17 @@ const Map<String, String> kJaCatalog = <String, String>{
   'disable_quic': "QUIC を無効化",
   'disable_quic_managed': '現在の接続が自動的に管理します',
   'disable_quic_help':
-      "Usque が転送する UDP 443 番ポートの通信（主に QUIC）をブロックし、アプリに TCP を使わせます。直接接続の通信と Usque 自身の接続には影響しません。すぐに反映されます。",
+      "MoeHtet が転送する UDP 443 番ポートの通信（主に QUIC）をブロックし、アプリに TCP を使わせます。直接接続の通信と MoeHtet 自身の接続には影響しません。すぐに反映されます。",
   'disable_quic_unsupported':
-      '現在 QUIC をブロックできません。Usque を再起動し、それでも使えない場合は「設定」で更新を確認してください。',
+      '現在 QUIC をブロックできません。MoeHtet を再起動し、それでも使えない場合は「設定」で更新を確認してください。',
   'technical_details': '技術情報',
   'diag_skip_disconnected': '接続してからこのチェックを実行してください。',
   'diag_skip_disabled': 'この機能はオフになっています。',
   'diag_skip_unsupported': 'このデバイスではこのチェックを利用できません。',
   'diag_skip_traffic': '通信を行ってから、このチェックを再実行してください。',
   'diag_skip_deep': 'このチェックを実行するには詳細モードを選択してください。',
-  'app_loading': "Usque を読み込み中",
-  'app_name': 'Usque',
+  'app_loading': "MoeHtet を読み込み中",
+  'app_name': 'MoeHtet',
   'diag_fail_L4_SESSION_UNAVAILABLE': 'L4 セッションを利用できません',
   'diag_fail_L4_PROTOCOL_ERROR': 'L4 プロトコルエラー',
   'diag_fail_L4_CONNECT_REJECTED': 'L4 CONNECT が拒否されました',
@@ -35,12 +35,12 @@ const Map<String, String> kJaCatalog = <String, String>{
   'window_maximize': '最大化',
   'window_restore': 'ウィンドウサイズを元に戻す',
   'window_close': '閉じる',
-  'tray_open': 'Usque を開く',
+  'tray_open': 'MoeHtet を開く',
   'tray_connect_profile': '現在のアカウントに接続',
   'tray_disconnect_profile': '現在のアカウントを切断',
   'tray_disconnect_exit': '切断して終了',
-  'notice_connection_interrupted': '接続が中断されました。Usque が復旧を試みています。',
-  'notice_connection_failed': 'Usque は接続を維持できませんでした。詳細は Usque を開いて確認してください。',
+  'notice_connection_interrupted': '接続が中断されました。MoeHtet が復旧を試みています。',
+  'notice_connection_failed': 'MoeHtet は接続を維持できませんでした。詳細は MoeHtet を開いて確認してください。',
   'notice_connection_restored': '接続が復旧しました。',
   'notice_kill_switch_blocking':
       '接続が復旧するか切断するまで、Kill Switch がネットワーク通信をブロックしています。',
@@ -82,7 +82,7 @@ const Map<String, String> kJaCatalog = <String, String>{
   'not_available': '利用できません',
   'location_disconnected': '接続待ち',
   'engine_unavailable':
-      '接続サービスを起動できませんでした。Usque を完全に終了して開き直してください。解決しない場合は「診断」を開いてください。',
+      '接続サービスを起動できませんでした。MoeHtet を完全に終了して開き直してください。解決しない場合は「診断」を開いてください。',
   'dismiss': '閉じる',
   'new_profile': 'アカウントを追加',
   'profile_name': 'アカウント名',
@@ -103,7 +103,7 @@ const Map<String, String> kJaCatalog = <String, String>{
   'zero_trust_open_login': '組織のログインを開く',
   'zero_trust_browser_failed': 'システムのブラウザーを開けませんでした。',
   'zero_trust_manual_callback':
-      'ログイン後に Usque に戻ってください。自動で反映されない場合は、ログイン画面で WARP を開くためのリンクをコピーし、下に貼り付けてください。',
+      'ログイン後に MoeHtet に戻ってください。自動で反映されない場合は、ログイン画面で WARP を開くためのリンクをコピーし、下に貼り付けてください。',
   'zero_trust_callback_received': 'ログイン結果を受信しました。続けてアカウント設定を完了してください。',
   'zero_trust_callback': 'ログイン後に戻るためのリンク',
   'zero_trust_callback_required':
@@ -128,7 +128,7 @@ const Map<String, String> kJaCatalog = <String, String>{
   "zero_trust_endpoint_risk_continue": "リスクを受け入れて編集を続ける",
   "zero_trust_endpoint_risk_locked": "アドレスの編集前にリスクを確認してください。",
   "zero_trust_endpoint_unsupported":
-      "Zero Trust エンドポイントを編集するには Usque を更新してください。",
+      "Zero Trust エンドポイントを編集するには MoeHtet を更新してください。",
   "zero_trust_reauth_endpoints": "再ログインすると登録時のエンドポイントアドレスに戻り、カスタムアドレスは削除されます。",
   'experimental': '実験的',
   'show_license': 'License Key を表示',
@@ -192,7 +192,7 @@ const Map<String, String> kJaCatalog = <String, String>{
   'proxy_password_set': 'パスワードは設定済みです。置き換える場合は新しいパスワードを入力してください。',
   'proxy_auth_clear': 'パスワード保護を解除',
   'general': '一般',
-  'start_on_boot': 'サインイン時に Usque を起動',
+  'start_on_boot': 'サインイン時に MoeHtet を起動',
   'close_to_tray': 'ウィンドウを閉じてシステムトレイに格納',
   'add_quick_settings_tile': 'クイック設定タイルを追加',
   'theme': 'テーマ',
@@ -228,7 +228,7 @@ const Map<String, String> kJaCatalog = <String, String>{
   'update_available': '新しいリリースがあります：',
   'already_latest': 'このインストールはすでに最新です。',
   'open_release': 'リリースページを開く',
-  'update_startup_description': 'Usque の起動時に更新を確認します。',
+  'update_startup_description': 'MoeHtet の起動時に更新を確認します。',
   'update_checking': '更新を確認しています…',
   'update_downloading': '更新をダウンロードしています…',
   'update_verifying': '更新パッケージを検証しています…',
@@ -263,7 +263,7 @@ const Map<String, String> kJaCatalog = <String, String>{
   'endpoint_automatic_help':
       'このアカウントで利用できる最速のエンドポイントを選びます。アドレスの変更はカスタムモードでのみ保存されます。',
   'endpoint_custom_help': '下の IPv4 と IPv6 アドレスを使用します。',
-  'endpoint_unsupported': 'エンドポイントの自動選択には Usque を更新してください。',
+  'endpoint_unsupported': 'エンドポイントの自動選択には MoeHtet を更新してください。',
   'endpoint_ipv4': 'エンドポイント IPv4',
   'endpoint_ipv6': 'エンドポイント IPv6',
   'sni': 'SNI',
@@ -289,9 +289,9 @@ const Map<String, String> kJaCatalog = <String, String>{
   'kill_switch_help': '接続・再接続・障害時に通信を遮断。',
   'kill_switch_help_android': '接続・再接続・障害時に通信を遮断。VPN サービス動作中のみ有効。',
   'start_on_boot_android':
-      '端末の再起動後に Usque を起動します。自動で接続するには、「起動時に現在のアカウントへ自動接続」もオンにしてください。',
+      '端末の再起動後に MoeHtet を起動します。自動で接続するには、「起動時に現在のアカウントへ自動接続」もオンにしてください。',
   'add_quick_settings_tile_help':
-      'Android 13 以降では Usque タイルを追加できます。それ以前のバージョンでは、クイック設定から手動で追加してください。',
+      'Android 13 以降では MoeHtet タイルを追加できます。それ以前のバージョンでは、クイック設定から手動で追加してください。',
   'always_on_vpn': '常時オン VPN の設定を開く',
   'always_on_vpn_help':
       'アプリが強制終了された後の漏洩防止のため、常時オン VPN と「VPN なしでは接続をブロック」を有効にしてください。',
@@ -330,7 +330,7 @@ const Map<String, String> kJaCatalog = <String, String>{
   'diagnostics_subtitle': '接続の問題を調べ、ログの出力や端末内データの管理を行います。',
   'engine_status': '接続情報',
   'version': 'バージョン',
-  'app_version': 'Usque 0.3.3',
+  'app_version': 'MoeHtet 0.3.3',
   'logs': 'ローカルログ',
   'export_diagnostics': '診断バンドルをエクスポート',
   'diagnostics_saved': '診断バンドルの保存先',
@@ -340,13 +340,13 @@ const Map<String, String> kJaCatalog = <String, String>{
   'clear_all_data_help':
       '接続を切断し、この端末の全アカウント、WARP ログイン情報、設定、キャッシュ、診断記録を完全に削除します。',
   'clear_all_data_confirm':
-      'この操作は取り消せません。Usque は接続を切断して全アカウントとログイン情報を削除し、初期設定に戻ります。',
-  'clear_all_data_complete': 'Usque のローカルデータをすべて消去しました。',
+      'この操作は取り消せません。MoeHtet は接続を切断して全アカウントとログイン情報を削除し、初期設定に戻ります。',
+  'clear_all_data_complete': 'MoeHtet のローカルデータをすべて消去しました。',
   'unofficial':
-      'Cloudflare® WARP® サービスと互換性のある非公式クライアントです。Usque は Cloudflare, Inc. と提携しておらず、同社からの支援や推奨も受けていません。',
+      'Cloudflare® WARP® サービスと互換性のある非公式クライアントです。MoeHtet は Cloudflare, Inc. と提携しておらず、同社からの支援や推奨も受けていません。',
   'trademark_attribution':
       'Cloudflare および WARP は、米国およびその他の法域における Cloudflare, Inc. の商標または登録商標です。',
-  'welcome_title': 'Usque へようこそ',
+  'welcome_title': 'MoeHtet へようこそ',
   'setup_progress': 'セットアップ手順 {current} / {total}',
   'get_started': '始める',
   'permissions_title': 'システム権限',
@@ -354,7 +354,7 @@ const Map<String, String> kJaCatalog = <String, String>{
       'アプリの通信を VPN に通すため、システムの許可が必要です。接続モードに応じて DNS、ネットワーク経路、ファイアウォール保護、システムプロキシも設定します。',
   'terms_title': 'Cloudflare の利用規約',
   'terms_body':
-      'Usque は独立したクライアントです。個人向け WARP や試験的な Zero Trust 登録の利用には、引き続き Cloudflare の利用規約とプライバシーポリシーが適用されます。',
+      'MoeHtet は独立したクライアントです。個人向け WARP や試験的な Zero Trust 登録の利用には、引き続き Cloudflare の利用規約とプライバシーポリシーが適用されます。',
   'terms_accept': 'これらの条件を理解し、同意します。',
   'identity_title': '個人用 WARP アカウントを設定',
   'register_new': '無料の WARP アカウントを作成',
@@ -381,7 +381,7 @@ const Map<String, String> kJaCatalog = <String, String>{
   'bypass_line_error': '{line}行目: {reason}',
   'bypass_summary': '地域 {countries}件 · カスタム対象 {targets}件',
   'geo_direct_help':
-      'これらの国・地域に一致する通信は Usque の VPN／仮想アダプターと、ローカルの HTTP／SOCKS5 プロキシを経由しません。現在のネットワークの DNS 提供元にアクセス先ドメインが見える場合があります。暗号化 DNS を使うアプリは IP アドレスだけで振り分けます。',
+      'これらの国・地域に一致する通信は MoeHtet の VPN／仮想アダプターと、ローカルの HTTP／SOCKS5 プロキシを経由しません。現在のネットワークの DNS 提供元にアクセス先ドメインが見える場合があります。暗号化 DNS を使うアプリは IP アドレスだけで振り分けます。',
   'geo_update_all': '地理データを更新',
   'geo_last_updated': '前回の成功した更新: {current}',
   'geo_never_updated': 'まだ更新されていません',
@@ -495,10 +495,10 @@ const Map<String, String> kJaCatalog = <String, String>{
   'diag_check_tunnel_ipv6_egress': 'IPv6 出口',
   'diag_check_protection_kill_switch': 'Kill Switch の状態',
   'diag_check_protection_dns_path': 'DNS 経路',
-  'diag_check_protection_route_ownership': 'Usque が管理するネットワーク経路',
+  'diag_check_protection_route_ownership': 'MoeHtet が管理するネットワーク経路',
   'diag_check_protection_recovery_journal': '復旧ジャーナル',
-  'diag_fail_ENGINE_UNAVAILABLE': 'Usque の接続サービスを利用できません',
-  'diag_fail_AGENT_UNREACHABLE': 'Usque のシステムネットワークサービスに接続できません',
+  'diag_fail_ENGINE_UNAVAILABLE': 'MoeHtet の接続サービスを利用できません',
+  'diag_fail_AGENT_UNREACHABLE': 'MoeHtet のシステムネットワークサービスに接続できません',
   'diag_fail_VPN_SERVICE_UNAVAILABLE': 'VPN サービスを利用できません',
   'diag_fail_PROXY_PORT_IN_USE': 'プロキシポートが使用中です',
   'diag_fail_PHYSICAL_IPV4_UNAVAILABLE': '物理 IPv4 を利用できません',
@@ -533,7 +533,7 @@ const Map<String, String> kJaCatalog = <String, String>{
   'diag_fail_SYSTEM_PROXY_STATE_MISMATCH': 'システムプロキシの状態が一致しません',
   'diag_fail_ROUTE_RESTORE_INCOMPLETE': 'ルートの復元が不完全です',
   'diag_fail_DNS_RESTORE_INCOMPLETE': 'DNS の復元が不完全です',
-  'diag_fail_SYSTEM_PROXY_STALE': 'Usque のシステムプロキシ状態がクリーンアップされていません',
+  'diag_fail_SYSTEM_PROXY_STALE': 'MoeHtet のシステムプロキシ状態がクリーンアップされていません',
   'diag_fail_PLATFORM_RECOVERY_PENDING': 'システムのネットワーク設定が未復元',
   'diag_fail_PACKET_SEND_FAILED': 'パケット送信に失敗しました',
   'diag_fail_PACKET_SEND_TIMEOUT': 'パケット送信がタイムアウトしました',
@@ -555,14 +555,14 @@ const Map<String, String> kJaCatalog = <String, String>{
   'diag_fix_review_configuration':
       '「設定 → 高度なネットワーク設定」で強調表示された項目を修正し、変更を適用してください。',
   'diag_fix_restore_platform_state':
-      'Usque を完全に終了して開き直し、再試行してください。解決しない場合は「診断」で診断パッケージを出力し、サポートに相談してください。',
+      'MoeHtet を完全に終了して開き直し、再試行してください。解決しない場合は「診断」で診断パッケージを出力し、サポートに相談してください。',
   'diag_fix_resolve_dependency': '一覧の失敗した検査を先に解決してから、再度診断してください。',
   'diag_fix_run_deep_diagnostics':
       '「診断」で「詳細」を選んで開始してください。テスト通信を行う場合があり、接続中は一部の検査を省略します。',
   'diag_fix_run_release_leak_gate': '診断バンドルをエクスポートしてサポートに送ってください。機密情報は削除されます。',
   'diag_fix_inspect_platform_state':
       '「診断」の「システム保護」で失敗した項目を確認してください。解決しない場合は診断パッケージを出力して相談してください。',
-  'diag_fix_generate_tunnel_traffic': 'Usque 経由でウェブページを開いてから、再度検査してください。',
+  'diag_fix_generate_tunnel_traffic': 'MoeHtet 経由でウェブページを開いてから、再度検査してください。',
   'diag_fix_export_diagnostics': '診断バンドルをエクスポートしてサポートに送ってください。機密情報は削除されます。',
   'diag_fix_retry': 'しばらくしてから再試行してください。',
   'diag_fix_none': '操作は不要です。',

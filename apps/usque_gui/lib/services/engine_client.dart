@@ -1055,7 +1055,7 @@ class MethodChannelEngineClient
     } on MissingPluginException {
       throw const EngineException(
         'ENGINE_UNAVAILABLE',
-        'The native Usque Engine is not available in this build yet.',
+        'The native MoeHtet Engine is not available in this build yet.',
       );
     } on PlatformException catch (error) {
       throw EngineException(

@@ -108,7 +108,7 @@ internal class VpnNotificationController(
         return Notification
             .Builder(context, CHANNEL_ID)
             .setSmallIcon(R.drawable.ic_stat_usque)
-            .setContentTitle("Usque")
+            .setContentTitle("MoeHtet")
             .setContentText(status)
             .setContentIntent(contentIntent)
             .setCategory(Notification.CATEGORY_SERVICE)

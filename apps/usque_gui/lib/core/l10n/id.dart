@@ -14,17 +14,17 @@ const Map<String, String> kIdCatalog = <String, String>{
   'disable_quic': "Nonaktifkan QUIC",
   'disable_quic_managed': 'Dikelola otomatis oleh koneksi ini',
   'disable_quic_help':
-      "Blokir lalu lintas UDP port 443 yang diteruskan Usque, sebagian besar QUIC, agar aplikasi beralih ke TCP. Lalu lintas langsung dan koneksi Usque sendiri tidak terpengaruh. Langsung berlaku.",
+      "Blokir lalu lintas UDP port 443 yang diteruskan MoeHtet, sebagian besar QUIC, agar aplikasi beralih ke TCP. Lalu lintas langsung dan koneksi MoeHtet sendiri tidak terpengaruh. Langsung berlaku.",
   'disable_quic_unsupported':
-      'Pemblokiran QUIC saat ini tidak tersedia. Mulai ulang Usque; jika masih tidak tersedia, periksa pembaruan di Pengaturan.',
+      'Pemblokiran QUIC saat ini tidak tersedia. Mulai ulang MoeHtet; jika masih tidak tersedia, periksa pembaruan di Pengaturan.',
   'technical_details': 'Detail teknis',
   'diag_skip_disconnected': 'Hubungkan untuk menjalankan pemeriksaan ini.',
   'diag_skip_disabled': 'Fitur ini dinonaktifkan.',
   'diag_skip_unsupported': 'Pemeriksaan ini tidak tersedia di perangkat ini.',
   'diag_skip_traffic': 'Gunakan koneksi, lalu jalankan pemeriksaan ini lagi.',
   'diag_skip_deep': 'Pilih mode mendalam untuk menjalankan pemeriksaan ini.',
-  'app_loading': "Memuat Usque",
-  'app_name': 'Usque',
+  'app_loading': "Memuat MoeHtet",
+  'app_name': 'MoeHtet',
   'diag_fail_L4_SESSION_UNAVAILABLE': 'Sesi L4 tidak tersedia',
   'diag_fail_L4_PROTOCOL_ERROR': 'Galat protokol L4',
   'diag_fail_L4_CONNECT_REJECTED': 'L4 CONNECT ditolak',
@@ -35,14 +35,14 @@ const Map<String, String> kIdCatalog = <String, String>{
   'window_maximize': 'Perbesar',
   'window_restore': 'Pulihkan ukuran jendela',
   'window_close': 'Tutup',
-  'tray_open': 'Buka Usque',
+  'tray_open': 'Buka MoeHtet',
   'tray_connect_profile': 'Hubungkan akun aktif',
   'tray_disconnect_profile': 'Putuskan akun aktif',
   'tray_disconnect_exit': 'Putuskan dan keluar',
   'notice_connection_interrupted':
-      'Koneksi terputus. Usque sedang mencoba memulihkannya.',
+      'Koneksi terputus. MoeHtet sedang mencoba memulihkannya.',
   'notice_connection_failed':
-      'Usque tidak dapat mempertahankan koneksi. Buka Usque untuk melihat detailnya.',
+      'MoeHtet tidak dapat mempertahankan koneksi. Buka MoeHtet untuk melihat detailnya.',
   'notice_connection_restored': 'Koneksi telah dipulihkan.',
   'notice_kill_switch_blocking':
       'Kill Switch memblokir lalu lintas jaringan hingga koneksi pulih atau Anda memutuskan koneksi.',
@@ -85,7 +85,7 @@ const Map<String, String> kIdCatalog = <String, String>{
   'not_available': 'Tidak tersedia',
   'location_disconnected': 'Menunggu untuk tersambung',
   'engine_unavailable':
-      'Layanan koneksi tidak dapat dimulai. Tutup Usque sepenuhnya lalu buka kembali. Jika masih gagal, buka Diagnostik.',
+      'Layanan koneksi tidak dapat dimulai. Tutup MoeHtet sepenuhnya lalu buka kembali. Jika masih gagal, buka Diagnostik.',
   'dismiss': 'Tutup',
   'new_profile': 'Tambah akun',
   'profile_name': 'Nama akun',
@@ -106,7 +106,7 @@ const Map<String, String> kIdCatalog = <String, String>{
   'zero_trust_open_login': 'Buka halaman masuk organisasi',
   'zero_trust_browser_failed': 'Peramban sistem tidak dapat dibuka.',
   'zero_trust_manual_callback':
-      'Setelah masuk, kembali ke Usque. Jika hasilnya tidak diterima otomatis, salin tautan di halaman masuk yang digunakan untuk membuka WARP, lalu tempel seluruhnya di bawah.',
+      'Setelah masuk, kembali ke MoeHtet. Jika hasilnya tidak diterima otomatis, salin tautan di halaman masuk yang digunakan untuk membuka WARP, lalu tempel seluruhnya di bawah.',
   'zero_trust_callback_received':
       'Hasil masuk diterima. Lanjutkan untuk menyelesaikan penyiapan akun.',
   'zero_trust_callback': 'Tautan kembali setelah masuk',
@@ -136,7 +136,7 @@ const Map<String, String> kIdCatalog = <String, String>{
   "zero_trust_endpoint_risk_locked":
       "Konfirmasikan risiko sebelum mengedit alamat ini.",
   "zero_trust_endpoint_unsupported":
-      "Perbarui Usque untuk mengedit endpoint Zero Trust.",
+      "Perbarui MoeHtet untuk mengedit endpoint Zero Trust.",
   "zero_trust_reauth_endpoints":
       "Masuk kembali memulihkan alamat endpoint terdaftar dan menghapus alamat khusus Anda.",
   'experimental': 'Eksperimental',
@@ -154,7 +154,7 @@ const Map<String, String> kIdCatalog = <String, String>{
   'delete': 'Hapus',
   'delete_profile': 'Hapus akun?',
   'delete_profile_body':
-      "Hapus akun ini dan informasi masuk WARP-nya dari perangkat ini? Jika License Key terikat, Usque juga mencoba melepaskannya.",
+      "Hapus akun ini dan informasi masuk WARP-nya dari perangkat ini? Jika License Key terikat, MoeHtet juga mencoba melepaskannya.",
   'delete_zero_trust_profile_body':
       'Akun dan informasi masuk dihapus dari perangkat ini. Minta administrator menghapus juga catatan perangkat di dasbor Zero Trust organisasi.',
   'license_not_applicable': 'Akun organisasi · Eksperimental',
@@ -206,7 +206,7 @@ const Map<String, String> kIdCatalog = <String, String>{
       'Kata sandi sudah diatur. Masukkan yang baru untuk menggantinya.',
   'proxy_auth_clear': 'Hapus perlindungan kata sandi',
   'general': 'Umum',
-  'start_on_boot': 'Jalankan Usque saat Anda masuk',
+  'start_on_boot': 'Jalankan MoeHtet saat Anda masuk',
   'close_to_tray': 'Tutup jendela ke baki sistem',
   'add_quick_settings_tile': 'Tambahkan ubin Setelan Cepat',
   'theme': 'Tema',
@@ -242,7 +242,7 @@ const Map<String, String> kIdCatalog = <String, String>{
   'update_available': 'Rilis yang lebih baru tersedia:',
   'already_latest': 'Instalasi ini sudah yang terbaru.',
   'open_release': 'Buka halaman rilis',
-  'update_startup_description': 'Periksa pembaruan saat Usque dimulai.',
+  'update_startup_description': 'Periksa pembaruan saat MoeHtet dimulai.',
   'update_checking': 'Memeriksa pembaruan…',
   'update_downloading': 'Mengunduh pembaruan…',
   'update_verifying': 'Memverifikasi paket pembaruan…',
@@ -281,7 +281,7 @@ const Map<String, String> kIdCatalog = <String, String>{
       'Memilih endpoint tersedia tercepat untuk akun ini. Perubahan alamat hanya disimpan dalam mode Kustom.',
   'endpoint_custom_help': 'Menggunakan alamat IPv4 dan IPv6 di bawah.',
   'endpoint_unsupported':
-      'Perbarui Usque untuk menggunakan pemilihan endpoint otomatis.',
+      'Perbarui MoeHtet untuk menggunakan pemilihan endpoint otomatis.',
   'endpoint_ipv4': 'Endpoint IPv4',
   'endpoint_ipv6': 'Endpoint IPv6',
   'sni': 'SNI',
@@ -309,9 +309,9 @@ const Map<String, String> kIdCatalog = <String, String>{
   'kill_switch_help_android':
       'Blokir lalu lintas saat menyambung, menyambung ulang, atau gagal. Hanya saat layanan VPN berjalan.',
   'start_on_boot_android':
-      'Jalankan Usque setelah perangkat dimulai ulang. Untuk menyambung otomatis, aktifkan juga “Sambungkan akun saat ini secara otomatis saat mulai”.',
+      'Jalankan MoeHtet setelah perangkat dimulai ulang. Untuk menyambung otomatis, aktifkan juga “Sambungkan akun saat ini secara otomatis saat mulai”.',
   'add_quick_settings_tile_help':
-      'Tambahkan ubin Usque di Android 13 atau yang lebih baru. Pada versi lama, tambahkan secara manual dari Setelan Cepat.',
+      'Tambahkan ubin MoeHtet di Android 13 atau yang lebih baru. Pada versi lama, tambahkan secara manual dari Setelan Cepat.',
   'always_on_vpn': 'Buka pengaturan VPN selalu aktif',
   'always_on_vpn_help':
       'Aktifkan VPN selalu aktif dan Blokir koneksi tanpa VPN untuk perlindungan kebocoran setelah aplikasi dihentikan.',
@@ -351,7 +351,7 @@ const Map<String, String> kIdCatalog = <String, String>{
       'Periksa masalah koneksi, ekspor log, dan kelola data lokal.',
   'engine_status': 'Informasi koneksi',
   'version': 'Versi',
-  'app_version': 'Usque 0.3.3',
+  'app_version': 'MoeHtet 0.3.3',
   'logs': 'Log lokal',
   'export_diagnostics': 'Ekspor bundel diagnostik',
   'diagnostics_saved': 'Bundel diagnostik disimpan ke',
@@ -361,21 +361,21 @@ const Map<String, String> kIdCatalog = <String, String>{
   'clear_all_data_help':
       'Putuskan koneksi dan hapus permanen semua akun, informasi masuk WARP, pengaturan, cache, serta catatan diagnostik dari perangkat ini.',
   'clear_all_data_confirm':
-      'Tidak dapat dibatalkan. Usque akan memutuskan koneksi, menghapus semua akun dan informasi masuk, lalu kembali ke penyiapan awal.',
-  'clear_all_data_complete': 'Semua data Usque lokal telah dihapus.',
+      'Tidak dapat dibatalkan. MoeHtet akan memutuskan koneksi, menghapus semua akun dan informasi masuk, lalu kembali ke penyiapan awal.',
+  'clear_all_data_complete': 'Semua data MoeHtet lokal telah dihapus.',
   'unofficial':
       'Klien tidak resmi yang kompatibel dengan layanan Cloudflare® WARP®. Tidak berafiliasi dengan, disponsori, atau didukung oleh Cloudflare, Inc.',
   'trademark_attribution':
       'Cloudflare dan WARP adalah merek dagang dan/atau merek dagang terdaftar milik Cloudflare, Inc. di Amerika Serikat dan yurisdiksi lainnya.',
-  'welcome_title': 'Selamat datang di Usque',
+  'welcome_title': 'Selamat datang di MoeHtet',
   'setup_progress': 'Langkah penyiapan {current} dari {total}',
   'get_started': 'Mulai',
   'permissions_title': 'Izin sistem',
   'permissions_body':
-      'Usque memerlukan izin untuk meneruskan lalu lintas aplikasi melalui VPN. Sesuai mode koneksi, Usque juga mengatur DNS, rute jaringan, perlindungan firewall, atau proksi sistem.',
+      'MoeHtet memerlukan izin untuk meneruskan lalu lintas aplikasi melalui VPN. Sesuai mode koneksi, MoeHtet juga mengatur DNS, rute jaringan, perlindungan firewall, atau proksi sistem.',
   'terms_title': 'Ketentuan Cloudflare',
   'terms_body':
-      'Usque adalah klien independen. Penggunaan WARP pribadi atau pendaftaran Zero Trust eksperimental tetap tunduk pada ketentuan dan kebijakan privasi Cloudflare.',
+      'MoeHtet adalah klien independen. Penggunaan WARP pribadi atau pendaftaran Zero Trust eksperimental tetap tunduk pada ketentuan dan kebijakan privasi Cloudflare.',
   'terms_accept': 'Saya memahami dan menerima ketentuan ini.',
   'identity_title': 'Siapkan akun WARP pribadi',
   'register_new': 'Buat akun WARP gratis',
@@ -403,7 +403,7 @@ const Map<String, String> kIdCatalog = <String, String>{
   'bypass_line_error': 'Baris {line}: {reason}',
   'bypass_summary': '{countries} wilayah · {targets} target khusus',
   'geo_direct_help':
-      'Lalu lintas yang cocok dengan negara atau wilayah ini melewati VPN/TUN Usque serta proksi lokal HTTP dan SOCKS5. Penyedia DNS jaringan saat ini mungkin melihat domain yang diminta. Aplikasi dengan DNS terenkripsi dicocokkan berdasarkan IP saja.',
+      'Lalu lintas yang cocok dengan negara atau wilayah ini melewati VPN/TUN MoeHtet serta proksi lokal HTTP dan SOCKS5. Penyedia DNS jaringan saat ini mungkin melihat domain yang diminta. Aplikasi dengan DNS terenkripsi dicocokkan berdasarkan IP saja.',
   'geo_update_all': 'Perbarui data geo',
   'geo_last_updated': 'Pembaruan berhasil terakhir: {current}',
   'geo_never_updated': 'Belum diperbarui',
@@ -530,11 +530,11 @@ const Map<String, String> kIdCatalog = <String, String>{
   'diag_check_tunnel_ipv6_egress': 'Jalur keluar IPv6',
   'diag_check_protection_kill_switch': 'Status Kill Switch',
   'diag_check_protection_dns_path': 'Jalur DNS',
-  'diag_check_protection_route_ownership': 'Rute jaringan yang dikelola Usque',
+  'diag_check_protection_route_ownership': 'Rute jaringan yang dikelola MoeHtet',
   'diag_check_protection_recovery_journal': 'Jurnal pemulihan',
-  'diag_fail_ENGINE_UNAVAILABLE': 'Layanan koneksi Usque tidak tersedia',
+  'diag_fail_ENGINE_UNAVAILABLE': 'Layanan koneksi MoeHtet tidak tersedia',
   'diag_fail_AGENT_UNREACHABLE':
-      'Layanan jaringan sistem Usque tidak dapat dihubungi',
+      'Layanan jaringan sistem MoeHtet tidak dapat dihubungi',
   'diag_fail_VPN_SERVICE_UNAVAILABLE': 'Layanan VPN tidak tersedia',
   'diag_fail_PROXY_PORT_IN_USE': 'Port proksi sedang digunakan',
   'diag_fail_PHYSICAL_IPV4_UNAVAILABLE': 'IPv4 fisik tidak tersedia',
@@ -571,7 +571,7 @@ const Map<String, String> kIdCatalog = <String, String>{
   'diag_fail_ROUTE_RESTORE_INCOMPLETE': 'Pemulihan rute tidak lengkap',
   'diag_fail_DNS_RESTORE_INCOMPLETE': 'Pemulihan DNS tidak lengkap',
   'diag_fail_SYSTEM_PROXY_STALE':
-      'Status proksi sistem Usque tidak dibersihkan',
+      'Status proksi sistem MoeHtet tidak dibersihkan',
   'diag_fail_PLATFORM_RECOVERY_PENDING':
       'Pengaturan jaringan sistem belum dipulihkan',
   'diag_fail_PACKET_SEND_FAILED': 'Pengiriman paket gagal',
@@ -595,7 +595,7 @@ const Map<String, String> kIdCatalog = <String, String>{
   'diag_fix_review_configuration':
       'Di Pengaturan → Pengaturan jaringan lanjutan, perbaiki isian yang ditandai lalu terapkan perubahan.',
   'diag_fix_restore_platform_state':
-      'Tutup Usque sepenuhnya lalu buka kembali. Jika masih gagal, buka Diagnostik dan ekspor paket diagnostik untuk meminta bantuan.',
+      'Tutup MoeHtet sepenuhnya lalu buka kembali. Jika masih gagal, buka Diagnostik dan ekspor paket diagnostik untuk meminta bantuan.',
   'diag_fix_resolve_dependency':
       'Tangani pemeriksaan yang gagal dalam daftar terlebih dahulu, lalu jalankan diagnostik lagi.',
   'diag_fix_run_deep_diagnostics':
@@ -605,7 +605,7 @@ const Map<String, String> kIdCatalog = <String, String>{
   'diag_fix_inspect_platform_state':
       'Di Diagnostik, lihat kegagalan pada Perlindungan sistem. Jika berlanjut, ekspor paket diagnostik untuk meminta bantuan.',
   'diag_fix_generate_tunnel_traffic':
-      'Buka halaman web melalui Usque, lalu ulangi pemeriksaan ini.',
+      'Buka halaman web melalui MoeHtet, lalu ulangi pemeriksaan ini.',
   'diag_fix_export_diagnostics':
       'Ekspor bundel diagnostik dan kirim ke dukungan. Informasi sensitif dihapus.',
   'diag_fix_retry': 'Coba lagi sebentar lagi.',

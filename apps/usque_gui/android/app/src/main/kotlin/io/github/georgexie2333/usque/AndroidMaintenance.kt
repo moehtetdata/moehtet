@@ -89,7 +89,7 @@ internal object AndroidMaintenance {
         val platformHealth = sanitizePlatformHealth(snapshot)
         val readme =
             """
-            Usque diagnostic bundle
+            MoeHtet diagnostic bundle
 
             This archive was created locally and is never uploaded automatically.
             Identity secrets, cryptographic material, full network addresses, SSIDs,

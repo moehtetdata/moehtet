@@ -289,8 +289,8 @@ internal class ServiceSnapshotState {
             }
 
             "degraded" -> {
-                unavailableIpVersion()?.let { "Connected, but $it is unavailable. Open Usque for details." }
-                    ?: "Connected, but some Internet access is limited. Open Usque for details."
+                unavailableIpVersion()?.let { "Connected, but $it is unavailable. Open MoeHtet for details." }
+                    ?: "Connected, but some Internet access is limited. Open MoeHtet for details."
             }
 
             "reconnecting" -> {
@@ -306,7 +306,7 @@ internal class ServiceSnapshotState {
             }
 
             else -> {
-                "Usque VPN"
+                "MoeHtet VPN"
             }
         }
 

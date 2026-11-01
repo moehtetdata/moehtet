@@ -17,7 +17,7 @@ const Map<String, String> kUiWorkflowFr = <String, String>{
   'cc_label': 'Contrôle de congestion HTTP/3',
   'cc_help': 'S’applique à votre prochaine connexion manuelle.',
   'cc_upgrade':
-      'Mettez Usque à jour dans Paramètres pour utiliser cette option.',
+      'Mettez MoeHtet à jour dans Paramètres pour utiliser cette option.',
   'cc_h2': 'Cette option ne concerne que les connexions HTTP/3.',
   'cc_saved': 'Enregistré',
   'cc_pending': 'En attente de la prochaine connexion manuelle.',
@@ -96,7 +96,7 @@ const Map<String, String> kNetworkQualityFr = <String, String>{
   'nq_finding_dns_system':
       'Le DNS du réseau actuel est utilisé ; les contrôles du DNS chiffré ne s’appliquent pas.',
   'nq_finding_unsupported':
-      'Mettez Usque à jour pour utiliser un DNS chiffré. Les requêtes ne passeront pas à un DNS non chiffré.',
+      'Mettez MoeHtet à jour pour utiliser un DNS chiffré. Les requêtes ne passeront pas à un DNS non chiffré.',
   'nq_finding_dns_custom_valid':
       'La configuration DNS chiffré personnalisée est valide. Le repli en '
       'clair est désactivé.',
@@ -108,7 +108,7 @@ const Map<String, String> kNetworkQualityFr = <String, String>{
   'nq_finding_queue_pressure':
       'Du trafic attend son envoi ou des données ont été abandonnées pendant cette connexion.',
   'nq_finding_pmtu_degraded':
-      'Usque n’a pas pu confirmer une taille de paquet adaptée à cette connexion.',
+      'MoeHtet n’a pas pu confirmer une taille de paquet adaptée à cette connexion.',
   'nq_finding_migration_reconnect':
       'Cette connexion doit être rétablie lorsque vous changez de réseau.',
   'nq_finding_dns_changed':
@@ -184,10 +184,10 @@ const Map<String, String> kNetworkQualityFr = <String, String>{
   'nq_outer_pmtu': 'Limite de charge utile UDP externe',
   'nq_inner_payload': 'Limite de charge utile CONNECT-IP',
   'nq_pmtu_help':
-      'Il s’agit de la taille des paquets que le chemin réseau peut transporter. Usque la vérifie automatiquement pour réduire les pertes. Ce contrôle n’augmente pas la MTU du VPN définie dans Paramètres réseau avancés.',
+      'Il s’agit de la taille des paquets que le chemin réseau peut transporter. MoeHtet la vérifie automatiquement pour réduire les pertes. Ce contrôle n’augmente pas la MTU du VPN définie dans Paramètres réseau avancés.',
   'nq_migration': 'Migration réseau',
   'nq_migration_help':
-      'Usque essaie de maintenir la connexion lors d’un changement de réseau, par exemple du Wi-Fi aux données mobiles. Les deux réseaux doivent utiliser la même version IP, IPv4 ou IPv6.',
+      'MoeHtet essaie de maintenir la connexion lors d’un changement de réseau, par exemple du Wi-Fi aux données mobiles. Les deux réseaux doivent utiliser la même version IP, IPv4 ou IPv6.',
   'nq_attempts': 'Tentatives',
   'nq_successes': 'Réussies',
   'nq_failures': 'Échouées',
@@ -239,13 +239,13 @@ const Map<String, String> kNetworkQualityFr = <String, String>{
   'nq_reason_family_unavailable':
       'Le nouveau réseau ne peut pas utiliser la même version IP. Une reconnexion est nécessaire.',
   'nq_reason_socket_protect_failed':
-      'Usque n’a pas pu utiliser le nouveau réseau en sécurité. Si la connexion ne revient pas, reconnectez-vous manuellement.',
+      'MoeHtet n’a pas pu utiliser le nouveau réseau en sécurité. Si la connexion ne revient pas, reconnectez-vous manuellement.',
   'nq_reason_generation_changed_during_setup':
       'Le réseau a de nouveau changé pendant la préparation.',
   'nq_reason_peer_cid_unavailable':
       'Le serveur n’a pas pu maintenir la connexion sur le nouveau réseau. Si elle ne revient pas, reconnectez-vous manuellement.',
   'nq_reason_local_cid_unavailable':
-      'Usque n’a pas pu maintenir la connexion sur le nouveau réseau. Si elle ne revient pas, reconnectez-vous manuellement.',
+      'MoeHtet n’a pas pu maintenir la connexion sur le nouveau réseau. Si elle ne revient pas, reconnectez-vous manuellement.',
   'nq_reason_path_probe_rejected':
       'Le nouveau réseau n’a pas réussi le contrôle de connexion. Vérifiez son accès à Internet.',
   'nq_reason_path_validation_timeout':
@@ -253,7 +253,7 @@ const Map<String, String> kNetworkQualityFr = <String, String>{
   'nq_reason_superseded':
       'Le réseau a encore changé avant la fin du basculement.',
   'nq_reason_promotion_failed':
-      'Usque n’a pas pu terminer le changement de réseau en sécurité. Si la connexion ne revient pas, reconnectez-vous manuellement.',
+      'MoeHtet n’a pas pu terminer le changement de réseau en sécurité. Si la connexion ne revient pas, reconnectez-vous manuellement.',
   'nq_reason_connection_closed':
       'La connexion s’est fermée pendant le changement de réseau. Reconnectez-vous.',
   'nq_reason_unsupported': 'La migration est indisponible sur cette connexion.',
@@ -264,7 +264,7 @@ const Map<String, String> kNetworkQualityFr = <String, String>{
   'nq_dns_port': 'Port (0 utilise la valeur par défaut)',
   'nq_dns_bootstrap': 'Adresses IP du serveur DNS',
   'nq_dns_bootstrap_help':
-      'Saisissez 1 à 8 IP fournies par votre service DNS, une par ligne, par exemple 1.1.1.1. Usque s’y connecte directement sans rechercher d’abord le nom du serveur.',
+      'Saisissez 1 à 8 IP fournies par votre service DNS, une par ligne, par exemple 1.1.1.1. MoeHtet s’y connecte directement sans rechercher d’abord le nom du serveur.',
   'nq_dns_no_fallback':
       'Si le DNS chiffré est indisponible, les requêtes échouent au lieu de passer au DNS non chiffré.',
   'nq_dns_system_privacy':
@@ -272,7 +272,7 @@ const Map<String, String> kNetworkQualityFr = <String, String>{
   'nq_dns_scope':
       'Utilisé pour les règles de contournement par pays et domaines personnalisés. Le DNS du trafic VPN reste inchangé.',
   'nq_dns_no_capability':
-      'Mettez Usque à jour pour utiliser le DNS chiffré des connexions directes. Vos réglages sont conservés. Vous pouvez choisir DNS du réseau actuel si vous acceptez les conséquences pour la confidentialité.',
+      'Mettez MoeHtet à jour pour utiliser le DNS chiffré des connexions directes. Vos réglages sont conservés. Vous pouvez choisir DNS du réseau actuel si vous acceptez les conséquences pour la confidentialité.',
   'nq_dns_invalid_name':
       'Saisissez un domaine comme dns.example.com, sans https://, port ni espaces.',
   'nq_dns_invalid_path':
@@ -291,9 +291,9 @@ const Map<String, String> kNetworkQualityFr = <String, String>{
 
 const Map<String, String> kWindowsRecoveryFr = <String, String>{
   'WINDOWS_DEVICE_REUSE_UNSUPPORTED':
-      'Les composants de connexion d’Usque doivent être mis à jour ensemble. Recherchez une mise à jour dans Paramètres. Aucune nouvelle connexion VPN n’a été lancée.',
+      'Les composants de connexion d’MoeHtet doivent être mis à jour ensemble. Recherchez une mise à jour dans Paramètres. Aucune nouvelle connexion VPN n’a été lancée.',
   'WINDOWS_DEVICE_RECOVERY_REQUIRED':
-      'Le nettoyage de la connexion VPN précédente n’est pas terminé. Quittez complètement Usque puis rouvrez-le. Si le problème persiste, ouvrez Diagnostics.',
+      'Le nettoyage de la connexion VPN précédente n’est pas terminé. Quittez complètement MoeHtet puis rouvrez-le. Si le problème persiste, ouvrez Diagnostics.',
   'WINDOWS_RECOVERY_FAILED':
       'L’état réseau VPN précédent n’a pas pu être entièrement restauré. '
       'Aucune nouvelle connexion VPN n’a été démarrée. Réessayez la connexion '
@@ -313,7 +313,7 @@ const Map<String, String> kWindowsRecoveryFr = <String, String>{
       'La récupération automatique a été arrêtée pour protéger la connexion '
       'active.',
   'WINDOWS_RECOVERY_UNSUPPORTED':
-      'Cette installation ne peut pas restaurer automatiquement les anciens paramètres VPN. Mettez Usque à jour dans Paramètres avant de réessayer.',
+      'Cette installation ne peut pas restaurer automatiquement les anciens paramètres VPN. Mettez MoeHtet à jour dans Paramètres avant de réessayer.',
 };
 
 const String kWindowsAdapterCleanupFr =
@@ -330,7 +330,7 @@ const Map<String, String> kL4Fr = <String, String>{
   'l4_explanation':
       'L4 transporte le trafic TCP via HTTP/3 et fonctionne avec le VPN et les proxys SOCKS5 et HTTP. Les requêtes DNS du VPN sont converties en TCP. Les applications ayant besoin d’autres flux UDP, de Ping distant, de fragments IP ou d’en-têtes d’extension peuvent ne pas fonctionner.',
   'l4_unsupported':
-      'L4 n’est pas disponible dans cette version d’Usque. Recherchez une mise à jour dans Paramètres.',
+      'L4 n’est pas disponible dans cette version d’MoeHtet. Recherchez une mise à jour dans Paramètres.',
   'l4_sni_identity':
       'Défini automatiquement par le compte. Le nom de serveur des autres modes de connexion est conservé.',
   'l4_edge_requires_l4':
@@ -363,10 +363,10 @@ const Map<String, String> kNetworkSettingsFr = <String, String>{
       'Impossible de confirmer si les paramètres réseau ont pris effet.',
   'settings_refresh': 'Actualiser l’état',
   'settings_confirmation_unavailable':
-      'Les paramètres réseau ne peuvent toujours pas être confirmés. Si l’actualisation ne suffit pas, quittez complètement Usque, rouvrez-le puis vérifiez les paramètres.',
+      'Les paramètres réseau ne peuvent toujours pas être confirmés. Si l’actualisation ne suffit pas, quittez complètement MoeHtet, rouvrez-le puis vérifiez les paramètres.',
   'settings_saved': 'Enregistré',
   'settings_unsupported':
-      'Quittez complètement Usque, rouvrez-le puis enregistrez à nouveau. Si cela échoue, recherchez une mise à jour dans Paramètres.',
+      'Quittez complètement MoeHtet, rouvrez-le puis enregistrez à nouveau. Si cela échoue, recherchez une mise à jour dans Paramètres.',
   'settings_save_failed':
       'Les paramètres n’ont pas pu être enregistrés. Vos modifications sont conservées.',
   'settings_reconnect': 'Reconnecter',
@@ -397,7 +397,7 @@ const Map<String, String> kChainFr = <String, String>{
   "dns_inherit":
       "Laisser vide pour utiliser le DNS réseau. Les requêtes passent par cette sortie.",
   "scope_proxy_only":
-      "Usque ne relaie actuellement que les connexions que les applications lui envoient. Les autres connexions peuvent révéler votre adresse IP publique.",
+      "MoeHtet ne relaie actuellement que les connexions que les applications lui envoient. Les autres connexions peuvent révéler votre adresse IP publique.",
   "scope_bypass":
       "Vos règles de connexion directe et par application restent applicables.",
   "scope_interrupted":
@@ -511,7 +511,7 @@ const Map<String, String> kChainFr = <String, String>{
   'l4': 'Cette configuration nécessite UDP, que L4 ne prend pas en charge.',
   'switch_mode': 'Désactiver L4 et appliquer',
   'unsupported':
-      'Cette version d’Usque ne peut pas utiliser cette source de sortie. Recherchez une mise à jour dans Paramètres.',
+      'Cette version d’MoeHtet ne peut pas utiliser cette source de sortie. Recherchez une mise à jour dans Paramètres.',
   'scope':
       'Les règles directes explicites restent en vigueur. Le reste du trafic utilise la sortie choisie.',
   'allowed': 'Destinations autorisées',

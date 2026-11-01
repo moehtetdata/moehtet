@@ -22,7 +22,7 @@ class AboutScreen extends StatelessWidget {
     void open(String url) => openExternalLink(context, strings, url);
     return SubPage(
       contentWidth: 880,
-      title: material.aboutListTileTitle('Usque'),
+      title: material.aboutListTileTitle('MoeHtet'),
       subtitle: strings.get('app_version'),
       backLabel: strings.get('back'),
       child: PanelStack(
@@ -64,7 +64,7 @@ class AboutScreen extends StatelessWidget {
                 icon: LucideIcons.scrollText,
                 title: material.licensesPageTitle,
                 onTap: () =>
-                    showLicensePage(context: context, applicationName: 'Usque'),
+                    showLicensePage(context: context, applicationName: 'MoeHtet'),
               ),
             ],
           ),

@@ -31,7 +31,7 @@ const kL4En = <String, String>{
   'l4_explanation':
       'L4 carries TCP traffic through HTTP/3 and works with VPN, SOCKS5 and HTTP proxies. DNS requests from the VPN are converted to TCP. Apps needing other UDP traffic, remote ping, IP fragments or extension headers may not work.',
   'l4_unsupported':
-      'L4 is unavailable in this version of Usque. Check for updates in Settings.',
+      'L4 is unavailable in this version of MoeHtet. Check for updates in Settings.',
   'l4_sni_identity':
       'Set automatically by your account. Your server name for other connection modes is kept.',
   'l4_edge_requires_l4':
@@ -62,7 +62,7 @@ const kL4ZhCn = <String, String>{
   'l4_transport_hint': '仅支持 TCP，需要 UDP 的应用可能无法使用。自动模式不包含 L4。',
   'l4_explanation':
       'L4 通过 HTTP/3 转发 TCP 流量，可用于 VPN、SOCKS5 和 HTTP 代理。VPN 的 DNS 查询会自动改用 TCP。需要其他 UDP 流量、远端 Ping、IP 分片或扩展头的应用可能无法使用。',
-  'l4_unsupported': '此版本的 Usque 无法使用 L4，请在“设置”中检查更新。',
+  'l4_unsupported': '此版本的 MoeHtet 无法使用 L4，请在“设置”中检查更新。',
   'l4_sni_identity': '由账号自动设置，无需修改。其他连接模式的服务器名称会保留。',
   'l4_edge_requires_l4': '当前连接不支持由代理服务器解析，请选择其他 DNS 方式。',
   'proxy_dns_edge_resolved': '由代理服务器解析',

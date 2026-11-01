@@ -15,7 +15,7 @@ const Map<String, String> kUiWorkflowZhHk = <String, String>{
   'proxy_switches_hint': '開關變更即時生效。',
   'cc_label': 'HTTP/3 擁塞控制',
   'cc_help': '下次手動連線時生效。',
-  'cc_upgrade': '請在「設定」中更新 Usque。',
+  'cc_upgrade': '請在「設定」中更新 MoeHtet。',
   'cc_h2': '此選項僅影響 HTTP/3 連接。',
   'cc_saved': '已儲存',
   'cc_pending': '待下次手動連線生效。',
@@ -78,7 +78,7 @@ const Map<String, String> kNetworkQualityZhHk = <String, String>{
   'nq_finding_unavailable': '目前狀態下此量度不可用。',
   'nq_finding_invalid_configuration': '自訂 DNS 設定無效。',
   'nq_finding_dns_system': '目前使用所在網絡的 DNS，因此不適用加密 DNS 檢查。',
-  'nq_finding_unsupported': '請更新 Usque 以使用加密 DNS。不會自動改用未加密的 DNS。',
+  'nq_finding_unsupported': '請更新 MoeHtet 以使用加密 DNS。不會自動改用未加密的 DNS。',
   'nq_finding_dns_custom_valid': '自訂加密 DNS 設定有效，明文回退已停用。',
   'nq_finding_stale': '讀數已過時，或物理網絡已切換。',
   'nq_finding_rtt_high': '測得的往返延遲偏高。',
@@ -119,7 +119,7 @@ const Map<String, String> kNetworkQualityZhHk = <String, String>{
   'nq_unavailable': '無法使用',
   'nq_not_ready': '尚未就緒',
   'nq_unsupported': '不支援',
-  'nq_capability_missing': '此版本無法顯示連接質素，仍可連接和中斷連接。請在「設定」中更新 Usque。',
+  'nq_capability_missing': '此版本無法顯示連接質素，仍可連接和中斷連接。請在「設定」中更新 MoeHtet。',
   'nq_empty': '連線後顯示測量結果。',
   'nq_stale_help': '更新已暫停，目前顯示上次讀數。',
   'nq_rtt': '往返時延',
@@ -150,7 +150,7 @@ const Map<String, String> kNetworkQualityZhHk = <String, String>{
   'nq_pmtu_help': '網絡路徑可傳輸的封包大小。自動檢查有助減少封包遺失，不會提高「進階網絡設定」中設定的 VPN MTU。',
   'nq_migration': '網絡遷移',
   'nq_migration_help':
-      '在 Wi-Fi 與流動網絡之間切換時，Usque 會嘗試保持連接。兩個網絡須使用相同 IP 版本（IPv4 或 IPv6）。',
+      '在 Wi-Fi 與流動網絡之間切換時，MoeHtet 會嘗試保持連接。兩個網絡須使用相同 IP 版本（IPv4 或 IPv6）。',
   'nq_attempts': '嘗試',
   'nq_successes': '成功',
   'nq_failures': '失敗',
@@ -202,7 +202,7 @@ const Map<String, String> kNetworkQualityZhHk = <String, String>{
   'nq_reason_socket_protect_failed': '無法安全使用新網絡。若連接未自行恢復，請重新連接。',
   'nq_reason_generation_changed_during_setup': '準備期間網絡再次變化。',
   'nq_reason_peer_cid_unavailable': '伺服器無法在新網絡上保持連接。必要時請重新連接。',
-  'nq_reason_local_cid_unavailable': 'Usque 無法在新網絡上保持連接。必要時請重新連接。',
+  'nq_reason_local_cid_unavailable': 'MoeHtet 無法在新網絡上保持連接。必要時請重新連接。',
   'nq_reason_path_probe_rejected': '新網絡的連接檢查失敗，請確認能否存取互聯網。',
   'nq_reason_path_validation_timeout': '新網絡未及時回應。請檢查互聯網連接，必要時重新連接。',
   'nq_reason_superseded': '尚未完成切換，網絡就再次變更。',
@@ -221,7 +221,7 @@ const Map<String, String> kNetworkQualityZhHk = <String, String>{
   'nq_dns_system_privacy': '目前網絡的 DNS 服務供應商可能看見直接連接流量查詢的網域名稱。',
   'nq_dns_scope': '用於符合國家/地區及自訂網域繞過規則的流量，不影響 VPN 流量的 DNS。',
   'nq_dns_no_capability':
-      '請更新 Usque，以便為直接連接使用加密 DNS。已儲存的設定會保留。若你接受隱私影響，也可自行選擇「目前網絡的 DNS」。',
+      '請更新 MoeHtet，以便為直接連接使用加密 DNS。已儲存的設定會保留。若你接受隱私影響，也可自行選擇「目前網絡的 DNS」。',
   'nq_dns_invalid_name': '請輸入網域名稱，例如 dns.example.com，不要包含 https://、連接埠或空白。',
   'nq_dns_invalid_path': '請輸入 /dns-query 之類的路徑，最多 256 個字元，不含空白或帶有 ? 或 # 的部分。',
   'nq_dns_invalid_bootstrap': '請輸入 1–8 個 DNS 伺服器 IP 地址。',
@@ -234,18 +234,18 @@ const Map<String, String> kNetworkQualityZhHk = <String, String>{
 };
 
 const Map<String, String> kWindowsRecoveryZhHk = <String, String>{
-  'WINDOWS_DEVICE_REUSE_UNSUPPORTED': '請在「設定」中一併更新 Usque 元件。尚未啟動新的 VPN 連接。',
+  'WINDOWS_DEVICE_REUSE_UNSUPPORTED': '請在「設定」中一併更新 MoeHtet 元件。尚未啟動新的 VPN 連接。',
   'WINDOWS_DEVICE_RECOVERY_REQUIRED':
-      '上次連接尚未清理完成。請完全關閉 Usque，重新開啟後再試一次。若問題持續，請開啟「診斷」。',
+      '上次連接尚未清理完成。請完全關閉 MoeHtet，重新開啟後再試一次。若問題持續，請開啟「診斷」。',
   'WINDOWS_RECOVERY_FAILED': '未能完整復原上次 VPN 的網絡狀態，尚未建立新 VPN 連線。請重試連線，或查看本機診斷。',
   'WINDOWS_RECOVERY_EXHAUSTED':
       'Windows 在三次自動嘗試後仍未能復原上次 VPN 網絡狀態。請稍後重試，或查看本機診斷。',
   'WINDOWS_RECOVERY_BLOCKED':
-      '無法確認能安全復原，因此已停止自動修復。請在「設定」中更新 Usque。若問題持續，請從「診斷」匯出紀錄。',
+      '無法確認能安全復原，因此已停止自動修復。請在「設定」中更新 MoeHtet。若問題持續，請從「診斷」匯出紀錄。',
   'WINDOWS_RECOVERY_TIMEOUT': 'Windows 網絡狀態復原需時較長，尚未建立新 VPN 連線。請等待復原完成後再重試。',
   'WINDOWS_RECOVERY_CONFLICT': '網絡狀態已改變，或仍被其他工作階段使用。為保護現有連線，已停止自動復原。',
   'WINDOWS_RECOVERY_UNSUPPORTED':
-      '目前的安裝無法自動復原先前的 VPN 連接。請在「設定」中更新 Usque 後再試一次。',
+      '目前的安裝無法自動復原先前的 VPN 連接。請在「設定」中更新 MoeHtet 後再試一次。',
 };
 
 const String kWindowsAdapterCleanupZhHk =
@@ -260,7 +260,7 @@ const Map<String, String> kL4ZhHk = <String, String>{
   'l4_transport_hint': '只支援 TCP，需要 UDP 的應用程式可能無法使用。自動模式不包括 L4。',
   'l4_explanation':
       'L4 透過 HTTP/3 傳輸 TCP 流量，可用於 VPN、SOCKS5 和 HTTP 代理。VPN 的 DNS 查詢會轉成 TCP。不支援其他 UDP 流量、遠端 Ping、IP 分片或延伸標頭，因此部分應用程式可能無法使用。',
-  'l4_unsupported': '此版本不支援 L4，請在「設定」中更新 Usque。',
+  'l4_unsupported': '此版本不支援 L4，請在「設定」中更新 MoeHtet。',
   'l4_sni_identity': '伺服器名稱由帳戶自動設定。其他連接模式儲存的伺服器名稱會保留。',
   'l4_edge_requires_l4': '目前連線不支援由代理伺服器解析，請選擇其他 DNS 方式。',
   'proxy_dns_edge_resolved': '由代理伺服器解析',
@@ -287,9 +287,9 @@ const Map<String, String> kNetworkSettingsZhHk = <String, String>{
   'settings_unknown': '暫時無法確認網絡設定是否已生效。',
   'settings_refresh': '重新整理狀態',
   'settings_confirmation_unavailable':
-      '仍無法確認網絡設定。若重新整理後仍出現此提示，請完全關閉並重新開啟 Usque 後核對設定。',
+      '仍無法確認網絡設定。若重新整理後仍出現此提示，請完全關閉並重新開啟 MoeHtet 後核對設定。',
   'settings_saved': '已儲存',
-  'settings_unsupported': '請完全關閉 Usque 後重新開啟，再試著儲存。若問題持續，請在「設定」中更新 Usque。',
+  'settings_unsupported': '請完全關閉 MoeHtet 後重新開啟，再試著儲存。若問題持續，請在「設定」中更新 MoeHtet。',
   'settings_save_failed': '設定儲存失敗，已保留你的修改。',
   'settings_reconnect': '重新連線',
 };
@@ -310,7 +310,7 @@ const Map<String, String> kChainZhHk = <String, String>{
   "add_proxy": "新增代理",
   "proxy_hint": "透過 WARP 連線。HTTP 支援 TCP；SOCKS5 在 H3/H2 下亦可支援 UDP。",
   "dns_inherit": "留空以沿用網絡 DNS，查詢經此出口傳送。",
-  "scope_proxy_only": "目前只代理應用程式交給 Usque 的連線，其他連線可能顯示本機公用 IP。",
+  "scope_proxy_only": "目前只代理應用程式交給 MoeHtet 的連線，其他連線可能顯示本機公用 IP。",
   "scope_bypass": "已設定的直連及個別應用程式規則繼續生效。",
   "scope_interrupted": "連線已中斷，裝置可能恢復一般網絡連線。",
   "scope_android_settings": "如需在服務停止後繼續攔截，請在系統設定中開啟「一律啟用 VPN」及「封鎖未使用 VPN 的連線」。",
@@ -332,7 +332,7 @@ const Map<String, String> kChainZhHk = <String, String>{
   'too_many_endpoints': '最多支援 16 個 remote 端點。',
   'conflicting_authentication': 'CLIENT_CERT 與內嵌憑證或驗證方式衝突。',
   'serialized_size_limit': '設定過大，無法儲存。',
-  'multi_endpoint_unavailable': '此設定包含多個伺服器，需要更新 Usque 後才能使用。',
+  'multi_endpoint_unavailable': '此設定包含多個伺服器，需要更新 MoeHtet 後才能使用。',
   'candidates': '待嘗試的伺服器',
   'random_order': '每次連線時以新的隨機順序嘗試這些伺服器。',
   'file_order': '每次連線時依列出的順序嘗試這些伺服器。',
@@ -403,7 +403,7 @@ const Map<String, String> kChainZhHk = <String, String>{
   'no_selection': '尚未選擇設定',
   'l4': '此設定需要 UDP，L4 模式不支援。',
   'switch_mode': '關閉 L4 並套用',
-  'unsupported': '此版本的 Usque 無法使用此出口來源，請在「設定」中檢查更新。',
+  'unsupported': '此版本的 MoeHtet 無法使用此出口來源，請在「設定」中檢查更新。',
   'scope': '已設定的直連規則不受影響，其餘流量都經由所選出口。',
   'allowed': '允許存取的目標',
   'dns': 'DNS',

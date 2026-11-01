@@ -42,7 +42,7 @@ const kNetworkQualityEn = <String, String>{
   'nq_finding_dns_system':
       'Using DNS from the current network; encrypted DNS checks do not apply.',
   'nq_finding_unsupported':
-      'Update Usque to use encrypted DNS. Queries will not switch to unencrypted DNS.',
+      'Update MoeHtet to use encrypted DNS. Queries will not switch to unencrypted DNS.',
   'nq_finding_dns_custom_valid':
       "Custom encrypted DNS configuration is valid. Plaintext fallback is disabled.",
   'nq_finding_stale': "The reading is stale or the physical network changed.",
@@ -53,7 +53,7 @@ const kNetworkQualityEn = <String, String>{
   'nq_finding_queue_pressure':
       'Traffic is waiting to be sent, or some data was dropped during this connection.',
   'nq_finding_pmtu_degraded':
-      'Usque could not confirm a suitable packet size for this connection.',
+      'MoeHtet could not confirm a suitable packet size for this connection.',
   'nq_finding_migration_reconnect':
       'This connection needs to reconnect when you switch networks.',
   'nq_finding_dns_changed':
@@ -123,10 +123,10 @@ const kNetworkQualityEn = <String, String>{
   'nq_outer_pmtu': 'Outer UDP payload limit',
   'nq_inner_payload': 'CONNECT-IP payload limit',
   'nq_pmtu_help':
-      'This is the packet size the network path can carry. Usque checks it automatically to help avoid dropped packets. These checks do not increase the VPN MTU set in Advanced network settings.',
+      'This is the packet size the network path can carry. MoeHtet checks it automatically to help avoid dropped packets. These checks do not increase the VPN MTU set in Advanced network settings.',
   'nq_migration': 'Network migration',
   'nq_migration_help':
-      'Usque tries to keep the connection when you switch networks, such as from Wi-Fi to mobile data. Both networks must use the same IP version, IPv4 or IPv6.',
+      'MoeHtet tries to keep the connection when you switch networks, such as from Wi-Fi to mobile data. Both networks must use the same IP version, IPv4 or IPv6.',
   'nq_attempts': 'Attempts',
   'nq_successes': 'Succeeded',
   'nq_failures': 'Failed',
@@ -178,13 +178,13 @@ const kNetworkQualityEn = <String, String>{
   'nq_reason_family_unavailable':
       'The new network cannot use the same IP version. The connection must be re-established.',
   'nq_reason_socket_protect_failed':
-      'Usque could not use the new network safely. If the connection does not recover, reconnect manually.',
+      'MoeHtet could not use the new network safely. If the connection does not recover, reconnect manually.',
   'nq_reason_generation_changed_during_setup':
       'The network changed again during setup.',
   'nq_reason_peer_cid_unavailable':
       'The server could not keep this connection on the new network. If needed, reconnect manually.',
   'nq_reason_local_cid_unavailable':
-      'Usque could not keep this connection on the new network. If needed, reconnect manually.',
+      'MoeHtet could not keep this connection on the new network. If needed, reconnect manually.',
   'nq_reason_path_probe_rejected':
       'The new network did not pass the connection check. Check that it can access the Internet.',
   'nq_reason_path_validation_timeout':
@@ -192,7 +192,7 @@ const kNetworkQualityEn = <String, String>{
   'nq_reason_superseded':
       'The network changed again before the switch finished.',
   'nq_reason_promotion_failed':
-      'Usque could not finish switching networks safely. If needed, reconnect manually.',
+      'MoeHtet could not finish switching networks safely. If needed, reconnect manually.',
   'nq_reason_connection_closed':
       'The connection closed while switching networks. Reconnect to continue.',
   'nq_reason_unsupported': 'Migration is unavailable on this connection.',
@@ -203,7 +203,7 @@ const kNetworkQualityEn = <String, String>{
   'nq_dns_port': 'Port (0 uses the default)',
   'nq_dns_bootstrap': 'DNS server IP addresses',
   'nq_dns_bootstrap_help':
-      'Enter 1–8 IP addresses supplied by your DNS provider, one per line, such as 1.1.1.1. Usque connects to these addresses directly without first looking up the server name.',
+      'Enter 1–8 IP addresses supplied by your DNS provider, one per line, such as 1.1.1.1. MoeHtet connects to these addresses directly without first looking up the server name.',
   'nq_dns_no_fallback':
       'If encrypted DNS is unavailable, queries fail instead of switching to unencrypted DNS.',
   'nq_dns_system_privacy':
@@ -211,7 +211,7 @@ const kNetworkQualityEn = <String, String>{
   'nq_dns_scope':
       'Used for matching country and custom domain bypass rules. DNS for VPN traffic is unchanged.',
   'nq_dns_no_capability':
-      'Update Usque to use encrypted DNS for direct traffic. Your settings are kept. You can choose Current network DNS if you accept its privacy implications.',
+      'Update MoeHtet to use encrypted DNS for direct traffic. Your settings are kept. You can choose Current network DNS if you accept its privacy implications.',
   'nq_dns_invalid_name':
       'Enter the server domain, such as dns.example.com, without https://, a port or spaces.',
   'nq_dns_invalid_path':
@@ -242,14 +242,14 @@ const kNetworkQualityZhCn = <String, String>{
   'nq_finding_unavailable': "当前状态下此指标不可用。",
   'nq_finding_invalid_configuration': "自定义 DNS 配置无效。",
   'nq_finding_dns_system': '当前使用网络提供的 DNS，无需检查加密 DNS。',
-  'nq_finding_unsupported': '请更新 Usque 以使用加密 DNS。查询不会改用未加密的 DNS。',
+  'nq_finding_unsupported': '请更新 MoeHtet 以使用加密 DNS。查询不会改用未加密的 DNS。',
   'nq_finding_dns_custom_valid': "自定义加密 DNS 配置有效，明文回退已禁用。",
   'nq_finding_stale': "读数已过期，或物理网络已切换。",
   'nq_finding_rtt_high': "测得的往返延迟较高。",
   'nq_finding_healthy': '已测得的连接指标处于正常范围。',
   'nq_finding_loss_high': "当前采样区间的丢包率较高。",
   'nq_finding_queue_pressure': '流量正在等待发送，或本次连接中曾丢弃部分数据。',
-  'nq_finding_pmtu_degraded': 'Usque 未能确认当前连接适用的数据包大小。',
+  'nq_finding_pmtu_degraded': 'MoeHtet 未能确认当前连接适用的数据包大小。',
   'nq_finding_migration_reconnect': '切换网络时，此连接需要重新建立。',
   'nq_finding_dns_changed': "已保存的 DNS 模式与当前连接不同。",
   'nq_finding_dns_runtime': '加密 DNS 工作正常。',
@@ -312,10 +312,10 @@ const kNetworkQualityZhCn = <String, String>{
   'nq_outer_pmtu': '外层 UDP 载荷上限',
   'nq_inner_payload': 'CONNECT-IP 载荷上限',
   'nq_pmtu_help':
-      '表示当前网络路径可承载的数据包大小。Usque 会自动检查，以减少丢包；检查不会提高“高级网络设置”中填写的 VPN MTU。',
+      '表示当前网络路径可承载的数据包大小。MoeHtet 会自动检查，以减少丢包；检查不会提高“高级网络设置”中填写的 VPN MTU。',
   'nq_migration': '网络迁移',
   'nq_migration_help':
-      '切换 Wi-Fi 或移动网络时，Usque 会尝试保持连接。前后网络需使用相同的 IP 版本（IPv4 或 IPv6）。',
+      '切换 Wi-Fi 或移动网络时，MoeHtet 会尝试保持连接。前后网络需使用相同的 IP 版本（IPv4 或 IPv6）。',
   'nq_attempts': '尝试',
   'nq_successes': '成功',
   'nq_failures': '失败',
@@ -364,14 +364,14 @@ const kNetworkQualityZhCn = <String, String>{
   'nq_phase_unknown': '尚未就绪',
   'nq_phase_unsupported': '不支持',
   'nq_reason_family_unavailable': '新网络无法使用相同的 IP 版本，需要重新连接。',
-  'nq_reason_socket_protect_failed': 'Usque 无法安全使用新网络。若连接未恢复，请手动重新连接。',
+  'nq_reason_socket_protect_failed': 'MoeHtet 无法安全使用新网络。若连接未恢复，请手动重新连接。',
   'nq_reason_generation_changed_during_setup': '准备期间网络再次变化。',
   'nq_reason_peer_cid_unavailable': '服务器无法在新网络上保持此连接。若连接未恢复，请手动重新连接。',
-  'nq_reason_local_cid_unavailable': 'Usque 无法在新网络上保持此连接。若连接未恢复，请手动重新连接。',
+  'nq_reason_local_cid_unavailable': 'MoeHtet 无法在新网络上保持此连接。若连接未恢复，请手动重新连接。',
   'nq_reason_path_probe_rejected': '新网络未通过连接检查，请确认它能正常上网。',
   'nq_reason_path_validation_timeout': '新网络未及时响应。请检查网络，必要时手动重新连接。',
   'nq_reason_superseded': '连接尚未切换完成，网络又发生了变化。',
-  'nq_reason_promotion_failed': 'Usque 无法安全完成网络切换。若连接未恢复，请手动重新连接。',
+  'nq_reason_promotion_failed': 'MoeHtet 无法安全完成网络切换。若连接未恢复，请手动重新连接。',
   'nq_reason_connection_closed': '切换网络时连接已关闭，请重新连接。',
   'nq_reason_unsupported': '此连接不支持迁移。',
   'nq_reason_unknown': '暂无可用的原因说明。',
@@ -381,12 +381,12 @@ const kNetworkQualityZhCn = <String, String>{
   'nq_dns_port': '端口（0 使用默认值）',
   'nq_dns_bootstrap': 'DNS 服务器 IP 地址',
   'nq_dns_bootstrap_help':
-      '填写 DNS 服务商提供的 1–8 个 IP 地址，每行一个，例如 1.1.1.1。Usque 会直接连接这些地址，无需先查询服务器域名。',
+      '填写 DNS 服务商提供的 1–8 个 IP 地址，每行一个，例如 1.1.1.1。MoeHtet 会直接连接这些地址，无需先查询服务器域名。',
   'nq_dns_no_fallback': '加密 DNS 不可用时，查询会直接失败，不会改用未加密的 DNS。',
   'nq_dns_system_privacy': '直连流量查询的域名可能对当前网络的 DNS 服务商可见。',
   'nq_dns_scope': '用于匹配国家/地区及自定义域名绕过规则的流量，不影响 VPN 流量的 DNS。',
   'nq_dns_no_capability':
-      '请更新 Usque 以使用加密直连 DNS。已保存的设置会保留；若接受隐私风险，也可选择“当前网络的 DNS”。',
+      '请更新 MoeHtet 以使用加密直连 DNS。已保存的设置会保留；若接受隐私风险，也可选择“当前网络的 DNS”。',
   'nq_dns_invalid_name': '请输入服务器域名，例如 dns.example.com，不要包含 https://、端口或空格。',
   'nq_dns_invalid_path': '请输入类似 /dns-query 的路径，最多 256 个字符，不含空格以及 ? 或 # 开头的内容。',
   'nq_dns_invalid_bootstrap': '请填写 1–8 个服务器 IP 地址。',

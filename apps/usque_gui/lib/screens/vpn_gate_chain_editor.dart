@@ -852,7 +852,7 @@ class _VpnGateChainEditorState extends State<VpnGateChainEditor>
                         child: TextButton(
                           onPressed: () => showLicensePage(
                             context: context,
-                            applicationName: 'Usque',
+                            applicationName: 'MoeHtet',
                           ),
                           child: Text(
                             MaterialLocalizations.of(context).licensesPageTitle,

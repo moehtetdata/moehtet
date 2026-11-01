@@ -17,7 +17,7 @@ const Map<String, String> kUiWorkflowTr = <String, String>{
   'proxy_switches_hint': 'Anahtarlar hemen uygulanır.',
   'cc_label': 'HTTP/3 tıkanıklık denetimi',
   'cc_help': 'Sonraki manuel bağlantınızda uygulanır.',
-  'cc_upgrade': 'Ayarlar’dan Usque’yi güncelleyin.',
+  'cc_upgrade': 'Ayarlar’dan MoeHtet’yi güncelleyin.',
   'cc_h2': 'Bu seçenek yalnızca HTTP/3 bağlantılarını etkiler.',
   'cc_saved': 'Kaydedildi',
   'cc_pending': 'Sonraki manuel bağlantı bekleniyor.',
@@ -90,7 +90,7 @@ const kNetworkQualityTr = <String, String>{
   'nq_finding_dns_system':
       'Mevcut ağın DNS’i kullanılıyor. Şifreli DNS denetimi bu durumda uygulanmaz.',
   'nq_finding_unsupported':
-      'Şifreli DNS kullanmak için Usque’yi güncelleyin. Şifresiz DNS’e otomatik geçilmez.',
+      'Şifreli DNS kullanmak için MoeHtet’yi güncelleyin. Şifresiz DNS’e otomatik geçilmez.',
   'nq_finding_dns_custom_valid':
       'Özel şifreli DNS yapılandırması geçerli. Düz metne geri dönüş kapalı.',
   'nq_finding_stale': 'Okuma eski veya fiziksel ağ değişti.',
@@ -140,7 +140,7 @@ const kNetworkQualityTr = <String, String>{
   'nq_not_ready': 'Hazır değil',
   'nq_unsupported': 'Desteklenmiyor',
   'nq_capability_missing':
-      'Bu sürüm bağlantı kalitesini gösteremiyor. Bağlanma ve bağlantıyı kesme çalışmaya devam eder. Ayarlar’dan Usque’yi güncelleyin.',
+      'Bu sürüm bağlantı kalitesini gösteremiyor. Bağlanma ve bağlantıyı kesme çalışmaya devam eder. Ayarlar’dan MoeHtet’yi güncelleyin.',
   'nq_empty': 'Ölçümleri görmek için bağlanın.',
   'nq_stale_help': 'Güncellemeler durakladı. Son ölçümler gösteriliyor.',
   'nq_rtt': 'Gidiş-dönüş süresi',
@@ -172,7 +172,7 @@ const kNetworkQualityTr = <String, String>{
       'Ağ yolunun taşıyabildiği paket boyutudur. Otomatik denetimler paket kaybını azaltmaya yardımcı olur ve gelişmiş ağ ayarlarındaki VPN MTU değerini artırmaz.',
   'nq_migration': 'Ağ taşıması',
   'nq_migration_help':
-      'Usque, Wi-Fi ile mobil veri arasında geçişte bağlantıyı korumayı dener. Her iki ağ da aynı IP sürümünü (IPv4 veya IPv6) kullanmalıdır.',
+      'MoeHtet, Wi-Fi ile mobil veri arasında geçişte bağlantıyı korumayı dener. Her iki ağ da aynı IP sürümünü (IPv4 veya IPv6) kullanmalıdır.',
   'nq_attempts': 'Denemeler',
   'nq_successes': 'Başarılı',
   'nq_failures': 'Başarısız',
@@ -230,7 +230,7 @@ const kNetworkQualityTr = <String, String>{
   'nq_reason_peer_cid_unavailable':
       'Sunucu, yeni ağda bağlantıyı koruyamadı. Gerekirse yeniden bağlanın.',
   'nq_reason_local_cid_unavailable':
-      'Usque, yeni ağda bağlantıyı koruyamadı. Gerekirse yeniden bağlanın.',
+      'MoeHtet, yeni ağda bağlantıyı koruyamadı. Gerekirse yeniden bağlanın.',
   'nq_reason_path_probe_rejected':
       'Yeni ağın bağlantı denetimi başarısız oldu. İnternet erişimini kontrol edin.',
   'nq_reason_path_validation_timeout':
@@ -256,7 +256,7 @@ const kNetworkQualityTr = <String, String>{
   'nq_dns_scope':
       'Ülke ve özel alan adı atlama kuralları için kullanılır. VPN trafiğinin DNS ayarı değişmez.',
   'nq_dns_no_capability':
-      'Doğrudan bağlantılar için şifreli DNS kullanmak üzere Usque’yi güncelleyin. Kayıtlı ayarlar korunur. Gizlilik etkisini kabul ediyorsanız “Mevcut ağın DNS’i” seçeneğini kendiniz seçebilirsiniz.',
+      'Doğrudan bağlantılar için şifreli DNS kullanmak üzere MoeHtet’yi güncelleyin. Kayıtlı ayarlar korunur. Gizlilik etkisini kabul ediyorsanız “Mevcut ağın DNS’i” seçeneğini kendiniz seçebilirsiniz.',
   'nq_dns_invalid_name':
       'dns.example.com gibi bir alan adı girin. https://, port veya boşluk eklemeyin.',
   'nq_dns_invalid_path':
@@ -275,21 +275,21 @@ const kNetworkQualityTr = <String, String>{
 
 const Map<String, String> kWindowsRecoveryTr = <String, String>{
   'WINDOWS_DEVICE_REUSE_UNSUPPORTED':
-      'Usque bileşenlerini Ayarlar’dan birlikte güncelleyin. Yeni bir VPN bağlantısı başlatılmadı.',
+      'MoeHtet bileşenlerini Ayarlar’dan birlikte güncelleyin. Yeni bir VPN bağlantısı başlatılmadı.',
   'WINDOWS_DEVICE_RECOVERY_REQUIRED':
-      'Önceki bağlantının temizliği tamamlanmadı. Usque’yi tamamen kapatıp yeniden açın ve tekrar deneyin. Sorun sürerse Tanılama’yı açın.',
+      'Önceki bağlantının temizliği tamamlanmadı. MoeHtet’yi tamamen kapatıp yeniden açın ve tekrar deneyin. Sorun sürerse Tanılama’yı açın.',
   'WINDOWS_RECOVERY_FAILED':
       'Önceki VPN ağ durumu tam olarak geri yüklenemedi. Yeni bir VPN bağlantısı başlatılmadı. Bağlantıyı yeniden deneyin veya yerel tanılamayı inceleyin.',
   'WINDOWS_RECOVERY_EXHAUSTED':
       'Windows, üç otomatik denemeden sonra önceki VPN ağ durumunu geri yükleyemedi. Hazır olduğunuzda yeniden deneyin veya yerel tanılamayı inceleyin.',
   'WINDOWS_RECOVERY_BLOCKED':
-      'Güvenli geri yükleme doğrulanamadığı için otomatik onarım durduruldu. Ayarlar’dan Usque’yi güncelleyin. Sorun sürerse Tanılama’dan günlükleri dışa aktarın.',
+      'Güvenli geri yükleme doğrulanamadığı için otomatik onarım durduruldu. Ayarlar’dan MoeHtet’yi güncelleyin. Sorun sürerse Tanılama’dan günlükleri dışa aktarın.',
   'WINDOWS_RECOVERY_TIMEOUT':
       'Windows ağ kurtarması beklenenden uzun sürüyor. Yeni bir VPN bağlantısı başlatılmadı. Yeniden denemeden önce kurtarmanın bitmesini bekleyin.',
   'WINDOWS_RECOVERY_CONFLICT':
       'Ağ durumu değişti veya başka bir oturum tarafından hâlâ kullanılıyor. Etkin bağlantıyı korumak için otomatik kurtarma durduruldu.',
   'WINDOWS_RECOVERY_UNSUPPORTED':
-      'Bu kurulum önceki VPN bağlantısını otomatik olarak geri yükleyemiyor. Ayarlar’dan Usque’yi güncelleyip yeniden deneyin.',
+      'Bu kurulum önceki VPN bağlantısını otomatik olarak geri yükleyemiyor. Ayarlar’dan MoeHtet’yi güncelleyip yeniden deneyin.',
 };
 
 const String kWindowsAdapterCleanupTr =
@@ -306,7 +306,7 @@ const Map<String, String> kL4Tr = <String, String>{
   'l4_explanation':
       'L4, TCP trafiğini HTTP/3 üzerinden taşır ve VPN, SOCKS5 ile HTTP proxy’lerinde kullanılabilir. VPN’in DNS sorguları TCP’ye dönüştürülür. Diğer UDP trafiği, uzak Ping, IP parçaları ve uzantı başlıkları desteklenmez; bazı uygulamalar çalışmayabilir.',
   'l4_unsupported':
-      'Bu sürüm L4’ü desteklemiyor. Ayarlar’dan Usque’yi güncelleyin.',
+      'Bu sürüm L4’ü desteklemiyor. Ayarlar’dan MoeHtet’yi güncelleyin.',
   'l4_sni_identity':
       'Sunucu adı hesap tarafından otomatik belirlenir. Diğer bağlantı modları için kaydedilen sunucu adı korunur.',
   'l4_edge_requires_l4':
@@ -338,10 +338,10 @@ const Map<String, String> kNetworkSettingsTr = <String, String>{
       'Ağ ayarlarının geçerli olup olmadığı şu anda doğrulanamıyor.',
   'settings_refresh': 'Durumu yenile',
   'settings_confirmation_unavailable':
-      'Ağ ayarları hâlâ doğrulanamıyor. Yenilemek yardımcı olmazsa Usque’yi tamamen kapatıp yeniden açın ve ayarları kontrol edin.',
+      'Ağ ayarları hâlâ doğrulanamıyor. Yenilemek yardımcı olmazsa MoeHtet’yi tamamen kapatıp yeniden açın ve ayarları kontrol edin.',
   'settings_saved': 'Kaydedildi',
   'settings_unsupported':
-      'Usque’yi tamamen kapatıp yeniden açın, ardından tekrar kaydedin. Sorun sürerse Ayarlar’dan Usque’yi güncelleyin.',
+      'MoeHtet’yi tamamen kapatıp yeniden açın, ardından tekrar kaydedin. Sorun sürerse Ayarlar’dan MoeHtet’yi güncelleyin.',
   'settings_save_failed': 'Ayarlar kaydedilemedi. Düzenlemeleriniz korundu.',
   'settings_reconnect': 'Yeniden bağlan',
 };
@@ -369,7 +369,7 @@ const Map<String, String> kChainTr = <String, String>{
   "dns_inherit":
       "Ağ DNS ayarını kullanmak için boş bırakın. Sorgular bu çıkıştan gider.",
   "scope_proxy_only":
-      "Usque yalnızca uygulamaların kendisine gönderdiği bağlantılara aracılık eder. Diğer bağlantılar genel IP adresinizi açığa çıkarabilir.",
+      "MoeHtet yalnızca uygulamaların kendisine gönderdiği bağlantılara aracılık eder. Diğer bağlantılar genel IP adresinizi açığa çıkarabilir.",
   "scope_bypass":
       "Doğrudan bağlantı ve uygulama bazlı kurallarınız geçerliliğini korur.",
   "scope_interrupted":
@@ -477,7 +477,7 @@ const Map<String, String> kChainTr = <String, String>{
   'l4': 'Bu yapılandırma UDP gerektirir; L4 UDP’yi desteklemez.',
   'switch_mode': 'L4’ü kapat ve uygula',
   'unsupported':
-      'Usque’nin bu sürümü bu çıkış kaynağını kullanamıyor. Ayarlar’dan güncellemeleri denetleyin.',
+      'MoeHtet’nin bu sürümü bu çıkış kaynağını kullanamıyor. Ayarlar’dan güncellemeleri denetleyin.',
   'scope':
       'Var olan açık doğrudan kurallar geçerli kalır. Diğer trafik seçilen çıkışı kullanır.',
   'allowed': 'İzin verilen hedefler',

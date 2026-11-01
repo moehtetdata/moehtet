@@ -14,9 +14,9 @@ const Map<String, String> kFaCatalog = <String, String>{
   'disable_quic': "غیرفعال کردن QUIC",
   'disable_quic_managed': 'به‌طور خودکار توسط اتصال فعلی مدیریت می‌شود',
   'disable_quic_help':
-      "ترافیک UDP 443 عبوری از Usque (بیشتر QUIC) را مسدود می‌کند تا برنامه‌ها به TCP برگردند. ترافیک مستقیم و اتصال خود Usque تغییری نمی‌کند. بلافاصله اعمال می‌شود.",
+      "ترافیک UDP 443 عبوری از MoeHtet (بیشتر QUIC) را مسدود می‌کند تا برنامه‌ها به TCP برگردند. ترافیک مستقیم و اتصال خود MoeHtet تغییری نمی‌کند. بلافاصله اعمال می‌شود.",
   'disable_quic_unsupported':
-      'مسدودسازی QUIC در حال حاضر در دسترس نیست. Usque را دوباره راه‌اندازی کنید؛ اگر همچنان در دسترس نبود، در تنظیمات به‌روزرسانی‌ها را بررسی کنید.',
+      'مسدودسازی QUIC در حال حاضر در دسترس نیست. MoeHtet را دوباره راه‌اندازی کنید؛ اگر همچنان در دسترس نبود، در تنظیمات به‌روزرسانی‌ها را بررسی کنید.',
   'technical_details': 'جزئیات فنی',
   'diag_skip_disconnected': 'برای اجرای این بررسی متصل شوید.',
   'diag_skip_disabled': 'این قابلیت خاموش است.',
@@ -24,8 +24,8 @@ const Map<String, String> kFaCatalog = <String, String>{
   'diag_skip_traffic':
       'از اتصال استفاده کنید، سپس این بررسی را دوباره اجرا کنید.',
   'diag_skip_deep': 'برای اجرای این بررسی، حالت عمیق را انتخاب کنید.',
-  'app_loading': "در حال بارگذاری Usque",
-  'app_name': 'Usque',
+  'app_loading': "در حال بارگذاری MoeHtet",
+  'app_name': 'MoeHtet',
   'diag_fail_L4_SESSION_UNAVAILABLE': 'نشست L4 در دسترس نیست',
   'diag_fail_L4_PROTOCOL_ERROR': 'خطای پروتکل L4',
   'diag_fail_L4_CONNECT_REJECTED': 'درخواست L4 CONNECT رد شد',
@@ -36,14 +36,14 @@ const Map<String, String> kFaCatalog = <String, String>{
   'window_maximize': 'بزرگ‌کردن',
   'window_restore': 'بازگرداندن اندازهٔ پنجره',
   'window_close': 'بستن',
-  'tray_open': 'باز کردن Usque',
+  'tray_open': 'باز کردن MoeHtet',
   'tray_connect_profile': 'اتصال حساب فعال',
   'tray_disconnect_profile': 'قطع اتصال حساب فعال',
   'tray_disconnect_exit': 'قطع اتصال و خروج',
   'notice_connection_interrupted':
-      'اتصال قطع شد. Usque در حال تلاش برای بازیابی آن است.',
+      'اتصال قطع شد. MoeHtet در حال تلاش برای بازیابی آن است.',
   'notice_connection_failed':
-      'Usque نتوانست اتصال را حفظ کند. برای جزئیات، Usque را باز کنید.',
+      'MoeHtet نتوانست اتصال را حفظ کند. برای جزئیات، MoeHtet را باز کنید.',
   'notice_connection_restored': 'اتصال بازیابی شد.',
   'notice_kill_switch_blocking':
       'Kill Switch تا زمان بازیابی اتصال یا قطع اتصال توسط شما، ترافیک شبکه را مسدود می‌کند.',
@@ -86,7 +86,7 @@ const Map<String, String> kFaCatalog = <String, String>{
   'not_available': 'در دسترس نیست',
   'location_disconnected': 'در انتظار اتصال',
   'engine_unavailable':
-      'سرویس اتصال راه‌اندازی نشد. Usque را کاملاً ببندید و دوباره باز کنید. اگر مشکل ادامه داشت، عیب‌یابی را باز کنید.',
+      'سرویس اتصال راه‌اندازی نشد. MoeHtet را کاملاً ببندید و دوباره باز کنید. اگر مشکل ادامه داشت، عیب‌یابی را باز کنید.',
   'dismiss': 'رد کردن',
   'new_profile': 'افزودن حساب',
   'profile_name': 'نام حساب',
@@ -107,7 +107,7 @@ const Map<String, String> kFaCatalog = <String, String>{
   'zero_trust_open_login': 'باز کردن ورود سازمان',
   'zero_trust_browser_failed': 'مرورگر سیستم باز نشد.',
   'zero_trust_manual_callback':
-      'پس از ورود به Usque برگردید. اگر ورود خودکار تکمیل نشد، پیوندی را که در صفحهٔ ورود WARP را باز می‌کند به‌طور کامل کپی کنید و در کادر زیر بچسبانید.',
+      'پس از ورود به MoeHtet برگردید. اگر ورود خودکار تکمیل نشد، پیوندی را که در صفحهٔ ورود WARP را باز می‌کند به‌طور کامل کپی کنید و در کادر زیر بچسبانید.',
   'zero_trust_callback_received':
       'اطلاعات ورود دریافت شد. راه‌اندازی حساب را ادامه دهید.',
   'zero_trust_callback': 'پیوند بازگشت پس از ورود',
@@ -136,7 +136,7 @@ const Map<String, String> kFaCatalog = <String, String>{
   "zero_trust_endpoint_risk_locked":
       "پیش از ویرایش نشانی‌ها، خطرها را تأیید کنید.",
   "zero_trust_endpoint_unsupported":
-      "برای ویرایش نقاط پایانی Zero Trust، Usque را به‌روز کنید.",
+      "برای ویرایش نقاط پایانی Zero Trust، MoeHtet را به‌روز کنید.",
   "zero_trust_reauth_endpoints":
       "ورود دوباره نشانی‌های ثبت‌شدهٔ نقاط پایانی را بازیابی و نشانی‌های سفارشی را حذف می‌کند.",
   'experimental': 'آزمایشی',
@@ -154,7 +154,7 @@ const Map<String, String> kFaCatalog = <String, String>{
   'delete': 'حذف',
   'delete_profile': 'حساب حذف شود؟',
   'delete_profile_body':
-      "این حساب و اطلاعات ورود WARP آن از این دستگاه حذف شود؟ اگر License Key پیوند داده شده باشد، Usque تلاش می‌کند پیوند آن را نیز لغو کند.",
+      "این حساب و اطلاعات ورود WARP آن از این دستگاه حذف شود؟ اگر License Key پیوند داده شده باشد، MoeHtet تلاش می‌کند پیوند آن را نیز لغو کند.",
   'delete_zero_trust_profile_body':
       'این حساب و اطلاعات ورود آن از این دستگاه حذف می‌شود. برای لغو ثبت دستگاه در Zero Trust سازمان، با مدیر سازمان تماس بگیرید.',
   'license_not_applicable': 'حساب سازمانی · آزمایشی',
@@ -206,7 +206,7 @@ const Map<String, String> kFaCatalog = <String, String>{
       'رمز عبور تنظیم شده است. برای جایگزینی، رمز جدیدی وارد کنید.',
   'proxy_auth_clear': 'برداشتن محافظت با گذرواژه',
   'general': 'عمومی',
-  'start_on_boot': 'اجرای Usque هنگام ورود شما',
+  'start_on_boot': 'اجرای MoeHtet هنگام ورود شما',
   'close_to_tray': 'بستن پنجره به سینی سیستم',
   'add_quick_settings_tile': 'افزودن کاشی تنظیمات سریع',
   'theme': 'پوسته',
@@ -242,7 +242,7 @@ const Map<String, String> kFaCatalog = <String, String>{
   'update_available': 'نسخهٔ جدیدتری در دسترس است:',
   'already_latest': 'این نصب هم‌اکنون به‌روز است.',
   'open_release': 'باز کردن صفحهٔ انتشار',
-  'update_startup_description': 'هنگام شروع Usque، به‌روزرسانی‌ها بررسی شوند.',
+  'update_startup_description': 'هنگام شروع MoeHtet، به‌روزرسانی‌ها بررسی شوند.',
   'update_checking': 'در حال بررسی به‌روزرسانی…',
   'update_downloading': 'در حال دریافت به‌روزرسانی…',
   'update_verifying': 'در حال تأیید بستهٔ به‌روزرسانی…',
@@ -281,7 +281,7 @@ const Map<String, String> kFaCatalog = <String, String>{
       'سریع‌ترین نقطهٔ پایانی در دسترس این حساب را انتخاب می‌کند. تغییرات نشانی فقط در حالت سفارشی ذخیره می‌شوند.',
   'endpoint_custom_help': 'از نشانی‌های IPv4 و IPv6 زیر استفاده می‌کند.',
   'endpoint_unsupported':
-      'برای انتخاب خودکار نقطهٔ پایانی، Usque را به‌روزرسانی کنید.',
+      'برای انتخاب خودکار نقطهٔ پایانی، MoeHtet را به‌روزرسانی کنید.',
   'endpoint_ipv4': 'نقطهٔ پایانی IPv4',
   'endpoint_ipv6': 'نقطهٔ پایانی IPv6',
   'sni': 'SNI',
@@ -308,9 +308,9 @@ const Map<String, String> kFaCatalog = <String, String>{
   'kill_switch_help_android':
       'مسدودسازی ترافیک هنگام اتصال، اتصال مجدد یا خطا. فقط هنگام اجرای سرویس VPN.',
   'start_on_boot_android':
-      'Usque را پس از راه‌اندازی مجدد دستگاه اجرا می‌کند. برای اتصال خودکار، «اتصال خودکار حساب جاری هنگام شروع» را نیز روشن کنید.',
+      'MoeHtet را پس از راه‌اندازی مجدد دستگاه اجرا می‌کند. برای اتصال خودکار، «اتصال خودکار حساب جاری هنگام شروع» را نیز روشن کنید.',
   'add_quick_settings_tile_help':
-      'کاشی Usque را در Android 13 یا جدیدتر اضافه کنید. در نسخه‌های قدیمی‌تر آن را دستی از تنظیمات سریع اضافه کنید.',
+      'کاشی MoeHtet را در Android 13 یا جدیدتر اضافه کنید. در نسخه‌های قدیمی‌تر آن را دستی از تنظیمات سریع اضافه کنید.',
   'always_on_vpn': 'باز کردن تنظیمات VPN همیشه روشن',
   'always_on_vpn_help':
       'برای جلوگیری از نشت پس از بسته شدن برنامه، VPN همیشه روشن و مسدودسازی اتصالات بدون VPN را فعال کنید.',
@@ -350,7 +350,7 @@ const Map<String, String> kFaCatalog = <String, String>{
       'مشکلات اتصال را بررسی کنید، گزارش‌ها را خروجی بگیرید و داده‌های محلی را مدیریت کنید.',
   'engine_status': 'اطلاعات اتصال',
   'version': 'نسخه',
-  'app_version': 'Usque 0.3.3',
+  'app_version': 'MoeHtet 0.3.3',
   'logs': 'گزارش‌های محلی',
   'export_diagnostics': 'صادر کردن بستهٔ عیب‌یابی',
   'diagnostics_saved': 'بستهٔ عیب‌یابی در این مسیر ذخیره شد:',
@@ -361,12 +361,12 @@ const Map<String, String> kFaCatalog = <String, String>{
       'اتصال را قطع می‌کند و همهٔ حساب‌ها، اطلاعات ورود WARP، تنظیمات، حافظهٔ نهان و داده‌های عیب‌یابی را برای همیشه از این دستگاه حذف می‌کند.',
   'clear_all_data_confirm':
       'این کار برگشت‌پذیر نیست. اتصال قطع می‌شود، همهٔ حساب‌ها و اطلاعات ورود حذف می‌شوند و برنامه به صفحهٔ راه‌اندازی اولیه برمی‌گردد.',
-  'clear_all_data_complete': 'همهٔ داده‌های محلی Usque پاک شد.',
+  'clear_all_data_complete': 'همهٔ داده‌های محلی MoeHtet پاک شد.',
   'unofficial':
       'کلاینت غیررسمی سازگار با خدمات Cloudflare® WARP®. به Cloudflare, Inc. وابسته نیست و از سوی این شرکت حمایت مالی یا تأیید نمی‌شود.',
   'trademark_attribution':
       'Cloudflare و WARP علائم تجاری و/یا علائم تجاری ثبت‌شدهٔ Cloudflare, Inc. در ایالات متحده و سایر حوزه‌های قضایی هستند.',
-  'welcome_title': 'به Usque خوش آمدید',
+  'welcome_title': 'به MoeHtet خوش آمدید',
   'setup_progress': 'گام راه‌اندازی {current} از {total}',
   'get_started': 'شروع کنید',
   'permissions_title': 'مجوزهای سیستم',
@@ -374,7 +374,7 @@ const Map<String, String> kFaCatalog = <String, String>{
       'برای عبور ترافیک برنامه‌ها از VPN به اجازهٔ سیستم نیاز است. بسته به حالت انتخاب‌شده، ممکن است DNS، مسیرهای شبکه، دیوارهٔ آتش یا پروکسی سیستم نیز تغییر کند.',
   'terms_title': 'شرایط Cloudflare',
   'terms_body':
-      'Usque یک کلاینت مستقل است. استفاده از WARP شخصی یا ثبت‌نام آزمایشی Zero Trust همچنان تابع شرایط و سیاست حریم خصوصی Cloudflare است.',
+      'MoeHtet یک کلاینت مستقل است. استفاده از WARP شخصی یا ثبت‌نام آزمایشی Zero Trust همچنان تابع شرایط و سیاست حریم خصوصی Cloudflare است.',
   'terms_accept': 'این شرایط را می‌فهمم و می‌پذیرم.',
   'identity_title': 'راه‌اندازی حساب شخصی WARP',
   'register_new': 'ایجاد حساب رایگان WARP',
@@ -530,11 +530,11 @@ const Map<String, String> kFaCatalog = <String, String>{
   'diag_check_tunnel_ipv6_egress': 'خروج IPv6',
   'diag_check_protection_kill_switch': 'وضعیت Kill Switch',
   'diag_check_protection_dns_path': 'مسیر DNS',
-  'diag_check_protection_route_ownership': 'مسیرهای شبکه تحت مدیریت Usque',
+  'diag_check_protection_route_ownership': 'مسیرهای شبکه تحت مدیریت MoeHtet',
   'diag_check_protection_recovery_journal': 'دفتر بازیابی',
   'diag_fail_ENGINE_UNAVAILABLE': 'سرویس اتصال در دسترس نیست',
   'diag_fail_AGENT_UNREACHABLE':
-      'ارتباط با سرویس شبکهٔ سیستمی Usque برقرار نشد',
+      'ارتباط با سرویس شبکهٔ سیستمی MoeHtet برقرار نشد',
   'diag_fail_VPN_SERVICE_UNAVAILABLE': 'خدمت VPN در دسترس نیست',
   'diag_fail_PROXY_PORT_IN_USE': 'درگاه پروکسی در حال استفاده است',
   'diag_fail_PHYSICAL_IPV4_UNAVAILABLE': 'IPv4 فیزیکی در دسترس نیست',
@@ -570,7 +570,7 @@ const Map<String, String> kFaCatalog = <String, String>{
   'diag_fail_SYSTEM_PROXY_STATE_MISMATCH': 'وضعیت پروکسی سیستم مطابقت ندارد',
   'diag_fail_ROUTE_RESTORE_INCOMPLETE': 'بازیابی مسیر ناقص است',
   'diag_fail_DNS_RESTORE_INCOMPLETE': 'بازیابی DNS ناقص است',
-  'diag_fail_SYSTEM_PROXY_STALE': 'وضعیت پروکسی سیستم Usque پاک‌سازی نشده است',
+  'diag_fail_SYSTEM_PROXY_STALE': 'وضعیت پروکسی سیستم MoeHtet پاک‌سازی نشده است',
   'diag_fail_PLATFORM_RECOVERY_PENDING':
       'تنظیمات شبکهٔ سیستم هنوز بازگردانده نشده است',
   'diag_fail_PACKET_SEND_FAILED': 'ارسال بسته ناموفق بود',
@@ -594,7 +594,7 @@ const Map<String, String> kFaCatalog = <String, String>{
   'diag_fix_review_configuration':
       'در تنظیمات، بخش تنظیمات پیشرفتهٔ شبکه را باز کنید، کادرهای مشخص‌شده را اصلاح و تغییرات را اعمال کنید.',
   'diag_fix_restore_platform_state':
-      'Usque را کاملاً ببندید، دوباره باز کنید و تلاش کنید. اگر مشکل ادامه داشت، از بخش عیب‌یابی گزارش‌ها را خروجی بگیرید و برای پشتیبانی بفرستید.',
+      'MoeHtet را کاملاً ببندید، دوباره باز کنید و تلاش کنید. اگر مشکل ادامه داشت، از بخش عیب‌یابی گزارش‌ها را خروجی بگیرید و برای پشتیبانی بفرستید.',
   'diag_fix_resolve_dependency':
       'ابتدا مشکلات بررسی‌های ناموفق را برطرف کنید، سپس عیب‌یابی را دوباره اجرا کنید.',
   'diag_fix_run_deep_diagnostics':
@@ -604,7 +604,7 @@ const Map<String, String> kFaCatalog = <String, String>{
   'diag_fix_inspect_platform_state':
       'در عیب‌یابی، بخش حفاظت سامانه را باز کنید و بررسی‌های ناموفق را ببینید. اگر مشکل ادامه داشت، گزارش‌ها را خروجی بگیرید.',
   'diag_fix_generate_tunnel_traffic':
-      'یک صفحهٔ وب را از طریق اتصال Usque باز کنید، سپس بررسی را دوباره اجرا کنید.',
+      'یک صفحهٔ وب را از طریق اتصال MoeHtet باز کنید، سپس بررسی را دوباره اجرا کنید.',
   'diag_fix_export_diagnostics':
       'بستهٔ عیب‌یابی را صادر کنید و برای پشتیبانی بفرستید. اطلاعات حساس حذف می‌شود.',
   'diag_fix_retry': 'کمی بعد دوباره تلاش کنید.',

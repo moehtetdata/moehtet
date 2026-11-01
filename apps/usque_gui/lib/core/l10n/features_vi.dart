@@ -16,7 +16,7 @@ const Map<String, String> kUiWorkflowVi = <String, String>{
   'proxy_switches_hint': 'Công tắc có hiệu lực ngay.',
   'cc_label': 'Kiểm soát tắc nghẽn HTTP/3',
   'cc_help': 'Có hiệu lực ở lần kết nối thủ công tiếp theo.',
-  'cc_upgrade': 'Cập nhật Usque trong Cài đặt.',
+  'cc_upgrade': 'Cập nhật MoeHtet trong Cài đặt.',
   'cc_h2': 'Tùy chọn này chỉ ảnh hưởng đến kết nối HTTP/3.',
   'cc_saved': 'Đã lưu',
   'cc_pending': 'Chờ lần kết nối thủ công tiếp theo.',
@@ -85,7 +85,7 @@ const Map<String, String> kNetworkQualityVi = <String, String>{
   'nq_finding_dns_system':
       'Đang dùng DNS của mạng hiện tại. Kiểm tra DNS mã hóa không áp dụng trong trường hợp này.',
   'nq_finding_unsupported':
-      'Cập nhật Usque để dùng DNS mã hóa. Ứng dụng không tự chuyển sang DNS không mã hóa.',
+      'Cập nhật MoeHtet để dùng DNS mã hóa. Ứng dụng không tự chuyển sang DNS không mã hóa.',
   'nq_finding_dns_custom_valid':
       'Cấu hình DNS mã hóa tùy chỉnh hợp lệ. Đã tắt dự phòng DNS không mã hóa (plaintext).',
   'nq_finding_stale': 'Số liệu đã cũ hoặc mạng vật lý đã đổi.',
@@ -134,7 +134,7 @@ const Map<String, String> kNetworkQualityVi = <String, String>{
   'nq_not_ready': 'Chưa sẵn sàng',
   'nq_unsupported': 'Không được hỗ trợ',
   'nq_capability_missing':
-      'Phiên bản này không thể hiển thị chất lượng kết nối. Bạn vẫn có thể kết nối và ngắt kết nối. Hãy cập nhật Usque trong Cài đặt.',
+      'Phiên bản này không thể hiển thị chất lượng kết nối. Bạn vẫn có thể kết nối và ngắt kết nối. Hãy cập nhật MoeHtet trong Cài đặt.',
   'nq_empty': 'Kết nối để xem số liệu đo.',
   'nq_stale_help': 'Cập nhật đã tạm dừng. Đang hiển thị số liệu gần nhất.',
   'nq_rtt': 'Thời gian khứ hồi',
@@ -224,7 +224,7 @@ const Map<String, String> kNetworkQualityVi = <String, String>{
   'nq_reason_peer_cid_unavailable':
       'Máy chủ không giữ được kết nối trên mạng mới. Kết nối lại nếu cần.',
   'nq_reason_local_cid_unavailable':
-      'Usque không giữ được kết nối trên mạng mới. Kết nối lại nếu cần.',
+      'MoeHtet không giữ được kết nối trên mạng mới. Kết nối lại nếu cần.',
   'nq_reason_path_probe_rejected':
       'Kiểm tra kết nối của mạng mới thất bại. Kiểm tra khả năng truy cập Internet.',
   'nq_reason_path_validation_timeout':
@@ -250,7 +250,7 @@ const Map<String, String> kNetworkQualityVi = <String, String>{
   'nq_dns_scope':
       'Dùng cho quy tắc bỏ qua theo quốc gia và tên miền tùy chỉnh. DNS của lưu lượng VPN không đổi.',
   'nq_dns_no_capability':
-      'Cập nhật Usque để dùng DNS mã hóa cho kết nối trực tiếp. Các cài đặt đã lưu vẫn được giữ lại. Nếu chấp nhận ảnh hưởng đến quyền riêng tư, bạn có thể tự chọn “DNS của mạng hiện tại”.',
+      'Cập nhật MoeHtet để dùng DNS mã hóa cho kết nối trực tiếp. Các cài đặt đã lưu vẫn được giữ lại. Nếu chấp nhận ảnh hưởng đến quyền riêng tư, bạn có thể tự chọn “DNS của mạng hiện tại”.',
   'nq_dns_invalid_name':
       'Nhập tên miền như dns.example.com, không kèm https://, cổng hay khoảng trắng.',
   'nq_dns_invalid_path':
@@ -269,21 +269,21 @@ const Map<String, String> kNetworkQualityVi = <String, String>{
 
 const Map<String, String> kWindowsRecoveryVi = <String, String>{
   'WINDOWS_DEVICE_REUSE_UNSUPPORTED':
-      'Cập nhật đồng thời các thành phần Usque trong Cài đặt. Chưa có kết nối VPN mới nào được khởi động.',
+      'Cập nhật đồng thời các thành phần MoeHtet trong Cài đặt. Chưa có kết nối VPN mới nào được khởi động.',
   'WINDOWS_DEVICE_RECOVERY_REQUIRED':
-      'Chưa dọn dẹp xong kết nối trước. Thoát hoàn toàn Usque, mở lại rồi thử lại. Nếu vẫn gặp lỗi, hãy mở Chẩn đoán.',
+      'Chưa dọn dẹp xong kết nối trước. Thoát hoàn toàn MoeHtet, mở lại rồi thử lại. Nếu vẫn gặp lỗi, hãy mở Chẩn đoán.',
   'WINDOWS_RECOVERY_FAILED':
       'Không thể khôi phục đầy đủ trạng thái mạng VPN trước đó. Chưa khởi động kết nối VPN mới. Hãy thử kết nối lại hoặc xem chẩn đoán cục bộ.',
   'WINDOWS_RECOVERY_EXHAUSTED':
       'Windows không khôi phục được trạng thái mạng VPN trước đó sau ba lần thử tự động. Hãy thử lại khi sẵn sàng, hoặc xem chẩn đoán cục bộ.',
   'WINDOWS_RECOVERY_BLOCKED':
-      'Đã dừng sửa chữa tự động vì chưa xác nhận được việc khôi phục an toàn. Cập nhật Usque trong Cài đặt. Nếu vẫn gặp lỗi, hãy xuất nhật ký trong Chẩn đoán.',
+      'Đã dừng sửa chữa tự động vì chưa xác nhận được việc khôi phục an toàn. Cập nhật MoeHtet trong Cài đặt. Nếu vẫn gặp lỗi, hãy xuất nhật ký trong Chẩn đoán.',
   'WINDOWS_RECOVERY_TIMEOUT':
       'Việc khôi phục mạng Windows lâu hơn dự kiến. Chưa khởi động kết nối VPN mới. Hãy đợi khôi phục xong rồi mới thử lại.',
   'WINDOWS_RECOVERY_CONFLICT':
       'Trạng thái mạng đã đổi hoặc phiên khác vẫn đang dùng. Đã dừng khôi phục tự động để bảo vệ kết nối đang hoạt động.',
   'WINDOWS_RECOVERY_UNSUPPORTED':
-      'Bản cài đặt này không thể tự khôi phục kết nối VPN trước. Cập nhật Usque trong Cài đặt rồi thử lại.',
+      'Bản cài đặt này không thể tự khôi phục kết nối VPN trước. Cập nhật MoeHtet trong Cài đặt rồi thử lại.',
 };
 
 const String kWindowsAdapterCleanupVi =
@@ -300,7 +300,7 @@ const Map<String, String> kL4Vi = <String, String>{
   'l4_explanation':
       'L4 truyền lưu lượng TCP qua HTTP/3 và dùng được với VPN, proxy SOCKS5 và HTTP. Truy vấn DNS của VPN được chuyển sang TCP. Không hỗ trợ lưu lượng UDP khác, Ping từ xa, các mảnh và phần mở rộng IP; một số ứng dụng có thể không hoạt động.',
   'l4_unsupported':
-      'Phiên bản này không hỗ trợ L4. Cập nhật Usque trong Cài đặt.',
+      'Phiên bản này không hỗ trợ L4. Cập nhật MoeHtet trong Cài đặt.',
   'l4_sni_identity':
       'Tên máy chủ được tài khoản tự động đặt. Tên máy chủ đã lưu cho các chế độ kết nối khác vẫn được giữ lại.',
   'l4_edge_requires_l4':
@@ -331,10 +331,10 @@ const Map<String, String> kNetworkSettingsVi = <String, String>{
       'Chưa thể xác nhận liệu cài đặt mạng đã có hiệu lực hay chưa.',
   'settings_refresh': 'Làm mới trạng thái',
   'settings_confirmation_unavailable':
-      'Vẫn chưa thể xác nhận cài đặt mạng. Nếu làm mới không giúp ích, hãy thoát hoàn toàn Usque, mở lại rồi kiểm tra cài đặt.',
+      'Vẫn chưa thể xác nhận cài đặt mạng. Nếu làm mới không giúp ích, hãy thoát hoàn toàn MoeHtet, mở lại rồi kiểm tra cài đặt.',
   'settings_saved': 'Đã lưu',
   'settings_unsupported':
-      'Thoát hoàn toàn Usque rồi mở lại, sau đó thử lưu lần nữa. Nếu vẫn gặp lỗi, hãy cập nhật Usque trong Cài đặt.',
+      'Thoát hoàn toàn MoeHtet rồi mở lại, sau đó thử lưu lần nữa. Nếu vẫn gặp lỗi, hãy cập nhật MoeHtet trong Cài đặt.',
   'settings_save_failed':
       'Không lưu được cài đặt. Các chỉnh sửa của bạn vẫn được giữ.',
   'settings_reconnect': 'Kết nối lại',
@@ -361,7 +361,7 @@ const Map<String, String> kChainVi = <String, String>{
       "Kết nối qua WARP. HTTP truyền TCP; SOCKS5 còn có thể truyền UDP với H3/H2.",
   "dns_inherit": "Để trống để dùng DNS mạng. Truy vấn đi qua đầu ra này.",
   "scope_proxy_only":
-      "Usque chỉ chuyển tiếp qua proxy những kết nối mà ứng dụng gửi tới. Các kết nối khác có thể làm lộ IP công cộng của thiết bị.",
+      "MoeHtet chỉ chuyển tiếp qua proxy những kết nối mà ứng dụng gửi tới. Các kết nối khác có thể làm lộ IP công cộng của thiết bị.",
   "scope_bypass":
       "Các quy tắc kết nối trực tiếp và theo ứng dụng vẫn có hiệu lực.",
   "scope_interrupted":
@@ -469,7 +469,7 @@ const Map<String, String> kChainVi = <String, String>{
   'l4': 'Cấu hình này cần UDP, nhưng L4 không hỗ trợ.',
   'switch_mode': 'Tắt L4 và áp dụng',
   'unsupported':
-      'Phiên bản Usque này không dùng được nguồn lối ra này. Hãy kiểm tra bản cập nhật trong Cài đặt.',
+      'Phiên bản MoeHtet này không dùng được nguồn lối ra này. Hãy kiểm tra bản cập nhật trong Cài đặt.',
   'scope':
       'Các quy tắc đi thẳng đã chỉ định vẫn có hiệu lực. Lưu lượng còn lại dùng lối ra đã chọn.',
   'allowed': 'Đích được phép',

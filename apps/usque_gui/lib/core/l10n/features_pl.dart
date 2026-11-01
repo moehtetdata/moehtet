@@ -16,7 +16,7 @@ const Map<String, String> kUiWorkflowPl = <String, String>{
   'proxy_switches_hint': 'Przełączniki działają od razu.',
   'cc_label': 'Kontrola przeciążenia HTTP/3',
   'cc_help': 'Zacznie obowiązywać przy następnym ręcznym połączeniu.',
-  'cc_upgrade': 'Zaktualizuj Usque w Ustawieniach, aby użyć tej opcji.',
+  'cc_upgrade': 'Zaktualizuj MoeHtet w Ustawieniach, aby użyć tej opcji.',
   'cc_h2': 'Ta opcja dotyczy tylko połączeń HTTP/3.',
   'cc_saved': 'Zapisano',
   'cc_pending': 'Oczekuje na następne ręczne połączenie.',
@@ -89,7 +89,7 @@ const Map<String, String> kNetworkQualityPl = <String, String>{
   'nq_finding_dns_system':
       'Używany jest DNS bieżącej sieci; kontrole szyfrowanego DNS nie mają zastosowania.',
   'nq_finding_unsupported':
-      'Zaktualizuj Usque, aby używać szyfrowanego DNS. Zapytania nie przejdą na nieszyfrowany DNS.',
+      'Zaktualizuj MoeHtet, aby używać szyfrowanego DNS. Zapytania nie przejdą na nieszyfrowany DNS.',
   'nq_finding_dns_custom_valid':
       'Niestandardowa konfiguracja szyfrowanego DNS jest prawidłowa. '
       'Przełączenie na nieszyfrowany DNS jest wyłączone.',
@@ -101,7 +101,7 @@ const Map<String, String> kNetworkQualityPl = <String, String>{
   'nq_finding_queue_pressure':
       'Ruch czeka na wysłanie lub podczas tego połączenia odrzucono część danych.',
   'nq_finding_pmtu_degraded':
-      'Usque nie zdołało potwierdzić odpowiedniego rozmiaru pakietów dla tego połączenia.',
+      'MoeHtet nie zdołało potwierdzić odpowiedniego rozmiaru pakietów dla tego połączenia.',
   'nq_finding_migration_reconnect':
       'Przy zmianie sieci to połączenie musi zostać nawiązane ponownie.',
   'nq_finding_dns_changed':
@@ -178,10 +178,10 @@ const Map<String, String> kNetworkQualityPl = <String, String>{
   'nq_outer_pmtu': 'Limit ładunku UDP zewnętrznego',
   'nq_inner_payload': 'Limit ładunku CONNECT-IP',
   'nq_pmtu_help':
-      'To rozmiar pakietu obsługiwany przez ścieżkę sieciową. Usque sprawdza go automatycznie, aby ograniczać straty. Kontrola nie zwiększa MTU VPN z Zaawansowanych ustawień sieci.',
+      'To rozmiar pakietu obsługiwany przez ścieżkę sieciową. MoeHtet sprawdza go automatycznie, aby ograniczać straty. Kontrola nie zwiększa MTU VPN z Zaawansowanych ustawień sieci.',
   'nq_migration': 'Migracja sieci',
   'nq_migration_help':
-      'Usque próbuje utrzymać połączenie przy zmianie sieci, np. z Wi-Fi na komórkową. Obie muszą używać tej samej wersji IP, IPv4 lub IPv6.',
+      'MoeHtet próbuje utrzymać połączenie przy zmianie sieci, np. z Wi-Fi na komórkową. Obie muszą używać tej samej wersji IP, IPv4 lub IPv6.',
   'nq_attempts': 'Próby',
   'nq_successes': 'Udane',
   'nq_failures': 'Nieudane',
@@ -233,13 +233,13 @@ const Map<String, String> kNetworkQualityPl = <String, String>{
   'nq_reason_family_unavailable':
       'Nowa sieć nie obsługuje tej samej wersji IP. Należy połączyć się ponownie.',
   'nq_reason_socket_protect_failed':
-      'Usque nie mogło bezpiecznie użyć nowej sieci. Jeśli połączenie nie wróci, połącz się ręcznie.',
+      'MoeHtet nie mogło bezpiecznie użyć nowej sieci. Jeśli połączenie nie wróci, połącz się ręcznie.',
   'nq_reason_generation_changed_during_setup':
       'Sieć zmieniła się ponownie podczas przygotowania.',
   'nq_reason_peer_cid_unavailable':
       'Serwer nie utrzymał połączenia w nowej sieci. W razie potrzeby połącz się ręcznie.',
   'nq_reason_local_cid_unavailable':
-      'Usque nie utrzymało połączenia w nowej sieci. W razie potrzeby połącz się ręcznie.',
+      'MoeHtet nie utrzymało połączenia w nowej sieci. W razie potrzeby połącz się ręcznie.',
   'nq_reason_path_probe_rejected':
       'Nowa sieć nie przeszła kontroli połączenia. Sprawdź jej dostęp do Internetu.',
   'nq_reason_path_validation_timeout':
@@ -247,7 +247,7 @@ const Map<String, String> kNetworkQualityPl = <String, String>{
   'nq_reason_superseded':
       'Sieć zmieniła się ponownie przed zakończeniem przełączania.',
   'nq_reason_promotion_failed':
-      'Usque nie zakończyło bezpiecznie zmiany sieci. Jeśli połączenie nie wróci, połącz się ręcznie.',
+      'MoeHtet nie zakończyło bezpiecznie zmiany sieci. Jeśli połączenie nie wróci, połącz się ręcznie.',
   'nq_reason_connection_closed':
       'Połączenie zamknięto podczas zmiany sieci. Połącz się ponownie.',
   'nq_reason_unsupported': 'Migracja jest niedostępna w tym połączeniu.',
@@ -258,7 +258,7 @@ const Map<String, String> kNetworkQualityPl = <String, String>{
   'nq_dns_port': 'Port (0 używa wartości domyślnej)',
   'nq_dns_bootstrap': 'Adresy IP serwera DNS',
   'nq_dns_bootstrap_help':
-      'Wpisz 1–8 IP od dostawcy DNS, po jednym w wierszu, np. 1.1.1.1. Usque łączy się z nimi bezpośrednio, bez wcześniejszego wyszukiwania nazwy serwera.',
+      'Wpisz 1–8 IP od dostawcy DNS, po jednym w wierszu, np. 1.1.1.1. MoeHtet łączy się z nimi bezpośrednio, bez wcześniejszego wyszukiwania nazwy serwera.',
   'nq_dns_no_fallback':
       'Jeśli szyfrowany DNS jest niedostępny, zapytania kończą się błędem zamiast przełączenia na nieszyfrowany DNS.',
   'nq_dns_system_privacy':
@@ -266,7 +266,7 @@ const Map<String, String> kNetworkQualityPl = <String, String>{
   'nq_dns_scope':
       'Dla reguł omijania według kraju i własnych domen. DNS ruchu VPN pozostaje bez zmian.',
   'nq_dns_no_capability':
-      'Zaktualizuj Usque, aby używać szyfrowanego DNS dla ruchu bezpośredniego. Ustawienia zostaną zachowane. Możesz wybrać DNS bieżącej sieci, jeśli akceptujesz wpływ na prywatność.',
+      'Zaktualizuj MoeHtet, aby używać szyfrowanego DNS dla ruchu bezpośredniego. Ustawienia zostaną zachowane. Możesz wybrać DNS bieżącej sieci, jeśli akceptujesz wpływ na prywatność.',
   'nq_dns_invalid_name':
       'Wpisz domenę, np. dns.example.com, bez https://, portu i spacji.',
   'nq_dns_invalid_path':
@@ -284,9 +284,9 @@ const Map<String, String> kNetworkQualityPl = <String, String>{
 
 const Map<String, String> kWindowsRecoveryPl = <String, String>{
   'WINDOWS_DEVICE_REUSE_UNSUPPORTED':
-      'Składniki połączenia Usque wymagają wspólnej aktualizacji. Sprawdź aktualizacje w Ustawieniach. Nie uruchomiono nowego połączenia VPN.',
+      'Składniki połączenia MoeHtet wymagają wspólnej aktualizacji. Sprawdź aktualizacje w Ustawieniach. Nie uruchomiono nowego połączenia VPN.',
   'WINDOWS_DEVICE_RECOVERY_REQUIRED':
-      'Czyszczenie poprzedniego połączenia VPN nie zostało zakończone. Całkowicie zamknij Usque i otwórz ponownie. Jeśli to nie pomoże, otwórz Diagnostykę.',
+      'Czyszczenie poprzedniego połączenia VPN nie zostało zakończone. Całkowicie zamknij MoeHtet i otwórz ponownie. Jeśli to nie pomoże, otwórz Diagnostykę.',
   'WINDOWS_RECOVERY_FAILED':
       'Nie można w pełni przywrócić poprzedniego stanu sieci VPN. Nie '
       'rozpoczęto nowego połączenia VPN. Ponów połączenie albo sprawdź '
@@ -306,7 +306,7 @@ const Map<String, String> kWindowsRecoveryPl = <String, String>{
       'Automatyczne odzyskiwanie zostało zatrzymane, aby chronić aktywne '
       'połączenie.',
   'WINDOWS_RECOVERY_UNSUPPORTED':
-      'Ta instalacja nie przywraca automatycznie poprzednich ustawień VPN. Zaktualizuj Usque w Ustawieniach i spróbuj ponownie.',
+      'Ta instalacja nie przywraca automatycznie poprzednich ustawień VPN. Zaktualizuj MoeHtet w Ustawieniach i spróbuj ponownie.',
 };
 
 const String kWindowsAdapterCleanupPl =
@@ -323,7 +323,7 @@ const Map<String, String> kL4Pl = <String, String>{
   'l4_explanation':
       'L4 przenosi TCP przez HTTP/3 i działa z VPN oraz proxy SOCKS5 i HTTP. Zapytania DNS z VPN są zamieniane na TCP. Aplikacje wymagające innego ruchu UDP, zdalnego Ping, fragmentów IP lub nagłówków rozszerzeń mogą nie działać.',
   'l4_unsupported':
-      'L4 jest niedostępne w tej wersji Usque. Sprawdź aktualizacje w Ustawieniach.',
+      'L4 jest niedostępne w tej wersji MoeHtet. Sprawdź aktualizacje w Ustawieniach.',
   'l4_sni_identity':
       'Ustawiane automatycznie przez konto. Nazwa serwera dla innych trybów połączenia pozostaje zachowana.',
   'l4_edge_requires_l4':
@@ -357,10 +357,10 @@ const Map<String, String> kNetworkSettingsPl = <String, String>{
       'Nie można potwierdzić, czy ustawienia sieci zaczęły obowiązywać.',
   'settings_refresh': 'Odśwież stan',
   'settings_confirmation_unavailable':
-      'Nadal nie można potwierdzić ustawień sieci. Jeśli odświeżenie nie pomaga, całkowicie zamknij Usque, otwórz ponownie i sprawdź ustawienia.',
+      'Nadal nie można potwierdzić ustawień sieci. Jeśli odświeżenie nie pomaga, całkowicie zamknij MoeHtet, otwórz ponownie i sprawdź ustawienia.',
   'settings_saved': 'Zapisano',
   'settings_unsupported':
-      'Całkowicie zamknij Usque, otwórz ponownie i zapisz jeszcze raz. Jeśli to nie pomoże, sprawdź aktualizacje w Ustawieniach.',
+      'Całkowicie zamknij MoeHtet, otwórz ponownie i zapisz jeszcze raz. Jeśli to nie pomoże, sprawdź aktualizacje w Ustawieniach.',
   'settings_save_failed':
       'Nie udało się zapisać ustawień. Twoje zmiany zostały zachowane.',
   'settings_reconnect': 'Połącz ponownie',
@@ -388,7 +388,7 @@ const Map<String, String> kChainPl = <String, String>{
   "dns_inherit":
       "Pozostaw puste, aby użyć DNS sieci. Zapytania przechodzą przez to wyjście.",
   "scope_proxy_only":
-      "Usque pośredniczy tylko w połączeniach kierowanych do niego przez aplikacje. Inne połączenia mogą ujawnić Twój publiczny adres IP.",
+      "MoeHtet pośredniczy tylko w połączeniach kierowanych do niego przez aplikacje. Inne połączenia mogą ujawnić Twój publiczny adres IP.",
   "scope_bypass":
       "Twoje reguły połączeń bezpośrednich i poszczególnych aplikacji nadal obowiązują.",
   "scope_interrupted":
@@ -498,7 +498,7 @@ const Map<String, String> kChainPl = <String, String>{
   'l4': 'Ta konfiguracja wymaga UDP, którego L4 nie obsługuje.',
   'switch_mode': 'Wyłącz L4 i zastosuj',
   'unsupported':
-      'Ta wersja Usque nie może używać tego źródła wyjścia. Sprawdź aktualizacje w Ustawieniach.',
+      'Ta wersja MoeHtet nie może używać tego źródła wyjścia. Sprawdź aktualizacje w Ustawieniach.',
   'scope':
       'Istniejące jawne reguły bezpośrednie nadal obowiązują. Pozostały ruch używa wybranego wyjścia.',
   'allowed': 'Dozwolone miejsca docelowe',

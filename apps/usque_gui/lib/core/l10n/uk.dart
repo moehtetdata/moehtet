@@ -14,17 +14,17 @@ const Map<String, String> kUkCatalog = <String, String>{
   'disable_quic': "Вимкнути QUIC",
   'disable_quic_managed': 'Автоматично керується поточним з’єднанням',
   'disable_quic_help':
-      "Блокує трафік UDP 443, який пересилає Usque (переважно QUIC), щоб програми переходили на TCP. Прямий трафік і власне з’єднання Usque не змінюються. Діє одразу.",
+      "Блокує трафік UDP 443, який пересилає MoeHtet (переважно QUIC), щоб програми переходили на TCP. Прямий трафік і власне з’єднання MoeHtet не змінюються. Діє одразу.",
   'disable_quic_unsupported':
-      'Блокування QUIC зараз недоступне. Перезапустіть Usque; якщо воно й далі недоступне, перевірте оновлення в Налаштуваннях.',
+      'Блокування QUIC зараз недоступне. Перезапустіть MoeHtet; якщо воно й далі недоступне, перевірте оновлення в Налаштуваннях.',
   'technical_details': 'Технічні відомості',
   'diag_skip_disconnected': 'Підключіться, щоб виконати цю перевірку.',
   'diag_skip_disabled': 'Цю функцію вимкнено.',
   'diag_skip_unsupported': 'Ця перевірка недоступна на цьому пристрої.',
   'diag_skip_traffic': 'Скористайтеся підключенням, потім повторіть перевірку.',
   'diag_skip_deep': 'Виберіть поглиблений режим для цієї перевірки.',
-  'app_loading': "Завантаження Usque",
-  'app_name': 'Usque',
+  'app_loading': "Завантаження MoeHtet",
+  'app_name': 'MoeHtet',
   'diag_fail_L4_SESSION_UNAVAILABLE': 'Сеанс L4 недоступний',
   'diag_fail_L4_PROTOCOL_ERROR': 'Помилка протоколу L4',
   'diag_fail_L4_CONNECT_REJECTED': 'L4 CONNECT відхилено',
@@ -35,14 +35,14 @@ const Map<String, String> kUkCatalog = <String, String>{
   'window_maximize': 'Розгорнути',
   'window_restore': 'Відновити розмір вікна',
   'window_close': 'Закрити',
-  'tray_open': 'Відкрити Usque',
+  'tray_open': 'Відкрити MoeHtet',
   'tray_connect_profile': 'Зʼєднати поточний обліковий запис',
   'tray_disconnect_profile': 'Відʼєднати поточний обліковий запис',
   'tray_disconnect_exit': 'Відʼєднати й вийти',
   'notice_connection_interrupted':
-      'Зʼєднання перервано. Usque намагається його відновити.',
+      'Зʼєднання перервано. MoeHtet намагається його відновити.',
   'notice_connection_failed':
-      'Usque не вдалося зберегти зʼєднання. Відкрийте Usque, щоб переглянути подробиці.',
+      'MoeHtet не вдалося зберегти зʼєднання. Відкрийте MoeHtet, щоб переглянути подробиці.',
   'notice_connection_restored': 'Зʼєднання відновлено.',
   'notice_kill_switch_blocking':
       'Kill Switch блокує мережевий трафік, доки зʼєднання не відновиться або ви не відʼєднаєтеся.',
@@ -86,7 +86,7 @@ const Map<String, String> kUkCatalog = <String, String>{
   'not_available': 'Недоступно',
   'location_disconnected': 'Очікування зʼєднання',
   'engine_unavailable':
-      'Не вдалося запустити службу з’єднання. Повністю закрийте Usque й відкрийте знову. Якщо проблема залишиться, відкрийте Діагностику.',
+      'Не вдалося запустити службу з’єднання. Повністю закрийте MoeHtet й відкрийте знову. Якщо проблема залишиться, відкрийте Діагностику.',
   'dismiss': 'Закрити',
   'new_profile': 'Додати обліковий запис',
   'profile_name': 'Назва облікового запису',
@@ -108,7 +108,7 @@ const Map<String, String> kUkCatalog = <String, String>{
   'zero_trust_open_login': 'Відкрити вхід організації',
   'zero_trust_browser_failed': 'Не вдалося відкрити системний браузер.',
   'zero_trust_manual_callback':
-      'Після входу поверніться до Usque. Якщо вхід не завершиться автоматично, скопіюйте зі сторінки входу повне посилання, яке відкриває WARP, і вставте його нижче.',
+      'Після входу поверніться до MoeHtet. Якщо вхід не завершиться автоматично, скопіюйте зі сторінки входу повне посилання, яке відкриває WARP, і вставте його нижче.',
   'zero_trust_callback_received':
       'Дані входу отримано. Продовжте налаштування облікового запису.',
   'zero_trust_callback': 'Посилання для повернення після входу',
@@ -138,7 +138,7 @@ const Map<String, String> kUkCatalog = <String, String>{
   "zero_trust_endpoint_risk_locked":
       "Підтвердьте ризики перед зміною цих адрес.",
   "zero_trust_endpoint_unsupported":
-      "Оновіть Usque, щоб змінювати адреси Zero Trust.",
+      "Оновіть MoeHtet, щоб змінювати адреси Zero Trust.",
   "zero_trust_reauth_endpoints":
       "Повторний вхід відновлює зареєстровані адреси та видаляє власні адреси.",
   'experimental': 'Експериментально',
@@ -156,7 +156,7 @@ const Map<String, String> kUkCatalog = <String, String>{
   'delete': 'Видалити',
   'delete_profile': 'Видалити обліковий запис?',
   'delete_profile_body':
-      "Видалити цей обліковий запис і його дані входу WARP з пристрою? Якщо прив’язано License Key, Usque також спробує його відв’язати.",
+      "Видалити цей обліковий запис і його дані входу WARP з пристрою? Якщо прив’язано License Key, MoeHtet також спробує його відв’язати.",
   'delete_zero_trust_profile_body':
       'Обліковий запис і дані входу буде видалено з цього пристрою. Щоб скасувати реєстрацію пристрою в Zero Trust організації, зверніться до адміністратора.',
   'license_not_applicable': 'Обліковий запис організації · Експериментально',
@@ -208,7 +208,7 @@ const Map<String, String> kUkCatalog = <String, String>{
   'proxy_password_set': 'Пароль установлено. Введіть новий, щоб замінити його.',
   'proxy_auth_clear': 'Вимкнути захист паролем',
   'general': 'Загальні',
-  'start_on_boot': 'Запускати Usque під час входу',
+  'start_on_boot': 'Запускати MoeHtet під час входу',
   'close_to_tray': 'Закривати вікно в область сповіщень',
   'add_quick_settings_tile': 'Додати плитку швидких налаштувань',
   'theme': 'Тема',
@@ -244,7 +244,7 @@ const Map<String, String> kUkCatalog = <String, String>{
   'update_available': 'Доступний новіший випуск:',
   'already_latest': 'Ця інсталяція вже актуальна.',
   'open_release': 'Відкрити сторінку випуску',
-  'update_startup_description': 'Перевіряти оновлення під час запуску Usque.',
+  'update_startup_description': 'Перевіряти оновлення під час запуску MoeHtet.',
   'update_checking': 'Перевірка оновлень…',
   'update_downloading': 'Завантаження оновлення…',
   'update_verifying': 'Перевірка пакета оновлення…',
@@ -283,7 +283,7 @@ const Map<String, String> kUkCatalog = <String, String>{
       'Вибирає найшвидшу доступну кінцеву точку для цього облікового запису. Зміни адрес зберігаються лише в режимі «Власна».',
   'endpoint_custom_help': 'Використовує наведені нижче адреси IPv4 та IPv6.',
   'endpoint_unsupported':
-      'Оновіть Usque для автоматичного вибору кінцевої точки.',
+      'Оновіть MoeHtet для автоматичного вибору кінцевої точки.',
   'endpoint_ipv4': 'Кінцева точка IPv4',
   'endpoint_ipv6': 'Кінцева точка IPv6',
   'sni': 'SNI',
@@ -310,9 +310,9 @@ const Map<String, String> kUkCatalog = <String, String>{
   'kill_switch_help_android':
       'Блокує трафік при підключенні, перепідключенні чи збої. Лише поки працює служба VPN.',
   'start_on_boot_android':
-      'Запускати Usque після перезавантаження пристрою. Щоб підключатися автоматично, також увімкніть «Автоматично зʼєднувати поточний обліковий запис під час запуску».',
+      'Запускати MoeHtet після перезавантаження пристрою. Щоб підключатися автоматично, також увімкніть «Автоматично зʼєднувати поточний обліковий запис під час запуску».',
   'add_quick_settings_tile_help':
-      'Додайте плитку Usque на Android 13 або новішій версії. У старіших версіях зробіть це вручну у швидких налаштуваннях.',
+      'Додайте плитку MoeHtet на Android 13 або новішій версії. У старіших версіях зробіть це вручну у швидких налаштуваннях.',
   'always_on_vpn': 'Відкрити налаштування «Завжди ввімкнений VPN»',
   'always_on_vpn_help':
       'Увімкніть «Завжди ввімкнений VPN» і «Блокувати зʼєднання без VPN» для захисту від витоків після завершення програми.',
@@ -352,7 +352,7 @@ const Map<String, String> kUkCatalog = <String, String>{
       'Перевірте проблеми зі з’єднанням, експортуйте журнали та керуйте локальними даними.',
   'engine_status': 'Відомості про з’єднання',
   'version': 'Версія',
-  'app_version': 'Usque 0.3.3',
+  'app_version': 'MoeHtet 0.3.3',
   'logs': 'Локальні журнали',
   'export_diagnostics': 'Експортувати діагностичний пакет',
   'diagnostics_saved': 'Діагностичний пакет збережено до',
@@ -363,12 +363,12 @@ const Map<String, String> kUkCatalog = <String, String>{
       'Розриває з’єднання й назавжди видаляє з цього пристрою всі облікові записи, дані входу WARP, налаштування, кеш і діагностичні дані.',
   'clear_all_data_confirm':
       'Цю дію неможливо скасувати. З’єднання буде розірвано, всі облікові записи й дані входу видалено, а програма повернеться до початкового налаштування.',
-  'clear_all_data_complete': 'Усі локальні дані Usque очищено.',
+  'clear_all_data_complete': 'Усі локальні дані MoeHtet очищено.',
   'unofficial':
       'Неофіційний клієнт, сумісний із сервісами Cloudflare® WARP®. Не пов’язаний із Cloudflare, Inc., не спонсорується й не схвалений цією компанією.',
   'trademark_attribution':
       'Cloudflare і WARP є торговельними марками та/або зареєстрованими торговельними марками Cloudflare, Inc. у США та інших юрисдикціях.',
-  'welcome_title': 'Вітаємо в Usque',
+  'welcome_title': 'Вітаємо в MoeHtet',
   'setup_progress': 'Крок налаштування {current} з {total}',
   'get_started': 'Почати',
   'permissions_title': 'Системні дозволи',
@@ -376,7 +376,7 @@ const Map<String, String> kUkCatalog = <String, String>{
       'Для спрямування трафіку програм через VPN потрібен дозвіл системи. Залежно від режиму також можуть змінюватися DNS, мережеві маршрути, брандмауер або системний проксі.',
   'terms_title': 'Умови Cloudflare',
   'terms_body':
-      'Usque — незалежний клієнт. Використання особистого WARP або експериментальної реєстрації Zero Trust і надалі регулюється умовами та політикою конфіденційності Cloudflare.',
+      'MoeHtet — незалежний клієнт. Використання особистого WARP або експериментальної реєстрації Zero Trust і надалі регулюється умовами та політикою конфіденційності Cloudflare.',
   'terms_accept': 'Я розумію ці умови та приймаю їх.',
   'identity_title': 'Налаштувати особистий обліковий запис WARP',
   'register_new': 'Створити безкоштовний обліковий запис WARP',
@@ -404,7 +404,7 @@ const Map<String, String> kUkCatalog = <String, String>{
   'bypass_line_error': 'Рядок {line}: {reason}',
   'bypass_summary': 'Регіонів: {countries} · Власних цілей: {targets}',
   'geo_direct_help':
-      'Трафік, що відповідає цим країнам чи регіонам, оминає VPN/TUN Usque та локальні HTTP- і SOCKS5-проксі. Постачальник DNS поточної мережі може бачити запитувані домени. Для програм із зашифрованим DNS маршрутизація визначається лише за IP-адресою.',
+      'Трафік, що відповідає цим країнам чи регіонам, оминає VPN/TUN MoeHtet та локальні HTTP- і SOCKS5-проксі. Постачальник DNS поточної мережі може бачити запитувані домени. Для програм із зашифрованим DNS маршрутизація визначається лише за IP-адресою.',
   'geo_update_all': 'Оновити геодані',
   'geo_last_updated': 'Останнє успішне оновлення: {current}',
   'geo_never_updated': 'Ще не оновлювалось',
@@ -534,11 +534,11 @@ const Map<String, String> kUkCatalog = <String, String>{
   'diag_check_protection_kill_switch': 'Стан Kill Switch',
   'diag_check_protection_dns_path': 'Шлях DNS',
   'diag_check_protection_route_ownership':
-      'Мережеві маршрути під керуванням Usque',
+      'Мережеві маршрути під керуванням MoeHtet',
   'diag_check_protection_recovery_journal': 'Журнал відновлення',
   'diag_fail_ENGINE_UNAVAILABLE': 'Служба з’єднання недоступна',
   'diag_fail_AGENT_UNREACHABLE':
-      'Не вдалося зв’язатися із системною мережевою службою Usque',
+      'Не вдалося зв’язатися із системною мережевою службою MoeHtet',
   'diag_fail_VPN_SERVICE_UNAVAILABLE': 'Служба VPN недоступна',
   'diag_fail_PROXY_PORT_IN_USE': 'Порт проксі зайнятий',
   'diag_fail_PHYSICAL_IPV4_UNAVAILABLE': 'Фізичний IPv4 недоступний',
@@ -576,7 +576,7 @@ const Map<String, String> kUkCatalog = <String, String>{
       'Стан системного проксі не збігається',
   'diag_fail_ROUTE_RESTORE_INCOMPLETE': 'Відновлення маршрутів неповне',
   'diag_fail_DNS_RESTORE_INCOMPLETE': 'Відновлення DNS неповне',
-  'diag_fail_SYSTEM_PROXY_STALE': 'Стан системного проксі Usque не очищено',
+  'diag_fail_SYSTEM_PROXY_STALE': 'Стан системного проксі MoeHtet не очищено',
   'diag_fail_PLATFORM_RECOVERY_PENDING':
       'Системні налаштування мережі ще не відновлено',
   'diag_fail_PACKET_SEND_FAILED': 'Збій надсилання пакета',
@@ -601,7 +601,7 @@ const Map<String, String> kUkCatalog = <String, String>{
   'diag_fix_review_configuration':
       'Відкрийте Налаштування → Розширені мережеві налаштування, виправте позначені поля й застосуйте зміни.',
   'diag_fix_restore_platform_state':
-      'Повністю закрийте Usque, відкрийте знову й повторіть спробу. Якщо проблема залишиться, експортуйте журнали з Діагностики для служби підтримки.',
+      'Повністю закрийте MoeHtet, відкрийте знову й повторіть спробу. Якщо проблема залишиться, експортуйте журнали з Діагностики для служби підтримки.',
   'diag_fix_resolve_dependency':
       'Спершу усуньте проблеми, виявлені невдалими перевірками, а потім запустіть діагностику знову.',
   'diag_fix_run_deep_diagnostics':
@@ -611,7 +611,7 @@ const Map<String, String> kUkCatalog = <String, String>{
   'diag_fix_inspect_platform_state':
       'Перегляньте невдалі перевірки в Діагностиці → Системний захист. Якщо проблема залишиться, експортуйте журнали.',
   'diag_fix_generate_tunnel_traffic':
-      'Відкрийте вебсторінку через з’єднання Usque й повторіть перевірку.',
+      'Відкрийте вебсторінку через з’єднання MoeHtet й повторіть перевірку.',
   'diag_fix_export_diagnostics':
       'Експортуйте діагностичний пакет і надішліть його в службу підтримки. Конфіденційні дані вилучаються.',
   'diag_fix_retry': 'Повторіть спробу трохи згодом.',

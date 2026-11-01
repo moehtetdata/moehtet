@@ -29,10 +29,10 @@ const kNetworkSettingsEn = <String, String>{
       'Unable to confirm whether network settings have taken effect.',
   'settings_refresh': 'Refresh status',
   'settings_confirmation_unavailable':
-      'Network settings still cannot be confirmed. If refreshing does not help, fully quit and reopen Usque, then check the settings.',
+      'Network settings still cannot be confirmed. If refreshing does not help, fully quit and reopen MoeHtet, then check the settings.',
   'settings_saved': 'Saved',
   'settings_unsupported':
-      'Fully exit and reopen Usque, then save again. If it still fails, check for updates in Settings.',
+      'Fully exit and reopen MoeHtet, then save again. If it still fails, check for updates in Settings.',
   'settings_save_failed':
       'Settings could not be saved. Your edits are retained.',
   'settings_reconnect': 'Reconnect',
@@ -46,9 +46,9 @@ const kNetworkSettingsZh = <String, String>{
   'settings_unknown': '暂时无法确认网络设置是否已生效。',
   'settings_refresh': '刷新状态',
   'settings_confirmation_unavailable':
-      '仍无法确认网络设置。若刷新后仍出现此提示，请退出并重新打开 Usque 后核对设置。',
+      '仍无法确认网络设置。若刷新后仍出现此提示，请退出并重新打开 MoeHtet 后核对设置。',
   'settings_saved': '已保存',
-  'settings_unsupported': '请彻底退出并重新打开 Usque 后再保存；若仍失败，请在“设置”中检查更新。',
+  'settings_unsupported': '请彻底退出并重新打开 MoeHtet 后再保存；若仍失败，请在“设置”中检查更新。',
   'settings_save_failed': '设置保存失败，已保留你的修改。',
   'settings_reconnect': '重新连接',
 };

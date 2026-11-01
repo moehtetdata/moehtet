@@ -10,7 +10,7 @@ const kEndpointPresetCatalogs = <String, Map<String, String>>{
     "endpoint_preset_only_hint": "Stop if the preset fails.",
     "endpoint_preset_prefer_hint": "Fall back to IPv4; the country may change.",
     "endpoint_preset_fallback": "IPv4 fallback",
-    "endpoint_preset_unsupported": "Update Usque to use presets.",
+    "endpoint_preset_unsupported": "Update MoeHtet to use presets.",
     "endpoint_preset_verify": "Verify your account to use presets.",
     "endpoint_preset_fallback_active":
         "Using IPv4 fallback; the country may differ.",
@@ -26,7 +26,7 @@ const kEndpointPresetCatalogs = <String, Map<String, String>>{
     "endpoint_preset_only_hint": "预设不可用时停止连接。",
     "endpoint_preset_prefer_hint": "失败时回退 IPv4，地区可能变化。",
     "endpoint_preset_fallback": "IPv4 回退地址",
-    "endpoint_preset_unsupported": "请更新 Usque 以使用预设。",
+    "endpoint_preset_unsupported": "请更新 MoeHtet 以使用预设。",
     "endpoint_preset_verify": "请先完成账号验证。",
     "endpoint_preset_fallback_active": "已回退至 IPv4，可能不在所选国家。",
   },
@@ -41,7 +41,7 @@ const kEndpointPresetCatalogs = <String, Map<String, String>>{
     "endpoint_preset_only_hint": "預設無法使用時停止連線。",
     "endpoint_preset_prefer_hint": "失敗時改用 IPv4，地區可能改變。",
     "endpoint_preset_fallback": "IPv4 備援位址",
-    "endpoint_preset_unsupported": "請更新 Usque 以使用預設。",
+    "endpoint_preset_unsupported": "請更新 MoeHtet 以使用預設。",
     "endpoint_preset_verify": "請先完成帳號驗證。",
     "endpoint_preset_fallback_active": "已改用 IPv4，可能不在所選國家。",
   },
@@ -56,7 +56,7 @@ const kEndpointPresetCatalogs = <String, Map<String, String>>{
     "endpoint_preset_only_hint": "預設無法使用時停止連線。",
     "endpoint_preset_prefer_hint": "失敗時改用 IPv4，地區可能改變。",
     "endpoint_preset_fallback": "IPv4 後備位址",
-    "endpoint_preset_unsupported": "請更新 Usque 以使用預設。",
+    "endpoint_preset_unsupported": "請更新 MoeHtet 以使用預設。",
     "endpoint_preset_verify": "請先完成帳戶驗證。",
     "endpoint_preset_fallback_active": "已改用 IPv4，可能不在所選國家。",
   },
@@ -71,7 +71,7 @@ const kEndpointPresetCatalogs = <String, Map<String, String>>{
     "endpoint_preset_only_hint": "プリセットが失敗したら停止します。",
     "endpoint_preset_prefer_hint": "IPv4 に切り替えると国が変わる場合があります。",
     "endpoint_preset_fallback": "IPv4 の代替アドレス",
-    "endpoint_preset_unsupported": "プリセットを使うには Usque を更新してください。",
+    "endpoint_preset_unsupported": "プリセットを使うには MoeHtet を更新してください。",
     "endpoint_preset_verify": "先にアカウントを確認してください。",
     "endpoint_preset_fallback_active": "IPv4 に切り替えました。国が異なる場合があります。",
   },
@@ -86,7 +86,7 @@ const kEndpointPresetCatalogs = <String, Map<String, String>>{
     "endpoint_preset_only_hint": "프리셋 연결 실패 시 중지합니다.",
     "endpoint_preset_prefer_hint": "IPv4로 전환하면 국가가 달라질 수 있습니다.",
     "endpoint_preset_fallback": "IPv4 대체 주소",
-    "endpoint_preset_unsupported": "프리셋을 사용하려면 Usque를 업데이트하세요.",
+    "endpoint_preset_unsupported": "프리셋을 사용하려면 MoeHtet를 업데이트하세요.",
     "endpoint_preset_verify": "먼저 계정을 인증하세요.",
     "endpoint_preset_fallback_active": "IPv4로 전환되어 국가가 다를 수 있습니다.",
   },
@@ -101,7 +101,7 @@ const kEndpointPresetCatalogs = <String, Map<String, String>>{
     "endpoint_preset_only_hint": "Bei Fehler des Presets anhalten.",
     "endpoint_preset_prefer_hint": "IPv4 als Ersatz; das Land kann wechseln.",
     "endpoint_preset_fallback": "IPv4-Ersatzadresse",
-    "endpoint_preset_unsupported": "Usque für Presets aktualisieren.",
+    "endpoint_preset_unsupported": "MoeHtet für Presets aktualisieren.",
     "endpoint_preset_verify": "Zuerst das Konto bestätigen.",
     "endpoint_preset_fallback_active":
         "IPv4-Ersatz aktiv; das Land kann abweichen.",
@@ -117,7 +117,7 @@ const kEndpointPresetCatalogs = <String, Map<String, String>>{
     "endpoint_preset_only_hint": "Detener si falla el preajuste.",
     "endpoint_preset_prefer_hint": "Usar IPv4 si falla; el país puede cambiar.",
     "endpoint_preset_fallback": "Alternativa IPv4",
-    "endpoint_preset_unsupported": "Actualiza Usque para usar preajustes.",
+    "endpoint_preset_unsupported": "Actualiza MoeHtet para usar preajustes.",
     "endpoint_preset_verify": "Verifica tu cuenta primero.",
     "endpoint_preset_fallback_active":
         "Usando IPv4; el país puede ser distinto.",
@@ -133,7 +133,7 @@ const kEndpointPresetCatalogs = <String, Map<String, String>>{
     "endpoint_preset_only_hint": "Parar se a predefinição falhar.",
     "endpoint_preset_prefer_hint": "Recorrer a IPv4; o país pode mudar.",
     "endpoint_preset_fallback": "Alternativa IPv4",
-    "endpoint_preset_unsupported": "Atualize o Usque para usar predefinições.",
+    "endpoint_preset_unsupported": "Atualize o MoeHtet para usar predefinições.",
     "endpoint_preset_verify": "Verifique a conta primeiro.",
     "endpoint_preset_fallback_active":
         "A usar IPv4; o país pode ser diferente.",
@@ -149,7 +149,7 @@ const kEndpointPresetCatalogs = <String, Map<String, String>>{
     "endpoint_preset_only_hint": "Arrêter si le préréglage échoue.",
     "endpoint_preset_prefer_hint": "Repli en IPv4 ; le pays peut changer.",
     "endpoint_preset_fallback": "Adresse de repli IPv4",
-    "endpoint_preset_unsupported": "Mettez Usque à jour pour les préréglages.",
+    "endpoint_preset_unsupported": "Mettez MoeHtet à jour pour les préréglages.",
     "endpoint_preset_verify": "Vérifiez votre compte au préalable.",
     "endpoint_preset_fallback_active":
         "Repli en IPv4 ; le pays peut être différent.",
@@ -166,7 +166,7 @@ const kEndpointPresetCatalogs = <String, Map<String, String>>{
     "endpoint_preset_prefer_hint":
         "Terugvallen op IPv4; het land kan wijzigen.",
     "endpoint_preset_fallback": "IPv4-terugvaladres",
-    "endpoint_preset_unsupported": "Werk Usque bij voor voorinstellingen.",
+    "endpoint_preset_unsupported": "Werk MoeHtet bij voor voorinstellingen.",
     "endpoint_preset_verify": "Verifieer eerst je account.",
     "endpoint_preset_fallback_active":
         "IPv4-terugval actief; het land kan afwijken.",
@@ -182,7 +182,7 @@ const kEndpointPresetCatalogs = <String, Map<String, String>>{
     "endpoint_preset_only_hint": "Interrompi se la preimpostazione fallisce.",
     "endpoint_preset_prefer_hint": "Ripiega su IPv4; il paese può cambiare.",
     "endpoint_preset_fallback": "Indirizzo IPv4 alternativo",
-    "endpoint_preset_unsupported": "Aggiorna Usque per le preimpostazioni.",
+    "endpoint_preset_unsupported": "Aggiorna MoeHtet per le preimpostazioni.",
     "endpoint_preset_verify": "Verifica prima il tuo account.",
     "endpoint_preset_fallback_active":
         "Ripiego su IPv4; il paese può essere diverso.",
@@ -198,7 +198,7 @@ const kEndpointPresetCatalogs = <String, Map<String, String>>{
     "endpoint_preset_only_hint": "Zatrzymaj po błędzie ustawienia.",
     "endpoint_preset_prefer_hint": "Przełącz na IPv4; kraj może się zmienić.",
     "endpoint_preset_fallback": "Zapasowy adres IPv4",
-    "endpoint_preset_unsupported": "Zaktualizuj Usque, aby użyć ustawień.",
+    "endpoint_preset_unsupported": "Zaktualizuj MoeHtet, aby użyć ustawień.",
     "endpoint_preset_verify": "Najpierw zweryfikuj konto.",
     "endpoint_preset_fallback_active":
         "Przełączono na IPv4; kraj może być inny.",
@@ -214,7 +214,7 @@ const kEndpointPresetCatalogs = <String, Map<String, String>>{
     "endpoint_preset_only_hint": "Остановить при ошибке варианта.",
     "endpoint_preset_prefer_hint": "Резервный IPv4; страна может измениться.",
     "endpoint_preset_fallback": "Резервный адрес IPv4",
-    "endpoint_preset_unsupported": "Обновите Usque для готовых вариантов.",
+    "endpoint_preset_unsupported": "Обновите MoeHtet для готовых вариантов.",
     "endpoint_preset_verify": "Сначала подтвердите аккаунт.",
     "endpoint_preset_fallback_active":
         "Используется IPv4; страна может отличаться.",
@@ -230,7 +230,7 @@ const kEndpointPresetCatalogs = <String, Map<String, String>>{
     "endpoint_preset_only_hint": "Зупинити в разі помилки варіанта.",
     "endpoint_preset_prefer_hint": "Резервний IPv4; країна може змінитися.",
     "endpoint_preset_fallback": "Резервна адреса IPv4",
-    "endpoint_preset_unsupported": "Оновіть Usque для готових варіантів.",
+    "endpoint_preset_unsupported": "Оновіть MoeHtet для готових варіантів.",
     "endpoint_preset_verify": "Спочатку підтвердьте обліковий запис.",
     "endpoint_preset_fallback_active":
         "Використовується IPv4; країна може відрізнятися.",
@@ -246,7 +246,7 @@ const kEndpointPresetCatalogs = <String, Map<String, String>>{
     "endpoint_preset_only_hint": "التوقف إذا فشل الإعداد.",
     "endpoint_preset_prefer_hint": "الرجوع إلى IPv4؛ قد يتغير البلد.",
     "endpoint_preset_fallback": "عنوان IPv4 البديل",
-    "endpoint_preset_unsupported": "حدّث Usque لاستخدام الإعدادات المدمجة.",
+    "endpoint_preset_unsupported": "حدّث MoeHtet لاستخدام الإعدادات المدمجة.",
     "endpoint_preset_verify": "تحقق من حسابك أولاً.",
     "endpoint_preset_fallback_active": "تم الرجوع إلى IPv4؛ قد يختلف البلد.",
   },
@@ -261,7 +261,7 @@ const kEndpointPresetCatalogs = <String, Map<String, String>>{
     "endpoint_preset_only_hint": "در صورت خرابی پیش‌تنظیم متوقف شود.",
     "endpoint_preset_prefer_hint": "بازگشت به IPv4؛ ممکن است کشور تغییر کند.",
     "endpoint_preset_fallback": "نشانی جایگزین IPv4",
-    "endpoint_preset_unsupported": "برای پیش‌تنظیم‌ها Usque را به‌روز کنید.",
+    "endpoint_preset_unsupported": "برای پیش‌تنظیم‌ها MoeHtet را به‌روز کنید.",
     "endpoint_preset_verify": "ابتدا حساب خود را تأیید کنید.",
     "endpoint_preset_fallback_active":
         "از IPv4 استفاده می‌شود؛ ممکن است کشور متفاوت باشد.",
@@ -277,7 +277,7 @@ const kEndpointPresetCatalogs = <String, Map<String, String>>{
     "endpoint_preset_only_hint": "Berhenti jika prasetel gagal.",
     "endpoint_preset_prefer_hint": "Beralih ke IPv4; negara dapat berubah.",
     "endpoint_preset_fallback": "Alamat cadangan IPv4",
-    "endpoint_preset_unsupported": "Perbarui Usque untuk memakai prasetel.",
+    "endpoint_preset_unsupported": "Perbarui MoeHtet untuk memakai prasetel.",
     "endpoint_preset_verify": "Verifikasi akun terlebih dahulu.",
     "endpoint_preset_fallback_active":
         "Beralih ke IPv4; negara mungkin berbeda.",
@@ -293,7 +293,7 @@ const kEndpointPresetCatalogs = <String, Map<String, String>>{
     "endpoint_preset_only_hint": "Dừng nếu thiết lập thất bại.",
     "endpoint_preset_prefer_hint": "Chuyển sang IPv4; quốc gia có thể đổi.",
     "endpoint_preset_fallback": "Địa chỉ IPv4 dự phòng",
-    "endpoint_preset_unsupported": "Cập nhật Usque để dùng thiết lập có sẵn.",
+    "endpoint_preset_unsupported": "Cập nhật MoeHtet để dùng thiết lập có sẵn.",
     "endpoint_preset_verify": "Hãy xác minh tài khoản trước.",
     "endpoint_preset_fallback_active":
         "Đã chuyển sang IPv4; quốc gia có thể khác.",
@@ -309,7 +309,7 @@ const kEndpointPresetCatalogs = <String, Map<String, String>>{
     "endpoint_preset_only_hint": "หยุดหากค่าที่ตั้งไว้ใช้ไม่ได้",
     "endpoint_preset_prefer_hint": "ใช้ IPv4 สำรอง; ประเทศอาจเปลี่ยน",
     "endpoint_preset_fallback": "ที่อยู่ IPv4 สำรอง",
-    "endpoint_preset_unsupported": "อัปเดต Usque เพื่อใช้ค่าที่ตั้งไว้",
+    "endpoint_preset_unsupported": "อัปเดต MoeHtet เพื่อใช้ค่าที่ตั้งไว้",
     "endpoint_preset_verify": "โปรดยืนยันบัญชีก่อน",
     "endpoint_preset_fallback_active":
         "เปลี่ยนไปใช้ IPv4 แล้ว; ประเทศอาจต่างออกไป",
@@ -326,7 +326,7 @@ const kEndpointPresetCatalogs = <String, Map<String, String>>{
     "endpoint_preset_prefer_hint": "IPv4 yedeğine geç; ülke değişebilir.",
     "endpoint_preset_fallback": "IPv4 yedek adresi",
     "endpoint_preset_unsupported":
-        "Hazır ayarlar için Usque uygulamasını güncelleyin.",
+        "Hazır ayarlar için MoeHtet uygulamasını güncelleyin.",
     "endpoint_preset_verify": "Önce hesabınızı doğrulayın.",
     "endpoint_preset_fallback_active":
         "IPv4 yedeği kullanılıyor; ülke farklı olabilir.",

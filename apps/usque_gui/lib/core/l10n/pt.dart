@@ -14,9 +14,9 @@ const Map<String, String> kPtCatalog = <String, String>{
   'disable_quic': "Desativar QUIC",
   'disable_quic_managed': 'Gerenciado automaticamente por esta conexão',
   'disable_quic_help':
-      "Bloqueia o tráfego UDP na porta 443 encaminhado pelo Usque, principalmente QUIC, para que os aplicativos passem a usar TCP. O tráfego direto e a própria conexão do Usque não são afetados. Entra em vigor imediatamente.",
+      "Bloqueia o tráfego UDP na porta 443 encaminhado pelo MoeHtet, principalmente QUIC, para que os aplicativos passem a usar TCP. O tráfego direto e a própria conexão do MoeHtet não são afetados. Entra em vigor imediatamente.",
   'disable_quic_unsupported':
-      'O bloqueio de QUIC não está disponível no momento. Reinicie o Usque; se continuar indisponível, procure atualizações em Configurações.',
+      'O bloqueio de QUIC não está disponível no momento. Reinicie o MoeHtet; se continuar indisponível, procure atualizações em Configurações.',
   'technical_details': 'Detalhes técnicos',
   'diag_skip_disconnected': 'Conecte-se para executar esta verificação.',
   'diag_skip_disabled': 'Este recurso está desativado.',
@@ -24,8 +24,8 @@ const Map<String, String> kPtCatalog = <String, String>{
       'Esta verificação não está disponível neste dispositivo.',
   'diag_skip_traffic': 'Use a conexão e execute esta verificação novamente.',
   'diag_skip_deep': 'Selecione o modo profundo para executar esta verificação.',
-  'app_loading': "Carregando o Usque",
-  'app_name': 'Usque',
+  'app_loading': "Carregando o MoeHtet",
+  'app_name': 'MoeHtet',
   'diag_fail_L4_SESSION_UNAVAILABLE': 'Sessão L4 indisponível',
   'diag_fail_L4_PROTOCOL_ERROR': 'Erro de protocolo L4',
   'diag_fail_L4_CONNECT_REJECTED': 'L4 CONNECT rejeitado',
@@ -36,14 +36,14 @@ const Map<String, String> kPtCatalog = <String, String>{
   'window_maximize': 'Maximizar',
   'window_restore': 'Restaurar tamanho da janela',
   'window_close': 'Fechar',
-  'tray_open': 'Abrir o Usque',
+  'tray_open': 'Abrir o MoeHtet',
   'tray_connect_profile': 'Conectar a conta ativa',
   'tray_disconnect_profile': 'Desconectar a conta ativa',
   'tray_disconnect_exit': 'Desconectar e sair',
   'notice_connection_interrupted':
-      'A conexão foi interrompida. O Usque está tentando restaurá-la.',
+      'A conexão foi interrompida. O MoeHtet está tentando restaurá-la.',
   'notice_connection_failed':
-      'O Usque não conseguiu manter a conexão. Abra o Usque para ver os detalhes.',
+      'O MoeHtet não conseguiu manter a conexão. Abra o MoeHtet para ver os detalhes.',
   'notice_connection_restored': 'A conexão foi restaurada.',
   'notice_kill_switch_blocking':
       'O Kill Switch está bloqueando o tráfego de rede até que a conexão seja restaurada ou você se desconecte.',
@@ -87,7 +87,7 @@ const Map<String, String> kPtCatalog = <String, String>{
   'not_available': 'Não disponível',
   'location_disconnected': 'Aguardando conexão',
   'engine_unavailable':
-      'Não foi possível iniciar o serviço de conexão. Feche o Usque por completo e abra novamente. Se continuar falhando, abra Diagnósticos.',
+      'Não foi possível iniciar o serviço de conexão. Feche o MoeHtet por completo e abra novamente. Se continuar falhando, abra Diagnósticos.',
   'dismiss': 'Dispensar',
   'new_profile': 'Adicionar conta',
   'profile_name': 'Nome da conta',
@@ -109,7 +109,7 @@ const Map<String, String> kPtCatalog = <String, String>{
   'zero_trust_open_login': 'Abrir login da organização',
   'zero_trust_browser_failed': 'Não foi possível abrir o navegador do sistema.',
   'zero_trust_manual_callback':
-      'Após entrar, volte ao Usque. Se o resultado não aparecer automaticamente, copie o link usado pela página de login para abrir o WARP e cole-o inteiro abaixo.',
+      'Após entrar, volte ao MoeHtet. Se o resultado não aparecer automaticamente, copie o link usado pela página de login para abrir o WARP e cole-o inteiro abaixo.',
   'zero_trust_callback_received':
       'Login recebido. Continue para concluir a configuração da conta.',
   'zero_trust_callback': 'Link de retorno do login',
@@ -140,7 +140,7 @@ const Map<String, String> kPtCatalog = <String, String>{
   "zero_trust_endpoint_risk_locked":
       "Confirme os riscos antes de editar estes endereços.",
   "zero_trust_endpoint_unsupported":
-      "Atualize o Usque para editar endpoints Zero Trust.",
+      "Atualize o MoeHtet para editar endpoints Zero Trust.",
   "zero_trust_reauth_endpoints":
       "Entrar novamente restaura os endereços registrados e remove seus endereços personalizados.",
   'experimental': 'Experimental',
@@ -158,7 +158,7 @@ const Map<String, String> kPtCatalog = <String, String>{
   'delete': 'Excluir',
   'delete_profile': 'Remover conta?',
   'delete_profile_body':
-      "Remover esta conta e os dados de login do WARP deste dispositivo? Se houver uma License Key vinculada, o Usque também tentará desvinculá-la.",
+      "Remover esta conta e os dados de login do WARP deste dispositivo? Se houver uma License Key vinculada, o MoeHtet também tentará desvinculá-la.",
   'delete_zero_trust_profile_body':
       'Apaga a conta e seus dados de login deste dispositivo. Peça ao administrador que também remova o registro do dispositivo no painel Zero Trust da organização.',
   'license_not_applicable': 'Conta da organização · Experimental',
@@ -210,7 +210,7 @@ const Map<String, String> kPtCatalog = <String, String>{
       'A senha está definida. Insira uma nova para substituí-la.',
   'proxy_auth_clear': 'Remover proteção por senha',
   'general': 'Geral',
-  'start_on_boot': 'Iniciar o Usque ao entrar no sistema',
+  'start_on_boot': 'Iniciar o MoeHtet ao entrar no sistema',
   'close_to_tray': 'Fechar a janela para a bandeja do sistema',
   'add_quick_settings_tile': 'Adicionar bloco de Configurações rápidas',
   'theme': 'Tema',
@@ -246,7 +246,7 @@ const Map<String, String> kPtCatalog = <String, String>{
   'update_available': 'Uma versão mais recente está disponível:',
   'already_latest': 'Esta instalação já está atualizada.',
   'open_release': 'Abrir página da versão',
-  'update_startup_description': 'Verificar atualizações ao iniciar o Usque.',
+  'update_startup_description': 'Verificar atualizações ao iniciar o MoeHtet.',
   'update_checking': 'Procurando uma atualização…',
   'update_downloading': 'Baixando a atualização…',
   'update_verifying': 'Verificando o pacote de atualização…',
@@ -286,7 +286,7 @@ const Map<String, String> kPtCatalog = <String, String>{
       'Escolhe o endpoint disponível mais rápido para esta conta. As alterações de endereço só são salvas no modo Personalizada.',
   'endpoint_custom_help': 'Usa os endereços IPv4 e IPv6 abaixo.',
   'endpoint_unsupported':
-      'Atualize o Usque para usar a seleção automática de endpoints.',
+      'Atualize o MoeHtet para usar a seleção automática de endpoints.',
   'endpoint_ipv4': 'Endpoint IPv4',
   'endpoint_ipv6': 'Endpoint IPv6',
   'sni': 'SNI',
@@ -314,9 +314,9 @@ const Map<String, String> kPtCatalog = <String, String>{
   'kill_switch_help_android':
       'Bloqueia o tráfego ao conectar, reconectar ou em caso de falha. Só com o serviço VPN ativo.',
   'start_on_boot_android':
-      'Inicie o Usque quando o dispositivo reiniciar. Para conectar automaticamente, ative também “Conectar a conta atual automaticamente ao iniciar”.',
+      'Inicie o MoeHtet quando o dispositivo reiniciar. Para conectar automaticamente, ative também “Conectar a conta atual automaticamente ao iniciar”.',
   'add_quick_settings_tile_help':
-      'Adicione o bloco do Usque no Android 13 ou posterior. Em versões anteriores, adicione-o manualmente nas Configurações rápidas.',
+      'Adicione o bloco do MoeHtet no Android 13 ou posterior. Em versões anteriores, adicione-o manualmente nas Configurações rápidas.',
   'always_on_vpn': 'Abrir configurações de VPN sempre ativada',
   'always_on_vpn_help':
       'Ative VPN sempre ativada e Bloquear conexões sem VPN para proteção contra vazamentos depois que o aplicativo for encerrado.',
@@ -356,7 +356,7 @@ const Map<String, String> kPtCatalog = <String, String>{
       'Verifique problemas de conexão, exporte registros e gerencie os dados locais.',
   'engine_status': 'Informações da conexão',
   'version': 'Versão',
-  'app_version': 'Usque 0.3.3',
+  'app_version': 'MoeHtet 0.3.3',
   'logs': 'Logs locais',
   'export_diagnostics': 'Exportar pacote de diagnóstico',
   'diagnostics_saved': 'Pacote de diagnóstico salvo em',
@@ -366,21 +366,21 @@ const Map<String, String> kPtCatalog = <String, String>{
   'clear_all_data_help':
       'Desconecta e apaga permanentemente deste dispositivo todas as contas, dados de login WARP, configurações, caches e registros de diagnóstico.',
   'clear_all_data_confirm':
-      'Não é possível desfazer. O Usque desconectará, apagará todas as contas e dados de login e voltará à configuração inicial.',
-  'clear_all_data_complete': 'Todos os dados locais do Usque foram limpos.',
+      'Não é possível desfazer. O MoeHtet desconectará, apagará todas as contas e dados de login e voltará à configuração inicial.',
+  'clear_all_data_complete': 'Todos os dados locais do MoeHtet foram limpos.',
   'unofficial':
       'Cliente não oficial compatível com os serviços Cloudflare® WARP®. Não é afiliado, patrocinado nem endossado pela Cloudflare, Inc.',
   'trademark_attribution':
       'Cloudflare e WARP são marcas comerciais e/ou marcas registradas da Cloudflare, Inc. nos Estados Unidos e em outras jurisdições.',
-  'welcome_title': 'Bem-vindo ao Usque',
+  'welcome_title': 'Bem-vindo ao MoeHtet',
   'setup_progress': 'Etapa {current} de {total} da configuração',
   'get_started': 'Começar',
   'permissions_title': 'Permissões do sistema',
   'permissions_body':
-      'O Usque precisa de permissão para encaminhar o tráfego dos aplicativos pela VPN. Conforme o modo de conexão, também configura DNS, rotas de rede, proteção do firewall ou proxy do sistema.',
+      'O MoeHtet precisa de permissão para encaminhar o tráfego dos aplicativos pela VPN. Conforme o modo de conexão, também configura DNS, rotas de rede, proteção do firewall ou proxy do sistema.',
   'terms_title': 'Termos da Cloudflare',
   'terms_body':
-      'O Usque é um cliente independente. O uso do WARP pessoal ou do registro experimental do Zero Trust continua sujeito aos termos e à política de privacidade da Cloudflare.',
+      'O MoeHtet é um cliente independente. O uso do WARP pessoal ou do registro experimental do Zero Trust continua sujeito aos termos e à política de privacidade da Cloudflare.',
   'terms_accept': 'Eu entendo e aceito estas condições.',
   'identity_title': 'Configurar conta WARP pessoal',
   'register_new': 'Criar conta WARP gratuita',
@@ -408,7 +408,7 @@ const Map<String, String> kPtCatalog = <String, String>{
   'bypass_line_error': 'Linha {line}: {reason}',
   'bypass_summary': '{countries} regiões · {targets} destinos personalizados',
   'geo_direct_help':
-      'O tráfego correspondente a esses países ou regiões ignora a VPN/TUN do Usque e os proxies locais HTTP e SOCKS5. O provedor DNS da rede atual pode ver os domínios consultados. Aplicativos com DNS criptografado são classificados apenas pelo IP.',
+      'O tráfego correspondente a esses países ou regiões ignora a VPN/TUN do MoeHtet e os proxies locais HTTP e SOCKS5. O provedor DNS da rede atual pode ver os domínios consultados. Aplicativos com DNS criptografado são classificados apenas pelo IP.',
   'geo_update_all': 'Atualizar dados geográficos',
   'geo_last_updated': 'Última atualização bem-sucedida: {current}',
   'geo_never_updated': 'Ainda não atualizado',
@@ -539,11 +539,11 @@ const Map<String, String> kPtCatalog = <String, String>{
   'diag_check_protection_kill_switch': 'Estado do Kill Switch',
   'diag_check_protection_dns_path': 'Caminho DNS',
   'diag_check_protection_route_ownership':
-      'Rotas de rede gerenciadas pelo Usque',
+      'Rotas de rede gerenciadas pelo MoeHtet',
   'diag_check_protection_recovery_journal': 'Diário de recuperação',
-  'diag_fail_ENGINE_UNAVAILABLE': 'Serviço de conexão do Usque indisponível',
+  'diag_fail_ENGINE_UNAVAILABLE': 'Serviço de conexão do MoeHtet indisponível',
   'diag_fail_AGENT_UNREACHABLE':
-      'Não foi possível contatar o serviço de rede do sistema do Usque',
+      'Não foi possível contatar o serviço de rede do sistema do MoeHtet',
   'diag_fail_VPN_SERVICE_UNAVAILABLE': 'Serviço VPN indisponível',
   'diag_fail_PROXY_PORT_IN_USE': 'Porta de proxy em uso',
   'diag_fail_PHYSICAL_IPV4_UNAVAILABLE': 'IPv4 físico indisponível',
@@ -581,7 +581,7 @@ const Map<String, String> kPtCatalog = <String, String>{
   'diag_fail_ROUTE_RESTORE_INCOMPLETE': 'Restauração de rotas incompleta',
   'diag_fail_DNS_RESTORE_INCOMPLETE': 'Restauração de DNS incompleta',
   'diag_fail_SYSTEM_PROXY_STALE':
-      'O estado do proxy do sistema do Usque não foi limpo',
+      'O estado do proxy do sistema do MoeHtet não foi limpo',
   'diag_fail_PLATFORM_RECOVERY_PENDING':
       'Configurações de rede do sistema ainda não restauradas',
   'diag_fail_PACKET_SEND_FAILED': 'Falha no envio de pacote',
@@ -606,7 +606,7 @@ const Map<String, String> kPtCatalog = <String, String>{
   'diag_fix_review_configuration':
       'Em Configurações → Configurações avançadas de rede, corrija os campos destacados e aplique as alterações.',
   'diag_fix_restore_platform_state':
-      'Feche o Usque por completo e abra novamente. Se continuar falhando, exporte um pacote em Diagnósticos para pedir ajuda.',
+      'Feche o MoeHtet por completo e abra novamente. Se continuar falhando, exporte um pacote em Diagnósticos para pedir ajuda.',
   'diag_fix_resolve_dependency':
       'Resolva primeiro as verificações que falharam na lista e execute o diagnóstico novamente.',
   'diag_fix_run_deep_diagnostics':
@@ -616,7 +616,7 @@ const Map<String, String> kPtCatalog = <String, String>{
   'diag_fix_inspect_platform_state':
       'Em Diagnósticos, veja as falhas de Proteção do sistema. Se persistirem, exporte um pacote de diagnóstico para pedir ajuda.',
   'diag_fix_generate_tunnel_traffic':
-      'Abra uma página pela conexão do Usque e repita a verificação.',
+      'Abra uma página pela conexão do MoeHtet e repita a verificação.',
   'diag_fix_export_diagnostics':
       'Exporte um pacote de diagnóstico e envie ao suporte. As informações sensíveis são removidas.',
   'diag_fix_retry': 'Tente novamente em breve.',

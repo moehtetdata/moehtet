@@ -7,7 +7,7 @@ const kUxRefinementCatalogs = <String, Map<String, String>>{
     'proxy_device_outputs': 'Device traffic',
     'routing_action_direct': 'Direct',
     'routing_action_reject': 'Block',
-    'routing_action_proxy': 'Through Usque',
+    'routing_action_proxy': 'Through MoeHtet',
     'nq_advanced_metrics': 'Advanced metrics',
     'nq_attention_count': '{count} need attention',
     'welcome_body':
@@ -64,7 +64,7 @@ const kUxRefinementCatalogs = <String, Map<String, String>>{
     'proxy_device_outputs': 'このデバイスの通信',
     'routing_action_direct': '直接接続',
     'routing_action_reject': 'ブロック',
-    'routing_action_proxy': 'Usque 経由',
+    'routing_action_proxy': 'MoeHtet 経由',
     'nq_advanced_metrics': '詳細な指標',
     'nq_attention_count': '{count} 件の注意事項',
     'welcome_body': '次にシステム権限と Cloudflare の規約を確認し、WARP アカウントを設定します。',
@@ -78,7 +78,7 @@ const kUxRefinementCatalogs = <String, Map<String, String>>{
     'proxy_device_outputs': '이 기기의 트래픽',
     'routing_action_direct': '직접 연결',
     'routing_action_reject': '차단',
-    'routing_action_proxy': 'Usque 경유',
+    'routing_action_proxy': 'MoeHtet 경유',
     'nq_advanced_metrics': '고급 지표',
     'nq_attention_count': '주의 필요 {count}개',
     'welcome_body': '다음으로 시스템 권한과 Cloudflare 약관을 확인한 뒤 WARP 계정을 설정합니다.',
@@ -92,7 +92,7 @@ const kUxRefinementCatalogs = <String, Map<String, String>>{
     'proxy_device_outputs': 'Tráfico del dispositivo',
     'routing_action_direct': 'Directo',
     'routing_action_reject': 'Bloquear',
-    'routing_action_proxy': 'A través de Usque',
+    'routing_action_proxy': 'A través de MoeHtet',
     'nq_advanced_metrics': 'Métricas avanzadas',
     'nq_attention_count': '{count} requieren atención',
     'welcome_body':
@@ -107,7 +107,7 @@ const kUxRefinementCatalogs = <String, Map<String, String>>{
     'proxy_device_outputs': 'Tráfego do dispositivo',
     'routing_action_direct': 'Direto',
     'routing_action_reject': 'Bloquear',
-    'routing_action_proxy': 'Via Usque',
+    'routing_action_proxy': 'Via MoeHtet',
     'nq_advanced_metrics': 'Métricas avançadas',
     'nq_attention_count': '{count} precisam de atenção',
     'welcome_body':
@@ -122,7 +122,7 @@ const kUxRefinementCatalogs = <String, Map<String, String>>{
     'proxy_device_outputs': "Trafic de l'appareil",
     'routing_action_direct': 'Connexion directe',
     'routing_action_reject': 'Bloquer',
-    'routing_action_proxy': 'Via Usque',
+    'routing_action_proxy': 'Via MoeHtet',
     'nq_advanced_metrics': 'Métriques avancées',
     'nq_attention_count': '{count} à surveiller',
     'welcome_body':
@@ -137,7 +137,7 @@ const kUxRefinementCatalogs = <String, Map<String, String>>{
     'proxy_device_outputs': 'Geräteverkehr',
     'routing_action_direct': 'Direkt',
     'routing_action_reject': 'Blockieren',
-    'routing_action_proxy': 'Über Usque',
+    'routing_action_proxy': 'Über MoeHtet',
     'nq_advanced_metrics': 'Erweiterte Messwerte',
     'nq_attention_count': '{count} mit Auffälligkeiten',
     'welcome_body':
@@ -152,7 +152,7 @@ const kUxRefinementCatalogs = <String, Map<String, String>>{
     'proxy_device_outputs': 'Apparaatverkeer',
     'routing_action_direct': 'Rechtstreeks',
     'routing_action_reject': 'Blokkeren',
-    'routing_action_proxy': 'Via Usque',
+    'routing_action_proxy': 'Via MoeHtet',
     'nq_advanced_metrics': 'Geavanceerde meetwaarden',
     'nq_attention_count': '{count} vragen aandacht',
     'welcome_body':
@@ -167,7 +167,7 @@ const kUxRefinementCatalogs = <String, Map<String, String>>{
     'proxy_device_outputs': 'Traffico del dispositivo',
     'routing_action_direct': 'Diretto',
     'routing_action_reject': 'Blocca',
-    'routing_action_proxy': 'Tramite Usque',
+    'routing_action_proxy': 'Tramite MoeHtet',
     'nq_advanced_metrics': 'Metriche avanzate',
     'nq_attention_count': '{count} da controllare',
     'welcome_body':
@@ -182,7 +182,7 @@ const kUxRefinementCatalogs = <String, Map<String, String>>{
     'proxy_device_outputs': 'Трафик устройства',
     'routing_action_direct': 'Напрямую',
     'routing_action_reject': 'Блокировать',
-    'routing_action_proxy': 'Через Usque',
+    'routing_action_proxy': 'Через MoeHtet',
     'nq_advanced_metrics': 'Расширенные показатели',
     'nq_attention_count': 'Требуют внимания: {count}',
     'welcome_body':
@@ -197,7 +197,7 @@ const kUxRefinementCatalogs = <String, Map<String, String>>{
     'proxy_device_outputs': 'Трафік пристрою',
     'routing_action_direct': 'Напряму',
     'routing_action_reject': 'Блокувати',
-    'routing_action_proxy': 'Через Usque',
+    'routing_action_proxy': 'Через MoeHtet',
     'nq_advanced_metrics': 'Розширені показники',
     'nq_attention_count': 'Потребують уваги: {count}',
     'welcome_body':
@@ -212,7 +212,7 @@ const kUxRefinementCatalogs = <String, Map<String, String>>{
     'proxy_device_outputs': 'Ruch urządzenia',
     'routing_action_direct': 'Bezpośrednio',
     'routing_action_reject': 'Blokuj',
-    'routing_action_proxy': 'Przez Usque',
+    'routing_action_proxy': 'Przez MoeHtet',
     'nq_advanced_metrics': 'Zaawansowane wskaźniki',
     'nq_attention_count': 'Wymaga uwagi: {count}',
     'welcome_body':
@@ -227,7 +227,7 @@ const kUxRefinementCatalogs = <String, Map<String, String>>{
     'proxy_device_outputs': 'ترافیک دستگاه',
     'routing_action_direct': 'مستقیم',
     'routing_action_reject': 'مسدود کردن',
-    'routing_action_proxy': 'از طریق Usque',
+    'routing_action_proxy': 'از طریق MoeHtet',
     'nq_advanced_metrics': 'شاخص‌های پیشرفته',
     'nq_attention_count': '{count} مورد نیاز به توجه دارد',
     'welcome_body':
@@ -242,7 +242,7 @@ const kUxRefinementCatalogs = <String, Map<String, String>>{
     'proxy_device_outputs': 'حركة بيانات الجهاز',
     'routing_action_direct': 'مباشر',
     'routing_action_reject': 'حظر',
-    'routing_action_proxy': 'عبر Usque',
+    'routing_action_proxy': 'عبر MoeHtet',
     'nq_advanced_metrics': 'مقاييس متقدمة',
     'nq_attention_count': '{count} تحتاج إلى انتباه',
     'welcome_body':
@@ -257,7 +257,7 @@ const kUxRefinementCatalogs = <String, Map<String, String>>{
     'proxy_device_outputs': 'Lalu lintas perangkat',
     'routing_action_direct': 'Langsung',
     'routing_action_reject': 'Blokir',
-    'routing_action_proxy': 'Melalui Usque',
+    'routing_action_proxy': 'Melalui MoeHtet',
     'nq_advanced_metrics': 'Metrik lanjutan',
     'nq_attention_count': '{count} perlu perhatian',
     'welcome_body':
@@ -272,7 +272,7 @@ const kUxRefinementCatalogs = <String, Map<String, String>>{
     'proxy_device_outputs': 'Lưu lượng thiết bị',
     'routing_action_direct': 'Trực tiếp',
     'routing_action_reject': 'Chặn',
-    'routing_action_proxy': 'Qua Usque',
+    'routing_action_proxy': 'Qua MoeHtet',
     'nq_advanced_metrics': 'Chỉ số nâng cao',
     'nq_attention_count': '{count} mục cần chú ý',
     'welcome_body':
@@ -287,7 +287,7 @@ const kUxRefinementCatalogs = <String, Map<String, String>>{
     'proxy_device_outputs': 'Cihaz trafiği',
     'routing_action_direct': 'Doğrudan',
     'routing_action_reject': 'Engelle',
-    'routing_action_proxy': 'Usque üzerinden',
+    'routing_action_proxy': 'MoeHtet üzerinden',
     'nq_advanced_metrics': 'Gelişmiş ölçümler',
     'nq_attention_count': '{count} öğe dikkat gerektiriyor',
     'welcome_body':
@@ -302,7 +302,7 @@ const kUxRefinementCatalogs = <String, Map<String, String>>{
     'proxy_device_outputs': 'ทราฟฟิกของอุปกรณ์',
     'routing_action_direct': 'เชื่อมต่อตรง',
     'routing_action_reject': 'บล็อก',
-    'routing_action_proxy': 'ผ่าน Usque',
+    'routing_action_proxy': 'ผ่าน MoeHtet',
     'nq_advanced_metrics': 'ตัวชี้วัดขั้นสูง',
     'nq_attention_count': 'ต้องตรวจสอบ {count} รายการ',
     'welcome_body':
