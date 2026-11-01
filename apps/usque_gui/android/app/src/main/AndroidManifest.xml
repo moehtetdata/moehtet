@@ -19,7 +19,7 @@
         android:required="false" />
 
     <application
-        android:label="Usque"
+        android:label="MoeHtet"
         android:name=".UsqueApplication"
         android:allowBackup="false"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -87,7 +87,7 @@
             android:enabled="true"
             android:exported="true"
             android:icon="@drawable/ic_stat_usque"
-            android:label="Usque"
+            android:label="MoeHtet"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
             android:process=":vpn">
             <meta-data

@@ -1,0 +1,138 @@
+name: Build MoeHtet APK
+
+# Manual-only build of the MoeHtet-branded Android release APK.
+# Mirrors the "android" job of .github/workflows/build.yml as closely as
+# possible, trimmed to the single universal APK and the artifact upload.
+# Differences from upstream: no clippy lint pass, no split-per-abi build,
+# no symbol archiving, and the applicationId is overridden to
+# com.avo.vpnmasque via USQUE_ANDROID_APPLICATION_ID.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  CARGO_TERM_COLOR: always
+  CARGO_INCREMENTAL: "0"
+  CMAKE_GENERATOR: Ninja
+  FLUTTER_COMMIT: 84fc5cbb223bc12f83d65b647ff8a56caf779ffd
+  FLUTTER_VERSION: 3.44.7
+
+jobs:
+  android:
+    name: MoeHtet Android universal release APK
+    runs-on: ubuntu-24.04
+    timeout-minutes: 240
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Verify vendored native sources and notices
+        run: python tool/check_openvpn_sources.py
+
+      - name: Install Java
+        uses: actions/setup-java@b843ebf9b913146b38da2eaa7aeddf76074ae1ad # v6.1.0
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Install Flutter from pinned commit
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/flutter"
+          git -C "$RUNNER_TEMP/flutter" init
+          git -C "$RUNNER_TEMP/flutter" remote add origin https://github.com/flutter/flutter.git
+          git -C "$RUNNER_TEMP/flutter" fetch --depth 1 origin \
+            "refs/tags/$FLUTTER_VERSION:refs/tags/$FLUTTER_VERSION"
+          git -C "$RUNNER_TEMP/flutter" checkout --detach "refs/tags/$FLUTTER_VERSION"
+          test "$(git -C "$RUNNER_TEMP/flutter" rev-parse HEAD)" = "$FLUTTER_COMMIT"
+          echo "$RUNNER_TEMP/flutter/bin" >> "$GITHUB_PATH"
+
+      - name: Install pinned Rust and Android toolchains
+        run: |
+          set -euo pipefail
+          rustup toolchain install 1.97.1 --profile minimal
+          rustup default 1.97.1
+          rustup target add \
+            aarch64-linux-android \
+            armv7-linux-androideabi \
+            x86_64-linux-android
+          android_sdk="${ANDROID_SDK_ROOT:-${ANDROID_HOME:-}}"
+          test -n "$android_sdk"
+          sdkmanager="$android_sdk/cmdline-tools/latest/bin/sdkmanager"
+          test -x "$sdkmanager"
+          "$sdkmanager" \
+            "platforms;android-36" \
+            "build-tools;36.0.0" \
+            "ndk;29.0.14206865" \
+            "cmake;3.22.1"
+
+      - name: Resolve locked Flutter packages
+        working-directory: apps/usque_gui
+        run: flutter --suppress-analytics pub get --enforce-lockfile
+
+      # Same approach as upstream CI: a throwaway build-only signing
+      # identity, so the APK leaves CI signed but with an untrusted
+      # one-day certificate. It is re-signed afterwards with the
+      # owner's own keystore before use.
+      - name: Create ephemeral build-only signing identity
+        env:
+          STORE_PASSWORD: usque-build-only-password
+        run: |
+          set -euo pipefail
+          keytool -genkeypair \
+            -keystore "$RUNNER_TEMP/usque-build-only.jks" \
+            -storepass "$STORE_PASSWORD" \
+            -keypass "$STORE_PASSWORD" \
+            -alias usque-build-only \
+            -keyalg RSA \
+            -keysize 3072 \
+            -validity 1 \
+            -dname "CN=Untrusted Usque CI Build, O=Usque Development, C=XX"
+
+      - name: Build universal Release APK
+        working-directory: apps/usque_gui
+        env:
+          USQUE_ANDROID_ABI: all
+          USQUE_ANDROID_APPLICATION_ID: com.avo.vpnmasque
+          USQUE_ANDROID_KEYSTORE: ${{ runner.temp }}/usque-build-only.jks
+          USQUE_ANDROID_STORE_PASSWORD: usque-build-only-password
+          USQUE_ANDROID_KEY_ALIAS: usque-build-only
+          USQUE_ANDROID_KEY_PASSWORD: usque-build-only-password
+        run: |
+          set -euo pipefail
+          flutter --suppress-analytics build apk \
+            --release \
+            --target-platform android-arm,android-arm64,android-x64 \
+            --no-pub
+
+      - name: Verify the universal APK
+        run: |
+          set -euo pipefail
+          android_sdk="${ANDROID_SDK_ROOT:-${ANDROID_HOME:-}}"
+          test -n "$android_sdk"
+          apksigner="$android_sdk/build-tools/36.0.0/apksigner"
+          test -x "$apksigner"
+          apk=apps/usque_gui/build/app/outputs/flutter-apk/app-release.apk
+          test -s "$apk"
+          unzip -Z1 "$apk" > "$RUNNER_TEMP/app-release.entries"
+          for abi in arm64-v8a armeabi-v7a x86_64; do
+            grep -q "^lib/$abi/libusque_android\.so$" "$RUNNER_TEMP/app-release.entries"
+          done
+          "$apksigner" verify --verbose --print-certs "$apk"
+
+      - name: Upload MoeHtet APK artifact
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: moehtet-apk
+          path: apps/usque_gui/build/app/outputs/flutter-apk/app-release.apk
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Remove ephemeral identity
+        if: ${{ always() }}
+        run: rm -f "$RUNNER_TEMP/usque-build-only.jks"
